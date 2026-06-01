@@ -62,8 +62,8 @@ blockquote {
     font-size: 13pt;
 }
 img {
-    max-width: 100%;
-    margin: 12pt auto;
+    max-width: 60%;
+    margin: 8pt auto;
     display: block;
 }
 table {
