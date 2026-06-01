@@ -84,6 +84,49 @@ hr {
     font-size: 13pt;
     color: #555;
 }
+/* ---- 目录 ---- */
+.toc {
+    page-break-before: always;
+    margin: 0 auto 32pt auto;
+    max-width: 90%;
+}
+.toc-title {
+    text-align: center;
+    font-size: 20pt;
+    border-bottom: 2px solid #2b5797;
+    padding-bottom: 8pt;
+    margin-bottom: 16pt;
+    color: #000;
+}
+.toc-part {
+    font-family: SimHei, 黑体, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #2b5797;
+    margin: 14pt 0 4pt 0;
+    text-indent: 0;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 4pt;
+}
+.toc-item {
+    text-indent: 1em;
+    margin: 3pt 0;
+    font-size: 13pt;
+}
+.toc-item a {
+    color: #333;
+    text-decoration: none;
+}
+.toc-item a:hover {
+    color: #2b5797;
+    text-decoration: underline;
+}
+.toc-special {
+    font-weight: bold;
+}
+.toc-special a {
+    color: #2b5797;
+}
 `;
 
 function escapeHtml(text) {
@@ -93,6 +136,60 @@ function escapeHtml(text) {
 function processInline(text) {
     text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
     return text;
+}
+
+function buildToc(bookText) {
+    const lines = bookText.split('\n');
+    let items = [];
+    
+    // Part mapping by chapter number
+    const partMap = {
+        1:'记忆篇：牢固存储，对抗遗忘', 2:'记忆篇', 3:'记忆篇',
+        4:'理解篇：深度建构，灵活运用', 5:'理解篇', 6:'理解篇',
+        7:'应用篇：举一反三，灵活迁移', 8:'应用篇', 9:'应用篇',
+        10:'专注篇：进入状态，保持高效', 11:'专注篇', 12:'专注篇',
+        13:'动力篇：点燃引擎，持续学习', 14:'动力篇', 15:'动力篇',
+        16:'调节篇：驾驭系统，学会学习', 17:'调节篇', 18:'调节篇',
+        19:'拓展篇：屏幕·考试·AI', 20:'拓展篇', 21:'拓展篇'
+    };
+    
+    for (let i = 0; i < lines.length; i++) {
+        const t = lines[i].trim();
+        const chM = t.match(/^第(\d+)章\s+(.+)$/);
+        if (chM) {
+            const num = parseInt(chM[1]);
+            const partEntry = partMap[num] || '';
+            const partName = partEntry.includes('：') ? partEntry : '';
+            items.push({ num, title: chM[2].replace(/[：:]/g,'：'), part: partName });
+        }
+        if (t === '前言' && !items.find(x=>x.title==='前言')) {
+            items.unshift({ special:'前言' });
+        }
+        if (t.startsWith('你合上书的时候') && !items.find(x=>x.special==='后记')) {
+            items.push({ special:'后记' });
+        }
+    }
+    
+    let html = '<div class="toc">\n';
+    html += '<h2 class="toc-title">目 录</h2>\n';
+    html += '<p class="toc-item toc-special"><a href="#自测清单">自测清单：你现在属于哪种"痛"？</a></p>\n';
+    
+    let lastPart = '';
+    for (const item of items) {
+        if (item.special) {
+            html += `<p class="toc-item toc-special"><a href="#${item.special}">${item.special}</a></p>\n`;
+        } else {
+            if (item.part && item.part !== lastPart) {
+                lastPart = item.part;
+                html += `<p class="toc-part">${item.part}</p>\n`;
+            }
+            html += `<p class="toc-item"><a href="#ch${item.num}">第${item.num}章　${item.title}</a></p>\n`;
+        }
+    }
+    
+    html += '<p class="toc-item toc-special"><a href="#家长指南">附录：给家长的使用指南</a></p>\n';
+    html += '</div>\n';
+    return html;
 }
 
 function isChapterTitle(line) {
@@ -194,7 +291,7 @@ function mdToHtmlBook(mdText) {
         }
         emittedChapters.add(chapterNum);
         chapterSequenceStarted = true;
-        htmlLines.push(`<h1>${processInline(text)}</h1>`);
+        htmlLines.push(`<h1 id="ch${chapterNum}">${processInline(text)}</h1>`);
     }
     
     // Check if first non-empty line is the book title (no # marker)
@@ -243,7 +340,7 @@ function mdToHtmlBook(mdText) {
             flushBlockquote();
             closeLists();
             if (inTable) flushTable();
-            htmlLines.push('<h1>后记</h1>');
+            htmlLines.push('<h1 id="后记">后记</h1>');
             // Continue to process this line as paragraph text
             inParagraph = true;
             paraLines = [stripped];
@@ -343,6 +440,8 @@ function mdToHtmlBook(mdText) {
                     }
                 } else if (isPartHeader(textClean)) {
                     htmlLines.push(`<h2>${processInline(textClean)}</h2>`);
+                } else if (textClean === '自测清单') {
+                    htmlLines.push(`<h2 id="自测清单">${processInline(textClean)}</h2>`);
                 } else {
                     htmlLines.push(`<h2>${processInline(text)}</h2>`);
                 }
@@ -593,7 +692,11 @@ function mdToHtmlSimple(mdText, section) {
             if (level === 1) {
                 const cls = firstH1 ? ' class="no-break"' : '';
                 firstH1 = false;
-                htmlLines.push(`<h1${cls}>${processInline(text)}</h1>`);
+                if (text.includes('家长指南')) {
+                    htmlLines.push(`<h1${cls} id="家长指南">${processInline(text)}</h1>`);
+                } else {
+                    htmlLines.push(`<h1${cls}>${processInline(text)}</h1>`);
+                }
             } else if (level === 2) {
                 htmlLines.push(`<h2>${processInline(text)}</h2>`);
             } else if (level === 3) {
@@ -673,6 +776,9 @@ ${CSS}
 </style>
 </head>
 <body>
+
+<!-- ====== 目录 ====== -->
+${buildToc(bookText)}
 
 <!-- ====== 第一部分：AI推荐语 ====== -->
 ${aiHtml}
