@@ -5,7 +5,7 @@
 [![Topics](https://img.shields.io/badge/topics-learning%20%7C%20education%20%7C%20book-blue)](https://github.com/AlanWhiteDJ/efficient-learning-handbook)
 
 <p align="center">
-  <img src="cover_front.jpg" alt="《高效学习手册》封面" width="400">
+  <img src="cover_front.svg" alt="《高效学习手册》封面" width="400">
 </p>
 
 > 你从来不是学不好。你只是还没学会怎么跟自己的大脑合作。这本书就是你的合作说明书。
