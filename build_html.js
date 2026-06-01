@@ -201,6 +201,8 @@ function escapeHtml(text) {
 
 function processInline(text) {
     text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    // Convert markdown links [text](url) to <a> tags
+    text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
     return text;
 }
 
