@@ -127,6 +127,72 @@ hr {
 .toc-special a {
     color: #2b5797;
 }
+/* ---- Sidebar ---- */
+body { margin: 0; padding: 0; }
+#sidebar {
+    position: fixed;
+    left: 0; top: 0; bottom: 0;
+    width: 250px;
+    overflow-y: auto;
+    background: #1a2332;
+    color: #c8d6e5;
+    font-family: SimHei, 'Microsoft YaHei', sans-serif;
+    font-size: 11pt;
+    padding: 12px 0;
+    z-index: 100;
+    scrollbar-width: thin;
+    scrollbar-color: #3a4f6a #1a2332;
+}
+#sidebar h3 {
+    color: #fff;
+    font-size: 13pt;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 0 12px 8px 12px;
+    border-bottom: 1px solid #2b5797;
+}
+#sidebar .nav-chapter {
+    display: block;
+    color: #c8d6e5;
+    text-decoration: none;
+    padding: 3px 14px;
+    border-left: 3px solid transparent;
+}
+#sidebar .nav-chapter:hover {
+    background: #253548;
+    color: #fff;
+    border-left-color: #2b5797;
+}
+#sidebar .nav-sub {
+    display: block;
+    color: #8395a7;
+    text-decoration: none;
+    padding: 2px 28px;
+    font-size: 10pt;
+    border-left: 3px solid transparent;
+}
+#sidebar .nav-sub:hover {
+    background: #1e2d3d;
+    color: #c8d6e5;
+    border-left-color: #4a6fa5;
+}
+#sidebar .nav-part {
+    color: #4a6fa5;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 8px 14px 2px 14px;
+    margin-top: 6px;
+    border-top: 1px solid #253548;
+}
+#main-content {
+    margin-left: 260px;
+    padding: 16px 24px;
+    max-width: 900px;
+}
+@media print {
+    #sidebar { display: none; }
+    #main-content { margin-left: 0; }
+}
 `;
 
 function escapeHtml(text) {
@@ -189,6 +255,46 @@ function buildToc(bookText) {
     
     html += '<p class="toc-item toc-special"><a href="#家长指南">附录：给家长的使用指南</a></p>\n';
     html += '</div>\n';
+    return html;
+}
+
+function buildSidebar(bookText) {
+    const lines = bookText.split('\n');
+    const partNames = {
+        1:'记忆篇',2:'',3:'',4:'理解篇',5:'',6:'',7:'应用篇',8:'',9:'',
+        10:'专注篇',11:'',12:'',13:'动力篇',14:'',15:'',16:'调节篇',17:'',18:'',
+        19:'拓展篇',20:'',21:''
+    };
+    let html = '<nav id="sidebar">\n';
+    html += '<h3>📖 高效学习手册</h3>\n';
+    
+    let ch = 0, chTitle = '', subs = [], lastPart = '';
+    
+    function flushCh() {
+        if (ch > 0) {
+            const pn = partNames[ch];
+            if (pn && pn !== lastPart) { lastPart = pn; html += `<div class="nav-part">${pn}</div>\n`; }
+            html += `<a class="nav-chapter" href="#ch${ch}">第${ch}章 ${escapeHtml(chTitle)}</a>\n`;
+            for (const s of subs) {
+                html += `<a class="nav-sub" href="#ch${ch}-s${s.n}">${s.text}</a>\n`;
+            }
+        }
+    }
+    
+    for (let i = 0; i < lines.length; i++) {
+        const t = lines[i].trim();
+        const chM = t.match(/^第(\d+)章\s+(.+)$/);
+        if (chM) { flushCh(); ch = parseInt(chM[1]); chTitle = chM[2]; subs = []; continue; }
+        const subM = t.match(/^([一二三四五六七八九十])、(.+)$/);
+        if (subM && ch > 0) { subs.push({ n: subs.length + 1, text: subM[1] + '、' + subM[2].substring(0, 18) }); }
+    }
+    flushCh();
+    
+    html += '<div class="nav-part">附录</div>\n';
+    html += '<a class="nav-chapter" href="#AI推荐语">AI推荐语</a>\n';
+    html += '<a class="nav-chapter" href="#后记">后记</a>\n';
+    html += '<a class="nav-chapter" href="#家长指南">给家长的使用指南</a>\n';
+    html += '</nav>\n';
     return html;
 }
 
@@ -291,6 +397,8 @@ function mdToHtmlBook(mdText) {
         }
         emittedChapters.add(chapterNum);
         chapterSequenceStarted = true;
+        _chNum = chapterNum;
+        _subCnt = 0;
         htmlLines.push(`<h1 id="ch${chapterNum}">${processInline(text)}</h1>`);
     }
     
@@ -425,7 +533,8 @@ function mdToHtmlBook(mdText) {
                 // Book title
                 const cls = firstH1 ? ' class="no-break"' : '';
                 firstH1 = false;
-                htmlLines.push(`<h1${cls}>${processInline(text)}</h1>`);
+                const ch21_tag = text.startsWith('第21章') ? ' id="ch21"' : '';
+                htmlLines.push(`<h1${cls}${ch21_tag}>${processInline(text)}</h1>`);
             } else if (level === 2) {
                 const textClean = text.trim();
                 const chNum = isChapterTitle(textClean);
@@ -494,7 +603,8 @@ function mdToHtmlBook(mdText) {
             flushBlockquote();
             closeLists();
             if (inTable) flushTable();
-            htmlLines.push(`<h3>${processInline(stripped)}</h3>`);
+            _subCnt++;
+            htmlLines.push(`<h3 id="ch${_chNum}-s${_subCnt}">${processInline(stripped)}</h3>`);
             i++;
             continue;
         }
@@ -694,6 +804,8 @@ function mdToHtmlSimple(mdText, section) {
                 firstH1 = false;
                 if (text.includes('家长指南')) {
                     htmlLines.push(`<h1${cls} id="家长指南">${processInline(text)}</h1>`);
+                } else if (text.includes('AI推荐语')) {
+                    htmlLines.push(`<h1${cls} id="AI推荐语">${processInline(text)}</h1>`);
                 } else {
                     htmlLines.push(`<h1${cls}>${processInline(text)}</h1>`);
                 }
@@ -765,6 +877,8 @@ function main() {
     const bookHtml = mdToHtmlBook(bookText);
     const parentHtml = mdToHtmlSimple(parentText, 'parent');
     
+    const navHtml = buildSidebar(bookText);
+    
     const fullHtml = `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -777,6 +891,10 @@ ${CSS}
 </head>
 <body>
 
+${navHtml}
+
+<div id="main-content">
+
 <!-- ====== 目录 ====== -->
 ${buildToc(bookText)}
 
@@ -788,6 +906,8 @@ ${bookHtml}
 
 <!-- ====== 第三部分：家长指南 ====== -->
 ${parentHtml}
+
+</div>
 
 </body>
 </html>`;
