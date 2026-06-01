@@ -201,7 +201,9 @@ function escapeHtml(text) {
 
 function processInline(text) {
     text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-    // Convert markdown links [text](url) to <a> tags
+    // SVG links → embed as <img>
+    text = text.replace(/\[([^\]]+)\]\(([^)]+\.svg)\)/g, '<img src="$2" alt="$1" style="max-width:100%;margin:6pt 0;">');
+    // Other markdown links → <a>
     text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
     return text;
 }
