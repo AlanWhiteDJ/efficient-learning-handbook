@@ -1,6 +1,12 @@
 # 《高效学习手册》Efficient Learning Handbook
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![GitHub Pages](https://img.shields.io/badge/在线阅读-GitHub%20Pages-brightgreen)](https://alanwhitedj.github.io/efficient-learning-handbook/)
+[![Topics](https://img.shields.io/badge/topics-learning%20%7C%20education%20%7C%20book-blue)](https://github.com/AlanWhiteDJ/efficient-learning-handbook)
+
+<p align="center">
+  <img src="cover_front.jpg" alt="《高效学习手册》封面" width="400">
+</p>
 
 > 你从来不是学不好。你只是还没学会怎么跟自己的大脑合作。这本书就是你的合作说明书。
 
@@ -42,9 +48,10 @@ efficient-learning-handbook/
 
 ## 📥 下载与阅读
 
-- **在线阅读 HTML**：下载 `高效学习手册.html`，用浏览器直接打开
-- **阅读 Markdown**：下载 `高效学习手册.md`，推荐用 Typora、Obsidian 或 VS Code 打开
-- **打印/导出 PDF**：用浏览器打开 HTML 文件 → 打印 → 另存为 PDF
+- 🌐 **在线阅读**：[**点击这里在线阅读**](https://alanwhitedj.github.io/efficient-learning-handbook/)（GitHub Pages，无需下载）
+- 📄 **离线 HTML**：下载 `高效学习手册.html`，用浏览器直接打开
+- 📝 **阅读 Markdown**：下载 `高效学习手册.md`，推荐用 Typora、Obsidian 或 VS Code 打开
+- 🖨️ **打印/导出 PDF**：用浏览器打开 HTML 文件 → 打印 → 另存为 PDF
 
 ## ⚖️ 许可证
 
