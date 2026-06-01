@@ -1,67 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 440">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
   </defs>
   <rect width="800" height="440" fill="url(#bg)"/>
   
-  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="sans-serif">认知负荷："粗心"的本质</text>
-  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">工作记忆只有 ~4 个位置，超载时错误随机出现</text>
+  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">认知负荷："粗心"的本质</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">工作记忆只有 ~4 个位置，超载时错误随机出现</text>
   
   <!-- 左：认知过载 -->
   <rect x="25" y="70" width="360" height="340" rx="12" fill="#1e293b" stroke="#ef4444" stroke-width="2"/>
-  <text x="205" y="98" text-anchor="middle" fill="#f87171" font-size="14" font-weight="bold" font-family="sans-serif">❌ 认知过载状态</text>
+  <text x="205" y="98" text-anchor="middle" fill="#f87171" font-size="14" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">❌ 认知过载状态</text>
   
   <!-- 工作台面 -->
   <rect x="55" y="115" width="300" height="105" rx="8" fill="#450a0a" stroke="#ef4444" stroke-width="1"/>
-  <text x="205" y="138" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="sans-serif">工作记忆（最大4个单元）</text>
+  <text x="205" y="138" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">工作记忆（最大4个单元）</text>
   
   <!-- 过载的格子 -->
   <rect x="70" y="150" width="60" height="30" rx="4" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
-  <text x="100" y="169" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="sans-serif">审题</text>
+  <text x="100" y="169" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">审题</text>
   <rect x="138" y="150" width="60" height="30" rx="4" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
-  <text x="168" y="169" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="sans-serif">公式</text>
+  <text x="168" y="169" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">公式</text>
   <rect x="206" y="150" width="60" height="30" rx="4" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
-  <text x="236" y="169" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="sans-serif">运算</text>
+  <text x="236" y="169" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">运算</text>
   <rect x="274" y="150" width="60" height="30" rx="4" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
-  <text x="304" y="169" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="sans-serif">?溢出</text>
+  <text x="304" y="169" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">?溢出</text>
   <!-- 溢出指示 -->
   <rect x="70" y="186" width="260" height="22" rx="4" fill="#7f1d1d" stroke="#f87171" stroke-width="0.8" stroke-dasharray="3,2"/>
-  <text x="200" y="201" text-anchor="middle" fill="#f87171" font-size="9" font-family="sans-serif">符号? 单位? 条件? → 挤不下了！</text>
+  <text x="200" y="201" text-anchor="middle" fill="#f87171" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">符号? 单位? 条件? → 挤不下了！</text>
   
-  <text x="205" y="245" text-anchor="middle" fill="#f1f5f9" font-size="11" font-family="sans-serif">结果：</text>
-  <text x="205" y="268" text-anchor="middle" fill="#f87171" font-size="11" font-family="sans-serif">负号忘写 · 7+8=14 · 选反了</text>
-  <text x="205" y="288" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">→ 被归因为"粗心"，实际是认知资源耗尽</text>
+  <text x="205" y="245" text-anchor="middle" fill="#f1f5f9" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">结果：</text>
+  <text x="205" y="268" text-anchor="middle" fill="#f87171" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">负号忘写 · 7+8=14 · 选反了</text>
+  <text x="205" y="288" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→ 被归因为"粗心"，实际是认知资源耗尽</text>
   
-  <text x="205" y="320" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="bold" font-family="sans-serif">"下次注意"解决不了任何问题</text>
-  <text x="205" y="340" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">需要的是：让基础技能自动化</text>
+  <text x="205" y="320" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">"下次注意"解决不了任何问题</text>
+  <text x="205" y="340" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">需要的是：让基础技能自动化</text>
   
   <!-- 中间 VS -->
   <circle cx="400" cy="240" r="20" fill="#334155"/>
-  <text x="400" y="245" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="bold" font-family="sans-serif">VS</text>
+  <text x="400" y="245" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">VS</text>
   
   <!-- 右：自动化后 -->
   <rect x="415" y="70" width="360" height="340" rx="12" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
-  <text x="595" y="98" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="bold" font-family="sans-serif">✅ 自动化完成状态</text>
+  <text x="595" y="98" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">✅ 自动化完成状态</text>
   
   <!-- 自动化的台面 -->
   <rect x="445" y="115" width="300" height="105" rx="8" fill="#052e16" stroke="#22c55e" stroke-width="1"/>
-  <text x="595" y="138" text-anchor="middle" fill="#86efac" font-size="10" font-family="sans-serif">工作记忆（4个位置充足）</text>
+  <text x="595" y="138" text-anchor="middle" fill="#86efac" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">工作记忆（4个位置充足）</text>
   
   <!-- 打包后的格子 -->
   <rect x="460" y="150" width="120" height="30" rx="4" fill="#166534" stroke="#4ade80" stroke-width="1"/>
-  <text x="520" y="169" text-anchor="middle" fill="#4ade80" font-size="9" font-family="sans-serif">📦 基础技能包</text>
+  <text x="520" y="169" text-anchor="middle" fill="#4ade80" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">📦 基础技能包</text>
   <rect x="588" y="150" width="60" height="30" rx="4" fill="#052e16" stroke="#22c55e" stroke-width="1"/>
-  <text x="618" y="169" text-anchor="middle" fill="#4ade80" font-size="9" font-family="sans-serif">审题</text>
+  <text x="618" y="169" text-anchor="middle" fill="#4ade80" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">审题</text>
   <!-- 空余 -->
   <rect x="656" y="150" width="70" height="30" rx="4" fill="#052e16" stroke="#475569" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="691" y="169" text-anchor="middle" fill="#475569" font-size="9" font-family="sans-serif">空闲</text>
+  <text x="691" y="169" text-anchor="middle" fill="#475569" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">空闲</text>
   
-  <text x="595" y="210" text-anchor="middle" fill="#4ade80" font-size="10" font-family="sans-serif">大量认知资源释放 →</text>
+  <text x="595" y="210" text-anchor="middle" fill="#4ade80" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">大量认知资源释放 →</text>
   
-  <text x="595" y="245" text-anchor="middle" fill="#f1f5f9" font-size="11" font-family="sans-serif">结果：</text>
-  <text x="595" y="268" text-anchor="middle" fill="#4ade80" font-size="11" font-family="sans-serif">基础环节自动完成·注意力分配给核心难点</text>
-  <text x="595" y="288" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">→ 又快又准，不再"粗心"</text>
+  <text x="595" y="245" text-anchor="middle" fill="#f1f5f9" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">结果：</text>
+  <text x="595" y="268" text-anchor="middle" fill="#4ade80" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">基础环节自动完成·注意力分配给核心难点</text>
+  <text x="595" y="288" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→ 又快又准，不再"粗心"</text>
   
-  <text x="595" y="320" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="bold" font-family="sans-serif">自动化的终点："想都不用想"</text>
-  <text x="595" y="340" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">像老司机开车，换挡变道全自动</text>
+  <text x="595" y="320" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">自动化的终点："想都不用想"</text>
+  <text x="595" y="340" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">像老司机开车，换挡变道全自动</text>
 </svg>

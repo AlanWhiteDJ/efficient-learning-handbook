@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 550">
   <defs>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="2.5" result="blur"/>
@@ -14,7 +14,7 @@
 
   <!-- Title bar -->
   <rect x="0" y="0" width="800" height="48" fill="#1e293b" opacity="0.85"/>
-  <text x="400" y="18" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="12" letter-spacing="4">第12讲  ·  新手 vs 老司机</text>
+  <text x="400" y="18" text-anchor="middle" fill="#3b82f6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" letter-spacing="4">第12讲  ·  新手 vs 老司机</text>
 
   <!-- Center dividing line -->
   <line x1="400" y1="55" x2="400" y2="530" stroke="#475569" stroke-width="2" stroke-dasharray="6,6" opacity="0.5"/>
@@ -22,7 +22,7 @@
   <!-- VS badge -->
   <g filter="url(#glow)">
     <circle cx="400" cy="100" r="28" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
-    <text x="400" y="106" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">VS</text>
+    <text x="400" y="106" text-anchor="middle" fill="#fbbf24" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="16" font-weight="bold">VS</text>
   </g>
 
   <!-- =====================================
@@ -34,8 +34,8 @@
     <!-- Header -->
     <rect x="20" y="70" width="355" height="45" rx="14" fill="#3b1212"/>
     <rect x="20" y="100" width="355" height="15" fill="#3b1212"/>
-    <text x="197" y="86" text-anchor="middle" fill="#fca5a5" font-family="sans-serif" font-size="15" font-weight="bold">😰 新手司机 — 手忙脚乱</text>
-    <text x="197" y="105" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="9">大脑满载，顾此失彼</text>
+    <text x="197" y="86" text-anchor="middle" fill="#fca5a5" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="15" font-weight="bold">😰 新手司机 — 手忙脚乱</text>
+    <text x="197" y="105" text-anchor="middle" fill="#94a3b8" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9">大脑满载，顾此失彼</text>
 
     <!-- Car frame (simple top-down view) -->
     <g transform="translate(60,140)">
@@ -75,24 +75,24 @@
 
       <!-- Overloaded thought items -->
       <g transform="translate(15,20)">
-        <text x="0" y="0" fill="#fca5a5" font-family="sans-serif" font-size="10">🚗 <tspan fill="#cbd5e1">转弯→打转向灯→看后视镜</tspan></text>
-        <text x="0" y="25" fill="#fca5a5" font-family="sans-serif" font-size="10">⚙️ <tspan fill="#cbd5e1">离合踩到底→换挡→松离合</tspan></text>
-        <text x="0" y="50" fill="#fca5a5" font-family="sans-serif" font-size="10">👀 <tspan fill="#cbd5e1">同时看前方+后方+侧方</tspan></text>
-        <text x="0" y="75" fill="#fca5a5" font-family="sans-serif" font-size="10">🦶 <tspan fill="#cbd5e1">刹车力度控制→不能急刹</tspan></text>
-        <text x="0" y="100" fill="#fca5a5" font-family="sans-serif" font-size="10">📏 <tspan fill="#cbd5e1">判断车距→不能刮蹭</tspan></text>
-        <text x="0" y="125" fill="#fca5a5" font-family="sans-serif" font-size="10">🚦 <tspan fill="#cbd5e1">看红绿灯+行人+非机动车</tspan></text>
+        <text x="0" y="0" fill="#fca5a5" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">🚗 <tspan fill="#cbd5e1">转弯→打转向灯→看后视镜</tspan></text>
+        <text x="0" y="25" fill="#fca5a5" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">⚙️ <tspan fill="#cbd5e1">离合踩到底→换挡→松离合</tspan></text>
+        <text x="0" y="50" fill="#fca5a5" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">👀 <tspan fill="#cbd5e1">同时看前方+后方+侧方</tspan></text>
+        <text x="0" y="75" fill="#fca5a5" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">🦶 <tspan fill="#cbd5e1">刹车力度控制→不能急刹</tspan></text>
+        <text x="0" y="100" fill="#fca5a5" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">📏 <tspan fill="#cbd5e1">判断车距→不能刮蹭</tspan></text>
+        <text x="0" y="125" fill="#fca5a5" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">🚦 <tspan fill="#cbd5e1">看红绿灯+行人+非机动车</tspan></text>
       </g>
 
       <!-- Brain overload indicator -->
       <rect x="60" y="152" width="170" height="20" rx="10" fill="#ef4444" opacity="0.2"/>
-      <text x="145" y="166" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="9">⚠ 大脑过载！同时处理所有信息</text>
+      <text x="145" y="166" text-anchor="middle" fill="#f87171" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9">⚠ 大脑过载！同时处理所有信息</text>
     </g>
 
     <!-- Stress lines -->
-    <text x="60" y="490" fill="#ef4444" font-family="sans-serif" font-size="10">焦虑</text>
-    <text x="160" y="510" fill="#ef4444" font-family="sans-serif" font-size="10">慌乱</text>
-    <text x="260" y="490" fill="#ef4444" font-family="sans-serif" font-size="10">分心</text>
-    <text x="100" y="520" fill="#ef4444" font-family="sans-serif" font-size="9">容易出错</text>
+    <text x="60" y="490" fill="#ef4444" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">焦虑</text>
+    <text x="160" y="510" fill="#ef4444" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">慌乱</text>
+    <text x="260" y="490" fill="#ef4444" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">分心</text>
+    <text x="100" y="520" fill="#ef4444" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9">容易出错</text>
   </g>
 
   <!-- =====================================
@@ -104,8 +104,8 @@
     <!-- Header -->
     <rect x="425" y="70" width="355" height="45" rx="14" fill="#064e3b"/>
     <rect x="425" y="100" width="355" height="15" fill="#064e3b"/>
-    <text x="602" y="86" text-anchor="middle" fill="#6ee7b7" font-family="sans-serif" font-size="15" font-weight="bold">😎 老司机 — 游刃有余</text>
-    <text x="602" y="105" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="9">操作自动化，大脑只关注路况</text>
+    <text x="602" y="86" text-anchor="middle" fill="#6ee7b7" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="15" font-weight="bold">😎 老司机 — 游刃有余</text>
+    <text x="602" y="105" text-anchor="middle" fill="#94a3b8" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9">操作自动化，大脑只关注路况</text>
 
     <!-- Car frame (simple top-down view) -->
     <g transform="translate(465,140)">
@@ -140,29 +140,29 @@
 
       <!-- Automated items with checkmarks -->
       <g transform="translate(15,20)">
-        <text x="0" y="0" fill="#34d399" font-family="sans-serif" font-size="11">✅ <tspan fill="#94a3b8">换挡→</tspan><tspan fill="#6ee7b7" font-weight="bold">自动化</tspan></text>
-        <text x="0" y="25" fill="#34d399" font-family="sans-serif" font-size="11">✅ <tspan fill="#94a3b8">后视镜观察→</tspan><tspan fill="#6ee7b7" font-weight="bold">自动化</tspan></text>
-        <text x="0" y="50" fill="#34d399" font-family="sans-serif" font-size="11">✅ <tspan fill="#94a3b8">离合控制→</tspan><tspan fill="#6ee7b7" font-weight="bold">自动化</tspan></text>
-        <text x="0" y="75" fill="#34d399" font-family="sans-serif" font-size="11">✅ <tspan fill="#94a3b8">刹车力度→</tspan><tspan fill="#6ee7b7" font-weight="bold">自动化</tspan></text>
-        <text x="0" y="100" fill="#34d399" font-family="sans-serif" font-size="11">✅ <tspan fill="#94a3b8">转向灯→</tspan><tspan fill="#6ee7b7" font-weight="bold">自动化</tspan></text>
+        <text x="0" y="0" fill="#34d399" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">✅ <tspan fill="#94a3b8">换挡→</tspan><tspan fill="#6ee7b7" font-weight="bold">自动化</tspan></text>
+        <text x="0" y="25" fill="#34d399" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">✅ <tspan fill="#94a3b8">后视镜观察→</tspan><tspan fill="#6ee7b7" font-weight="bold">自动化</tspan></text>
+        <text x="0" y="50" fill="#34d399" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">✅ <tspan fill="#94a3b8">离合控制→</tspan><tspan fill="#6ee7b7" font-weight="bold">自动化</tspan></text>
+        <text x="0" y="75" fill="#34d399" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">✅ <tspan fill="#94a3b8">刹车力度→</tspan><tspan fill="#6ee7b7" font-weight="bold">自动化</tspan></text>
+        <text x="0" y="100" fill="#34d399" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">✅ <tspan fill="#94a3b8">转向灯→</tspan><tspan fill="#6ee7b7" font-weight="bold">自动化</tspan></text>
       </g>
 
       <!-- Brain focus indicator -->
       <rect x="40" y="135" width="210" height="20" rx="10" fill="#34d399" opacity="0.15"/>
-      <text x="145" y="150" text-anchor="middle" fill="#6ee7b7" font-family="sans-serif" font-size="9">🧠 大脑只关注 <tspan fill="#fbbf24" font-weight="bold">路况</tspan> → 轻松应对</text>
+      <text x="145" y="150" text-anchor="middle" fill="#6ee7b7" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9">🧠 大脑只关注 <tspan fill="#fbbf24" font-weight="bold">路况</tspan> → 轻松应对</text>
 
       <!-- Star -->
       <text x="145" y="170" text-anchor="middle" fill="#fbbf24" font-size="12">⭐ ⭐ ⭐</text>
     </g>
 
     <!-- Calm indicators -->
-    <text x="470" y="490" fill="#34d399" font-family="sans-serif" font-size="10">从容</text>
-    <text x="560" y="510" fill="#34d399" font-family="sans-serif" font-size="10">轻松</text>
-    <text x="660" y="490" fill="#34d399" font-family="sans-serif" font-size="10">专注</text>
-    <text x="555" y="525" fill="#34d399" font-family="sans-serif" font-size="9">几乎不出错</text>
+    <text x="470" y="490" fill="#34d399" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">从容</text>
+    <text x="560" y="510" fill="#34d399" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">轻松</text>
+    <text x="660" y="490" fill="#34d399" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">专注</text>
+    <text x="555" y="525" fill="#34d399" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9">几乎不出错</text>
   </g>
 
   <!-- === Bottom insight bar === -->
   <rect x="100" y="500" width="600" height="42" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
-  <text x="400" y="526" text-anchor="middle" fill="#fef08a" font-family="sans-serif" font-size="16" font-weight="bold">把基础动作练成"自动化"，大脑才能腾出空间处理真正重要的东西</text>
+  <text x="400" y="526" text-anchor="middle" fill="#fef08a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="16" font-weight="bold">把基础动作练成"自动化"，大脑才能腾出空间处理真正重要的东西</text>
 </svg>

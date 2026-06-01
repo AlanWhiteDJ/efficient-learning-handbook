@@ -1,91 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 500">
   <rect width="800" height="500" fill="#0f172a"/>
   
   <!-- Title -->
-  <text x="400" y="34" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">集中练习 vs 交错练习</text>
+  <text x="400" y="34" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">集中练习 vs 交错练习</text>
   
   <!-- Divider lines -->
   <line x1="400" y1="55" x2="400" y2="420" stroke="#334155" stroke-width="1" stroke-dasharray="6,4"/>
   
   <!-- ============ LEFT: Blocked Practice ============ -->
-  <text x="200" y="78" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ef4444">集中练习 (Blocked)</text>
+  <text x="200" y="78" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#ef4444">集中练习 (Blocked)</text>
   
   <!-- AAA blocks -->
   <rect x="60" y="92" rx="4" ry="4" width="38" height="38" fill="#3b82f6" opacity="0.9"/>
   <rect x="104" y="92" rx="4" ry="4" width="38" height="38" fill="#3b82f6" opacity="0.9"/>
   <rect x="148" y="92" rx="4" ry="4" width="38" height="38" fill="#3b82f6" opacity="0.9"/>
-  <text x="79" y="116" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
-  <text x="123" y="116" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
-  <text x="167" y="116" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
-  <text x="200" y="148" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">AAA</text>
+  <text x="79" y="116" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
+  <text x="123" y="116" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
+  <text x="167" y="116" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
+  <text x="200" y="148" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#64748b">AAA</text>
   
   <!-- BBB blocks -->
   <rect x="60" y="160" rx="4" ry="4" width="38" height="38" fill="#22c55e" opacity="0.9"/>
   <rect x="104" y="160" rx="4" ry="4" width="38" height="38" fill="#22c55e" opacity="0.9"/>
   <rect x="148" y="160" rx="4" ry="4" width="38" height="38" fill="#22c55e" opacity="0.9"/>
-  <text x="79" y="184" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
-  <text x="123" y="184" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
-  <text x="167" y="184" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
-  <text x="200" y="216" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">BBB</text>
+  <text x="79" y="184" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
+  <text x="123" y="184" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
+  <text x="167" y="184" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
+  <text x="200" y="216" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#64748b">BBB</text>
   
   <!-- CCC blocks -->
   <rect x="60" y="228" rx="4" ry="4" width="38" height="38" fill="#f59e0b" opacity="0.9"/>
   <rect x="104" y="228" rx="4" ry="4" width="38" height="38" fill="#f59e0b" opacity="0.9"/>
   <rect x="148" y="228" rx="4" ry="4" width="38" height="38" fill="#f59e0b" opacity="0.9"/>
-  <text x="79" y="252" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
-  <text x="123" y="252" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
-  <text x="167" y="252" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
-  <text x="200" y="284" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">CCC</text>
+  <text x="79" y="252" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
+  <text x="123" y="252" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
+  <text x="167" y="252" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
+  <text x="200" y="284" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#64748b">CCC</text>
   
   <!-- Warning label left -->
   <rect x="50" y="305" rx="5" ry="5" width="160" height="32" fill="#7f1d1d" stroke="#ef4444" stroke-width="1"/>
-  <text x="130" y="325" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#fca5a5">⚠ 虚假熟练</text>
+  <text x="130" y="325" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#fca5a5">⚠ 虚假熟练</text>
   
-  <text x="200" y="365" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b" font-style="italic">练时顺滑，考时卡壳</text>
+  <text x="200" y="365" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#64748b" font-style="italic">练时顺滑，考时卡壳</text>
   
   <!-- ============ RIGHT: Interleaved Practice ============ -->
-  <text x="600" y="78" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#22c55e">交错练习 (Interleaved)</text>
+  <text x="600" y="78" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#22c55e">交错练习 (Interleaved)</text>
   
   <!-- Row 1: A B C -->
   <rect x="470" y="92" rx="4" ry="4" width="38" height="38" fill="#3b82f6" opacity="0.9"/>
   <rect x="513" y="92" rx="4" ry="4" width="38" height="38" fill="#22c55e" opacity="0.9"/>
   <rect x="556" y="92" rx="4" ry="4" width="38" height="38" fill="#f59e0b" opacity="0.9"/>
-  <text x="489" y="116" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
-  <text x="532" y="116" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
-  <text x="575" y="116" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
-  <text x="600" y="148" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">ABC ↻</text>
+  <text x="489" y="116" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
+  <text x="532" y="116" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
+  <text x="575" y="116" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
+  <text x="600" y="148" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#64748b">ABC ↻</text>
   
   <!-- Row 2: B A C -->
   <rect x="470" y="160" rx="4" ry="4" width="38" height="38" fill="#22c55e" opacity="0.9"/>
   <rect x="513" y="160" rx="4" ry="4" width="38" height="38" fill="#3b82f6" opacity="0.9"/>
   <rect x="556" y="160" rx="4" ry="4" width="38" height="38" fill="#f59e0b" opacity="0.9"/>
-  <text x="489" y="184" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
-  <text x="532" y="184" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
-  <text x="575" y="184" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
-  <text x="600" y="216" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">BAC ↻</text>
+  <text x="489" y="184" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
+  <text x="532" y="184" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
+  <text x="575" y="184" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
+  <text x="600" y="216" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#64748b">BAC ↻</text>
   
   <!-- Row 3: C B A -->
   <rect x="470" y="228" rx="4" ry="4" width="38" height="38" fill="#f59e0b" opacity="0.9"/>
   <rect x="513" y="228" rx="4" ry="4" width="38" height="38" fill="#22c55e" opacity="0.9"/>
   <rect x="556" y="228" rx="4" ry="4" width="38" height="38" fill="#3b82f6" opacity="0.9"/>
-  <text x="489" y="252" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
-  <text x="532" y="252" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
-  <text x="575" y="252" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
-  <text x="600" y="284" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">CBA ↻</text>
+  <text x="489" y="252" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">C</text>
+  <text x="532" y="252" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">B</text>
+  <text x="575" y="252" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">A</text>
+  <text x="600" y="284" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#64748b">CBA ↻</text>
   
   <!-- Success label right -->
   <rect x="470" y="305" rx="5" ry="5" width="175" height="32" fill="#14532d" stroke="#22c55e" stroke-width="1"/>
-  <text x="557" y="325" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#86efac">✓ 每次都要重新识别</text>
+  <text x="557" y="325" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#86efac">✓ 每次都要重新识别</text>
   
-  <text x="600" y="365" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b" font-style="italic">练时吃力，考时轻松</text>
+  <text x="600" y="365" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#64748b" font-style="italic">练时吃力，考时轻松</text>
   
   <!-- ============ CENTER: Exam Scene ============ -->
   <rect x="210" y="375" rx="8" ry="8" width="380" height="60" fill="#1e293b" stroke="#475569" stroke-width="1"/>
   
   <!-- Exam paper -->
   <rect x="225" y="385" rx="3" ry="3" width="100" height="40" fill="#f8fafc" opacity="0.9"/>
-  <text x="275" y="400" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#0f172a">试题：</text>
-  <text x="275" y="414" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#0f172a">C → A → B</text>
+  <text x="275" y="400" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#0f172a">试题：</text>
+  <text x="275" y="414" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold" fill="#0f172a">C → A → B</text>
   
   <!-- Student figure on right -->
   <g transform="translate(470,382)">
@@ -98,16 +98,16 @@
   
   <!-- Thought bubble -->
   <ellipse cx="530" cy="392" rx="28" ry="10" fill="none" stroke="#c084fc" stroke-width="1" opacity="0.6"/>
-  <text x="530" y="396" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#c084fc" opacity="0.8">要先识别题型</text>
+  <text x="530" y="396" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="8" fill="#c084fc" opacity="0.8">要先识别题型</text>
   
   <!-- Arrow pointing to right side -->
-  <text x="350" y="412" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#475569">→</text>
+  <text x="350" y="412" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" fill="#475569">→</text>
   
   <!-- Bottom quote -->
-  <text x="400" y="460" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#94a3b8" font-style="italic">"你练的是复制粘贴，考试考的是识别"</text>
+  <text x="400" y="460" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" fill="#94a3b8" font-style="italic">"你练的是复制粘贴，考试考的是识别"</text>
   
   <!-- Decorative line -->
   <line x1="60" y1="475" x2="740" y2="475" stroke="#334155" stroke-width="0.5"/>
   
-  <text x="400" y="492" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#475569">Blocked vs Interleaved Practice · 学习策略 · Desirable Difficulties</text>
+  <text x="400" y="492" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#475569">Blocked vs Interleaved Practice · 学习策略 · Desirable Difficulties</text>
 </svg>

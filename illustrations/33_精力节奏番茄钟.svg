@@ -1,60 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 420">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
   </defs>
   <rect width="800" height="420" fill="url(#bg)"/>
   
-  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="sans-serif">精力节奏：波峰波谷 + 番茄工作法</text>
-  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">顺应大脑节律，在波峰冲，在波谷休</text>
+  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">精力节奏：波峰波谷 + 番茄工作法</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">顺应大脑节律，在波峰冲，在波谷休</text>
   
   <!-- 上半：精力曲线 -->
   <rect x="30" y="65" width="740" height="170" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-  <text x="400" y="90" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">一日精力波动</text>
+  <text x="400" y="90" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">一日精力波动</text>
   
   <!-- 曲线 -->
   <path d="M60,190 Q150,100 200,120 Q250,140 320,110 Q380,80 420,150 Q470,200 540,170 Q600,140 680,160 Q730,175 760,200" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
   
   <!-- 标注 -->
-  <text x="220" y="102" text-anchor="middle" fill="#4ade80" font-size="10" font-family="sans-serif">⬆ 上午高峰</text>
-  <text x="420" y="108" text-anchor="middle" fill="#fbbf24" font-size="10" font-weight="bold" font-family="sans-serif">⭐ 黄金时段</text>
-  <text x="530" y="195" text-anchor="middle" fill="#f87171" font-size="10" font-family="sans-serif">⬇ 午后低谷</text>
-  <text x="680" y="148" text-anchor="middle" fill="#4ade80" font-size="10" font-family="sans-serif">⬆ 傍晚回升</text>
+  <text x="220" y="102" text-anchor="middle" fill="#4ade80" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">⬆ 上午高峰</text>
+  <text x="420" y="108" text-anchor="middle" fill="#fbbf24" font-size="10" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">⭐ 黄金时段</text>
+  <text x="530" y="195" text-anchor="middle" fill="#f87171" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">⬇ 午后低谷</text>
+  <text x="680" y="148" text-anchor="middle" fill="#4ade80" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">⬆ 傍晚回升</text>
   
-  <text x="400" y="225" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">深度工作上限：每天4-5小时 | 超过则质量下降、易出错</text>
+  <text x="400" y="225" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">深度工作上限：每天4-5小时 | 超过则质量下降、易出错</text>
   
   <!-- 下半：番茄工作法 -->
-  <text x="400" y="268" text-anchor="middle" fill="#f1f5f9" font-size="13" font-weight="bold" font-family="sans-serif">🍅 番茄工作法：顺应节律的最小单元</text>
+  <text x="400" y="268" text-anchor="middle" fill="#f1f5f9" font-size="13" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🍅 番茄工作法：顺应节律的最小单元</text>
   
   <!-- 番茄循环 -->
   <rect x="40" y="290" width="110" height="45" rx="8" fill="#7f1d1d" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="95" y="310" text-anchor="middle" fill="#f87171" font-size="11" font-weight="bold" font-family="sans-serif">25' 专注</text>
-  <text x="95" y="326" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="sans-serif">只做一件事</text>
+  <text x="95" y="310" text-anchor="middle" fill="#f87171" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">25' 专注</text>
+  <text x="95" y="326" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">只做一件事</text>
   
   <rect x="170" y="290" width="80" height="45" rx="8" fill="#1e3a5f" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="210" y="310" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold" font-family="sans-serif">5' 休息</text>
-  <text x="210" y="326" text-anchor="middle" fill="#93c5fd" font-size="9" font-family="sans-serif">离开书桌</text>
+  <text x="210" y="310" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">5' 休息</text>
+  <text x="210" y="326" text-anchor="middle" fill="#93c5fd" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">离开书桌</text>
   
   <rect x="270" y="290" width="110" height="45" rx="8" fill="#7f1d1d" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="325" y="310" text-anchor="middle" fill="#f87171" font-size="11" font-weight="bold" font-family="sans-serif">25' 专注</text>
+  <text x="325" y="310" text-anchor="middle" fill="#f87171" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">25' 专注</text>
   
   <rect x="400" y="290" width="80" height="45" rx="8" fill="#1e3a5f" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="440" y="310" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold" font-family="sans-serif">5' 休息</text>
+  <text x="440" y="310" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">5' 休息</text>
   
   <rect x="500" y="290" width="110" height="45" rx="8" fill="#7f1d1d" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="555" y="310" text-anchor="middle" fill="#f87171" font-size="11" font-weight="bold" font-family="sans-serif">25' 专注</text>
+  <text x="555" y="310" text-anchor="middle" fill="#f87171" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">25' 专注</text>
   
   <rect x="630" y="290" width="80" height="45" rx="8" fill="#1e3a5f" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="670" y="310" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold" font-family="sans-serif">5' 休息</text>
+  <text x="670" y="310" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">5' 休息</text>
   
   <!-- 连接箭头 -->
-  <text x="155" y="316" text-anchor="middle" fill="#475569" font-size="12" font-family="sans-serif">→</text>
-  <text x="255" y="316" text-anchor="middle" fill="#475569" font-size="12" font-family="sans-serif">→</text>
-  <text x="385" y="316" text-anchor="middle" fill="#475569" font-size="12" font-family="sans-serif">→</text>
-  <text x="485" y="316" text-anchor="middle" fill="#475569" font-size="12" font-family="sans-serif">→</text>
-  <text x="615" y="316" text-anchor="middle" fill="#475569" font-size="12" font-family="sans-serif">→</text>
+  <text x="155" y="316" text-anchor="middle" fill="#475569" font-size="12" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→</text>
+  <text x="255" y="316" text-anchor="middle" fill="#475569" font-size="12" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→</text>
+  <text x="385" y="316" text-anchor="middle" fill="#475569" font-size="12" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→</text>
+  <text x="485" y="316" text-anchor="middle" fill="#475569" font-size="12" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→</text>
+  <text x="615" y="316" text-anchor="middle" fill="#475569" font-size="12" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→</text>
   
   <!-- 长休息 -->
   <rect x="170" y="355" width="460" height="45" rx="8" fill="#166534" stroke="#22c55e" stroke-width="1.5"/>
-  <text x="400" y="375" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold" font-family="sans-serif">15-30' 长休息（每4个番茄后）</text>
-  <text x="400" y="392" text-anchor="middle" fill="#86efac" font-size="9" font-family="sans-serif">不看屏幕 · 走动 · 看向窗外 · 闭眼放松</text>
+  <text x="400" y="375" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">15-30' 长休息（每4个番茄后）</text>
+  <text x="400" y="392" text-anchor="middle" fill="#86efac" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">不看屏幕 · 走动 · 看向窗外 · 闭眼放松</text>
 </svg>

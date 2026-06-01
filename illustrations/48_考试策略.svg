@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 580">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
     <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
@@ -9,55 +9,55 @@
   <rect width="800" height="580" fill="url(#bg)"/>
 
   <!-- 标题 -->
-  <text x="400" y="36" text-anchor="middle" fill="#f1f5f9" font-size="21" font-weight="bold" font-family="sans-serif">考试策略：你会的东西，别再丢在考场上了</text>
-  <text x="400" y="56" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">学得好 ≠ 考得好。考试是一项独立技能。</text>
+  <text x="400" y="36" text-anchor="middle" fill="#f1f5f9" font-size="21" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">考试策略：你会的东西，别再丢在考场上了</text>
+  <text x="400" y="56" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">学得好 ≠ 考得好。考试是一项独立技能。</text>
 
   <!-- 四宫格 -->
   <!-- 1 审题清单 -->
   <rect x="20" y="75" width="370" height="160" rx="10" fill="#0f2744" stroke="url(#blue)" stroke-width="1.5"/>
   <rect x="20" y="75" width="6" height="160" rx="3" fill="url(#blue)"/>
-  <text x="45" y="102" fill="#60a5fa" font-size="14" font-weight="bold" font-family="sans-serif">🔍 审题清单——别在起跑线摔跤</text>
-  <text x="45" y="124" fill="#cbd5e1" font-size="11" font-family="sans-serif">1. 圈出关键词：数字、单位、否定词（"不""错误""除了"）</text>
-  <text x="45" y="144" fill="#cbd5e1" font-size="11" font-family="sans-serif">2. 画出已知条件：题目给了什么→写下来</text>
-  <text x="45" y="164" fill="#cbd5e1" font-size="11" font-family="sans-serif">3. 标注陷阱：在哪一步最容易翻车？提前标记</text>
-  <text x="45" y="184" fill="#cbd5e1" font-size="11" font-family="sans-serif">4. 确认求什么：别答了半天答的不是问的</text>
-  <text x="45" y="210" fill="#475569" font-size="10" font-family="sans-serif">💡 审题多花20秒，比做完发现错了返工划算100倍</text>
+  <text x="45" y="102" fill="#60a5fa" font-size="14" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🔍 审题清单——别在起跑线摔跤</text>
+  <text x="45" y="124" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">1. 圈出关键词：数字、单位、否定词（"不""错误""除了"）</text>
+  <text x="45" y="144" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">2. 画出已知条件：题目给了什么→写下来</text>
+  <text x="45" y="164" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">3. 标注陷阱：在哪一步最容易翻车？提前标记</text>
+  <text x="45" y="184" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">4. 确认求什么：别答了半天答的不是问的</text>
+  <text x="45" y="210" fill="#475569" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">💡 审题多花20秒，比做完发现错了返工划算100倍</text>
 
   <!-- 2 时间分配 -->
   <rect x="410" y="75" width="370" height="160" rx="10" fill="#1a1530" stroke="url(#purple)" stroke-width="1.5"/>
   <rect x="410" y="75" width="6" height="160" rx="3" fill="url(#purple)"/>
-  <text x="435" y="102" fill="#a78bfa" font-size="14" font-weight="bold" font-family="sans-serif">⏱️ 时间分配——先吃容易的肉</text>
-  <text x="435" y="124" fill="#cbd5e1" font-size="11" font-family="sans-serif">1. 开考花1分钟扫全卷，心里有数</text>
-  <text x="435" y="144" fill="#cbd5e1" font-size="11" font-family="sans-serif">2. 先做"一眼就会"的——建立信心+攒分</text>
-  <text x="435" y="164" fill="#cbd5e1" font-size="11" font-family="sans-serif">3. 给每道题设上限：超时就跳，回头再战</text>
-  <text x="435" y="184" fill="#cbd5e1" font-size="11" font-family="sans-serif">4. 留最后10分钟：检查 + 补漏</text>
-  <text x="435" y="210" fill="#475569" font-size="10" font-family="sans-serif">💡 死磕一道题花的20分钟，够你做对后面3道简单题</text>
+  <text x="435" y="102" fill="#a78bfa" font-size="14" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">⏱️ 时间分配——先吃容易的肉</text>
+  <text x="435" y="124" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">1. 开考花1分钟扫全卷，心里有数</text>
+  <text x="435" y="144" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">2. 先做"一眼就会"的——建立信心+攒分</text>
+  <text x="435" y="164" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">3. 给每道题设上限：超时就跳，回头再战</text>
+  <text x="435" y="184" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">4. 留最后10分钟：检查 + 补漏</text>
+  <text x="435" y="210" fill="#475569" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">💡 死磕一道题花的20分钟，够你做对后面3道简单题</text>
 
   <!-- 3 草稿纸纪律 -->
   <rect x="20" y="250" width="370" height="160" rx="10" fill="#1a1a10" stroke="url(#gold)" stroke-width="1.5"/>
   <rect x="20" y="250" width="6" height="160" rx="3" fill="url(#gold)"/>
-  <text x="45" y="277" fill="#fbbf24" font-size="14" font-weight="bold" font-family="sans-serif">📄 草稿纸纪律——别让草稿坑了你</text>
-  <text x="45" y="299" fill="#cbd5e1" font-size="11" font-family="sans-serif">1. 分区：左上第1题→右上第2题→左下第3题...按格写</text>
-  <text x="45" y="319" fill="#cbd5e1" font-size="11" font-family="sans-serif">2. 写题号：每道题的草稿标注题号，不混不串</text>
-  <text x="45" y="339" fill="#cbd5e1" font-size="11" font-family="sans-serif">3. 不涂黑疙瘩：写错了轻轻一杠划掉，留可读痕迹</text>
-  <text x="45" y="359" fill="#cbd5e1" font-size="11" font-family="sans-serif">4. 关键步骤圈出来：检查时直接从圈往下看</text>
-  <text x="45" y="385" fill="#475569" font-size="10" font-family="sans-serif">💡 乱涂的草稿纸=丢了半张答卷</text>
+  <text x="45" y="277" fill="#fbbf24" font-size="14" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">📄 草稿纸纪律——别让草稿坑了你</text>
+  <text x="45" y="299" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">1. 分区：左上第1题→右上第2题→左下第3题...按格写</text>
+  <text x="45" y="319" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">2. 写题号：每道题的草稿标注题号，不混不串</text>
+  <text x="45" y="339" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">3. 不涂黑疙瘩：写错了轻轻一杠划掉，留可读痕迹</text>
+  <text x="45" y="359" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">4. 关键步骤圈出来：检查时直接从圈往下看</text>
+  <text x="45" y="385" fill="#475569" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">💡 乱涂的草稿纸=丢了半张答卷</text>
 
   <!-- 4 检查三遍法 -->
   <rect x="410" y="250" width="370" height="160" rx="10" fill="#022c22" stroke="url(#green)" stroke-width="1.5"/>
   <rect x="410" y="250" width="6" height="160" rx="3" fill="url(#green)"/>
-  <text x="435" y="277" fill="#34d399" font-size="14" font-weight="bold" font-family="sans-serif">✅ 检查三遍法——别用同一种思路查错</text>
-  <text x="435" y="299" fill="#cbd5e1" font-size="11" font-family="sans-serif">第一遍·补漏：有没有空题没做？答题卡填串行没？</text>
-  <text x="435" y="319" fill="#cbd5e1" font-size="11" font-family="sans-serif">第二遍·验算：换一条路算——代入结果反推、用估值估算</text>
-  <text x="435" y="339" fill="#cbd5e1" font-size="11" font-family="sans-serif">第三遍·格式：单位写了吗？负号掉了没？小数点对不？</text>
-  <text x="435" y="359" fill="#cbd5e1" font-size="11" font-family="sans-serif">关键：每一遍只看一件事，别同时查错+查漏+查格式</text>
-  <text x="435" y="385" fill="#475569" font-size="10" font-family="sans-serif">💡 大多数"粗心错"不是粗心，是检查方法错了</text>
+  <text x="435" y="277" fill="#34d399" font-size="14" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">✅ 检查三遍法——别用同一种思路查错</text>
+  <text x="435" y="299" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">第一遍·补漏：有没有空题没做？答题卡填串行没？</text>
+  <text x="435" y="319" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">第二遍·验算：换一条路算——代入结果反推、用估值估算</text>
+  <text x="435" y="339" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">第三遍·格式：单位写了吗？负号掉了没？小数点对不？</text>
+  <text x="435" y="359" fill="#cbd5e1" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">关键：每一遍只看一件事，别同时查错+查漏+查格式</text>
+  <text x="435" y="385" fill="#475569" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">💡 大多数"粗心错"不是粗心，是检查方法错了</text>
 
   <!-- 底部警句 -->
   <rect x="120" y="430" width="560" height="50" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-  <text x="400" y="455" text-anchor="middle" fill="#f1f5f9" font-size="12" font-family="sans-serif">考试不是"把会的东西展示出来"——是"在限制条件下把会的东西拿出来"</text>
-  <text x="400" y="472" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">限制条件=时间+压力+题型伪装。你练的不是知识，是在限制条件下的提取能力。</text>
+  <text x="400" y="455" text-anchor="middle" fill="#f1f5f9" font-size="12" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">考试不是"把会的东西展示出来"——是"在限制条件下把会的东西拿出来"</text>
+  <text x="400" y="472" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">限制条件=时间+压力+题型伪装。你练的不是知识，是在限制条件下的提取能力。</text>
 
   <!-- 页码装饰 -->
-  <text x="400" y="560" text-anchor="middle" fill="#334155" font-size="14" font-family="sans-serif">⬟  记忆  ⬟  理解  ⬟  应用  ⬟  专注  ⬟  动力  ⬟  调节  ⬟  考试</text>
+  <text x="400" y="560" text-anchor="middle" fill="#334155" font-size="14" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">⬟  记忆  ⬟  理解  ⬟  应用  ⬟  专注  ⬟  动力  ⬟  调节  ⬟  考试</text>
 </svg>

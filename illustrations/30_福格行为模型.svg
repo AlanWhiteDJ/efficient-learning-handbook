@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 500">
   <rect width="800" height="500" fill="#0f172a"/>
   <defs>
     <linearGradient id="gearM" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#f97316"/></linearGradient>
@@ -18,7 +18,7 @@
     </g>
   </defs>
 
-  <text x="400" y="28" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="sans-serif" letter-spacing="2">福格行为模型 B=MAP · 三要素啮合</text>
+  <text x="400" y="28" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" letter-spacing="2">福格行为模型 B=MAP · 三要素啮合</text>
 
   <!-- 动机齿轮（大）金色 -->
   <g transform="translate(230, 150)" filter="url(#gs)">
@@ -27,8 +27,8 @@
     <circle cx="0" cy="0" r="22" fill="#0f172a"/>
     <circle cx="0" cy="0" r="18" fill="#78350f" stroke="#f59e0b" stroke-width="1"/>
     <circle cx="0" cy="0" r="5" fill="#f59e0b"/>
-    <text x="0" y="-72" text-anchor="middle" fill="#fcd34d" font-size="11" font-weight="bold" font-family="sans-serif">动机 Motivation</text>
-    <text x="0" y="-59" text-anchor="middle" fill="#fbbf24" font-size="9" font-family="sans-serif">我想学好</text>
+    <text x="0" y="-72" text-anchor="middle" fill="#fcd34d" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">动机 Motivation</text>
+    <text x="0" y="-59" text-anchor="middle" fill="#fbbf24" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">我想学好</text>
   </g>
 
   <!-- 能力齿轮（中）蓝色 -->
@@ -38,9 +38,9 @@
     <circle cx="0" cy="0" r="18" fill="#0f172a"/>
     <circle cx="0" cy="0" r="14" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1"/>
     <circle cx="0" cy="0" r="4" fill="#3b82f6"/>
-    <text x="0" y="-62" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="bold" font-family="sans-serif">能力 Ability</text>
-    <text x="0" y="-49" text-anchor="middle" fill="#60a5fa" font-size="9" font-family="sans-serif">我能做到</text>
-    <text x="0" y="-37" text-anchor="middle" fill="#60a5fa" font-size="8" font-family="sans-serif">（足够简单）</text>
+    <text x="0" y="-62" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">能力 Ability</text>
+    <text x="0" y="-49" text-anchor="middle" fill="#60a5fa" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">我能做到</text>
+    <text x="0" y="-37" text-anchor="middle" fill="#60a5fa" font-size="8" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">（足够简单）</text>
   </g>
 
   <!-- 提示齿轮（小）绿色 -->
@@ -50,8 +50,8 @@
     <circle cx="0" cy="0" r="15" fill="#0f172a"/>
     <circle cx="0" cy="0" r="11" fill="#064e3b" stroke="#34d399" stroke-width="1"/>
     <circle cx="0" cy="0" r="3.5" fill="#34d399"/>
-    <text x="0" y="-55" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="bold" font-family="sans-serif">提示 Prompt</text>
-    <text x="0" y="-42" text-anchor="middle" fill="#34d399" font-size="9" font-family="sans-serif">如果-那么</text>
+    <text x="0" y="-55" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">提示 Prompt</text>
+    <text x="0" y="-42" text-anchor="middle" fill="#34d399" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">如果-那么</text>
   </g>
 
   <!-- 齿轮啮合箭头指示 -->
@@ -63,12 +63,12 @@
   <!-- 输出：行为发生 -->
   <g transform="translate(650, 180)" filter="url(#glow)">
     <rect x="0" y="0" width="120" height="40" rx="20" fill="#831843" stroke="#ec4899" stroke-width="2"/>
-    <text x="60" y="17" text-anchor="middle" fill="#f9a8d4" font-size="10" font-weight="bold" font-family="sans-serif">⚡ 行为发生</text>
-    <text x="60" y="32" text-anchor="middle" fill="#fbcfe8" font-size="9" font-family="sans-serif">Behavior</text>
+    <text x="60" y="17" text-anchor="middle" fill="#f9a8d4" font-size="10" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">⚡ 行为发生</text>
+    <text x="60" y="32" text-anchor="middle" fill="#fbcfe8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">Behavior</text>
   </g>
 
   <!-- 同步转动指示 -->
-  <text x="300" y="380" text-anchor="middle" fill="#64748b" font-size="9" font-family="sans-serif">▲ 三个齿轮同时啮合转动 → 行为自然发生</text>
+  <text x="300" y="380" text-anchor="middle" fill="#64748b" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">▲ 三个齿轮同时啮合转动 → 行为自然发生</text>
 
   <!-- ===== 下半：便利贴示例 ===== -->
   <g transform="translate(50, 390)" filter="url(#gs)">
@@ -78,16 +78,16 @@
     <circle cx="170" cy="10" r="6" fill="#ef4444"/>
     <circle cx="170" cy="10" r="3" fill="#dc2626"/>
     <!-- 便利贴内容 -->
-    <text x="30" y="35" fill="#78350f" font-size="13" font-weight="bold" font-family="sans-serif" transform="rotate(-3, 170, 47)">📝 执行意图示例</text>
+    <text x="30" y="35" fill="#78350f" font-size="13" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" transform="rotate(-3, 170, 47)">📝 执行意图示例</text>
     <line x1="25" y1="45" x2="315" y2="45" stroke="#f59e0b" stroke-width="0.5" transform="rotate(-3, 170, 47)"/>
-    <text x="30" y="62" fill="#78350f" font-size="12" font-family="sans-serif" transform="rotate(-3, 170, 47)"><tspan font-weight="bold" fill="#dc2626">如果</tspan> 放下碗筷，</text>
-    <text x="30" y="82" fill="#78350f" font-size="12" font-family="sans-serif" transform="rotate(-3, 170, 47)"><tspan font-weight="bold" fill="#dc2626">那么</tspan> 我就坐到书桌前翻开数学书</text>
+    <text x="30" y="62" fill="#78350f" font-size="12" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" transform="rotate(-3, 170, 47)"><tspan font-weight="bold" fill="#dc2626">如果</tspan> 放下碗筷，</text>
+    <text x="30" y="82" fill="#78350f" font-size="12" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" transform="rotate(-3, 170, 47)"><tspan font-weight="bold" fill="#dc2626">那么</tspan> 我就坐到书桌前翻开数学书</text>
   </g>
 
   <!-- 右侧：B=MAP公式 -->
   <g transform="translate(440, 410)">
     <rect x="0" y="0" width="310" height="70" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1"/>
-    <text x="155" y="30" text-anchor="middle" fill="#f1f5f9" font-size="16" font-weight="bold" font-family="sans-serif">B = MAP</text>
-    <text x="155" y="55" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">行为 = 动机 × 能力 × 提示  （缺一不可）</text>
+    <text x="155" y="30" text-anchor="middle" fill="#f1f5f9" font-size="16" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">B = MAP</text>
+    <text x="155" y="55" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">行为 = 动机 × 能力 × 提示  （缺一不可）</text>
   </g>
 </svg>

@@ -1,60 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 440">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
   </defs>
   <rect width="800" height="440" fill="url(#bg)"/>
   
-  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="sans-serif">目标型计划 vs 系统型计划</text>
-  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">不是意志力缺陷，是行为设计不科学</text>
+  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">目标型计划 vs 系统型计划</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">不是意志力缺陷，是行为设计不科学</text>
   
   <!-- 左：目标型 -->
   <rect x="20" y="70" width="370" height="340" rx="12" fill="#1e293b" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="205" y="100" text-anchor="middle" fill="#f87171" font-size="14" font-weight="bold" font-family="sans-serif">❌ 目标型计划（失败率极高）</text>
+  <text x="205" y="100" text-anchor="middle" fill="#f87171" font-size="14" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">❌ 目标型计划（失败率极高）</text>
   
   <!-- 精确时间表 -->
   <rect x="50" y="120" width="310" height="160" rx="8" fill="#450a0a" stroke="#ef4444" stroke-width="1"/>
-  <text x="205" y="142" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="sans-serif">精确到分钟的周计划表</text>
+  <text x="205" y="142" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">精确到分钟的周计划表</text>
   
   <rect x="70" y="155" width="270" height="22" rx="3" fill="#7f1d1d"/>
-  <text x="205" y="170" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="sans-serif">19:00-19:30 数学卷子 ✓</text>
+  <text x="205" y="170" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">19:00-19:30 数学卷子 ✓</text>
   
   <rect x="70" y="182" width="270" height="22" rx="3" fill="#7f1d1d"/>
-  <text x="205" y="197" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="sans-serif">19:30-20:00 英语单词 ✕ (晚了20min)</text>
+  <text x="205" y="197" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">19:30-20:00 英语单词 ✕ (晚了20min)</text>
   
   <rect x="70" y="209" width="270" height="22" rx="3" fill="#7f1d1d"/>
-  <text x="205" y="224" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="sans-serif">20:00-21:00 物理复习 ✕ (冲掉了)</text>
+  <text x="205" y="224" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">20:00-21:00 物理复习 ✕ (冲掉了)</text>
   
   <rect x="70" y="236" width="270" height="22" rx="3" fill="#450a0a" opacity="0.5"/>
-  <text x="205" y="251" text-anchor="middle" fill="#64748b" font-size="9" font-family="sans-serif">...后面全崩了</text>
+  <text x="205" y="251" text-anchor="middle" fill="#64748b" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">...后面全崩了</text>
   
   <rect x="70" y="270" width="270" height="10" rx="2" fill="#7f1d1d"/>
   
-  <text x="205" y="305" text-anchor="middle" fill="#f87171" font-size="10" font-family="sans-serif">周一破 → 周二更糟 → 周三放弃</text>
-  <text x="205" y="325" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="sans-serif">→ 纸被揉掉 → "我无可救药"</text>
+  <text x="205" y="305" text-anchor="middle" fill="#f87171" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">周一破 → 周二更糟 → 周三放弃</text>
+  <text x="205" y="325" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→ 纸被揉掉 → "我无可救药"</text>
   
   <!-- 中间 VS -->
   <circle cx="400" cy="240" r="18" fill="#334155"/>
-  <text x="400" y="245" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="bold" font-family="sans-serif">VS</text>
+  <text x="400" y="245" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">VS</text>
   
   <!-- 右：系统型 -->
   <rect x="410" y="70" width="370" height="340" rx="12" fill="#1e293b" stroke="#22c55e" stroke-width="1.5"/>
-  <text x="595" y="100" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="bold" font-family="sans-serif">✅ 弹性区块系统</text>
+  <text x="595" y="100" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">✅ 弹性区块系统</text>
   
   <rect x="440" y="120" width="310" height="160" rx="8" fill="#052e16" stroke="#22c55e" stroke-width="1"/>
-  <text x="595" y="142" text-anchor="middle" fill="#86efac" font-size="10" font-family="sans-serif">周历：固定区块类型，块内灵活</text>
+  <text x="595" y="142" text-anchor="middle" fill="#86efac" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">周历：固定区块类型，块内灵活</text>
   
   <rect x="460" y="155" width="270" height="28" rx="4" fill="#166534"/>
-  <text x="595" y="174" text-anchor="middle" fill="#4ade80" font-size="9" font-family="sans-serif">周二/四晚：理科深度块（1.5h）</text>
+  <text x="595" y="174" text-anchor="middle" fill="#4ade80" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">周二/四晚：理科深度块（1.5h）</text>
   
   <rect x="460" y="190" width="270" height="28" rx="4" fill="#166534"/>
-  <text x="595" y="209" text-anchor="middle" fill="#4ade80" font-size="9" font-family="sans-serif">周一/三晚：文科积累块（45min）</text>
+  <text x="595" y="209" text-anchor="middle" fill="#4ade80" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">周一/三晚：文科积累块（45min）</text>
   
   <rect x="460" y="225" width="270" height="28" rx="4" fill="#166534"/>
-  <text x="595" y="244" text-anchor="middle" fill="#4ade80" font-size="9" font-family="sans-serif">每天：作业扫尾块（30min）</text>
+  <text x="595" y="244" text-anchor="middle" fill="#4ade80" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">每天：作业扫尾块（30min）</text>
   
   <rect x="460" y="260" width="270" height="28" rx="4" fill="#166534"/>
-  <text x="595" y="279" text-anchor="middle" fill="#4ade80" font-size="9" font-family="sans-serif">周末：回顾+自由探索块</text>
+  <text x="595" y="279" text-anchor="middle" fill="#4ade80" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">周末：回顾+自由探索块</text>
   
-  <text x="595" y="310" text-anchor="middle" fill="#4ade80" font-size="10" font-family="sans-serif">每块只设一个"最重要任务"</text>
-  <text x="595" y="330" text-anchor="middle" fill="#86efac" font-size="10" font-family="sans-serif">→ 完成这一件事，块就成功了 ✓</text>
+  <text x="595" y="310" text-anchor="middle" fill="#4ade80" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">每块只设一个"最重要任务"</text>
+  <text x="595" y="330" text-anchor="middle" fill="#86efac" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→ 完成这一件事，块就成功了 ✓</text>
 </svg>

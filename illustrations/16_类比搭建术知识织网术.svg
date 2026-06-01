@@ -1,64 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 550">
   <rect width="800" height="550" fill="#0f172a"/>
   <!-- 标题 -->
-  <text x="400" y="32" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">类比搭建术 · 知识织网术</text>
+  <text x="400" y="32" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">类比搭建术 · 知识织网术</text>
   <line x1="280" y1="40" x2="520" y2="40" stroke="#f59e0b" stroke-width="1" opacity="0.4"/>
 
   <!-- ===== 上半：类比 ===== -->
-  <text x="400" y="65" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#64748b">类比：电流 ≈ 水流</text>
+  <text x="400" y="65" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" fill="#64748b">类比：电流 ≈ 水流</text>
 
   <!-- 电流部分 -->
   <rect x="120" y="80" width="260" height="155" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
-  <text x="250" y="102" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#3b82f6">⚡ 电流</text>
+  <text x="250" y="102" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#3b82f6">⚡ 电流</text>
 
   <!-- 电池 -->
   <rect x="155" y="115" width="60" height="30" rx="3" fill="#334155" stroke="#3b82f6" stroke-width="1"/>
-  <text x="185" y="134" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#93c5fd">电池 V</text>
+  <text x="185" y="134" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#93c5fd">电池 V</text>
   <!-- 电路 -->
   <line x1="215" y1="120" x2="290" y2="120" stroke="#3b82f6" stroke-width="2"/>
   <line x1="290" y1="120" x2="290" y2="180" stroke="#3b82f6" stroke-width="2"/>
   <!-- 电阻器 -->
   <rect x="275" y="180" width="120" height="16" rx="3" fill="#334155" stroke="#f59e0b" stroke-width="1"/>
-  <text x="335" y="193" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fcd34d">电阻 R（阻碍）</text>
+  <text x="335" y="193" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#fcd34d">电阻 R（阻碍）</text>
   <!-- 灯泡 -->
   <circle cx="355" cy="155" r="14" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
-  <text x="355" y="159" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#f59e0b">💡</text>
+  <text x="355" y="159" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="16" fill="#f59e0b">💡</text>
   <line x1="290" y1="196" x2="290" y2="220" stroke="#3b82f6" stroke-width="2"/>
   <line x1="215" y1="220" x2="290" y2="220" stroke="#3b82f6" stroke-width="2"/>
   <line x1="215" y1="120" x2="215" y2="220" stroke="#3b82f6" stroke-width="2"/>
 
   <!-- ≈ 符号 -->
-  <text x="400" y="170" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#f59e0b">≈</text>
+  <text x="400" y="170" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="28" font-weight="bold" fill="#f59e0b">≈</text>
 
   <!-- 水流部分 -->
   <rect x="420" y="80" width="260" height="155" rx="8" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
-  <text x="550" y="102" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#34d399">💧 水流</text>
+  <text x="550" y="102" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#34d399">💧 水流</text>
 
   <!-- 水泵 -->
   <rect x="455" y="115" width="60" height="30" rx="3" fill="#334155" stroke="#34d399" stroke-width="1"/>
-  <text x="485" y="134" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6ee7b7">水泵 P</text>
+  <text x="485" y="134" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#6ee7b7">水泵 P</text>
   <!-- 管道 -->
   <line x1="515" y1="120" x2="590" y2="120" stroke="#34d399" stroke-width="2"/>
   <line x1="590" y1="120" x2="590" y2="180" stroke="#34d399" stroke-width="2"/>
   <!-- 细管 / 阻碍 -->
   <rect x="575" y="180" width="90" height="16" rx="3" fill="#334155" stroke="#f59e0b" stroke-width="1"/>
-  <text x="620" y="193" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fcd34d">细管（阻碍）</text>
+  <text x="620" y="193" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#fcd34d">细管（阻碍）</text>
   <!-- 水车 -->
   <circle cx="650" cy="160" r="14" fill="none" stroke="#34d399" stroke-width="1.5"/>
-  <text x="650" y="164" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#34d399">⚙</text>
+  <text x="650" y="164" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" fill="#34d399">⚙</text>
   <line x1="590" y1="196" x2="590" y2="220" stroke="#34d399" stroke-width="2"/>
   <line x1="515" y1="220" x2="590" y2="220" stroke="#34d399" stroke-width="2"/>
   <line x1="515" y1="120" x2="515" y2="220" stroke="#34d399" stroke-width="2"/>
 
   <!-- 标注 -->
-  <text x="250" y="260" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">水管粗细 = 电阻</text>
-  <text x="550" y="260" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">水压差 = 电压</text>
+  <text x="250" y="260" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#64748b">水管粗细 = 电阻</text>
+  <text x="550" y="260" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#64748b">水压差 = 电压</text>
 
   <!-- 分隔线 -->
   <line x1="40" y1="280" x2="760" y2="280" stroke="#334155" stroke-width="1"/>
 
   <!-- ===== 下半：知识网络 ===== -->
-  <text x="400" y="305" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#64748b">知识织网术</text>
+  <text x="400" y="305" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" fill="#64748b">知识织网术</text>
 
   <!-- 连接线（先画线再画圆圈保证在下方） -->
   <line x1="310" y1="360" x2="490" y2="360" stroke="#64748b" stroke-width="1.5"/>
@@ -72,41 +72,41 @@
 
   <!-- 中心枢纽节点（高亮） -->
   <circle cx="400" cy="360" r="30" fill="#f59e0b" opacity="0.9"/>
-  <text x="400" y="357" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#0f172a">核心</text>
-  <text x="400" y="370" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="bold" fill="#0f172a">概念</text>
+  <text x="400" y="357" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold" fill="#0f172a">核心</text>
+  <text x="400" y="370" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" font-weight="bold" fill="#0f172a">概念</text>
 
   <!-- 二级节点 -->
   <circle cx="310" cy="360" r="22" fill="#3b82f6" opacity="0.8"/>
-  <text x="310" y="364" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fff">知识点A</text>
+  <text x="310" y="364" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#fff">知识点A</text>
 
   <circle cx="490" cy="360" r="22" fill="#3b82f6" opacity="0.8"/>
-  <text x="490" y="364" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fff">知识点B</text>
+  <text x="490" y="364" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#fff">知识点B</text>
 
   <circle cx="400" cy="430" r="22" fill="#34d399" opacity="0.8"/>
-  <text x="400" y="434" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#0f172a">知识点C</text>
+  <text x="400" y="434" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#0f172a">知识点C</text>
 
   <circle cx="200" cy="430" r="22" fill="#a78bfa" opacity="0.8"/>
-  <text x="200" y="434" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fff">前置知识</text>
+  <text x="200" y="434" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#fff">前置知识</text>
 
   <circle cx="580" cy="430" r="22" fill="#a78bfa" opacity="0.8"/>
-  <text x="580" y="434" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fff">扩展知识</text>
+  <text x="580" y="434" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#fff">扩展知识</text>
 
   <circle cx="250" cy="500" r="20" fill="#475569" opacity="0.7"/>
-  <text x="250" y="504" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#94a3b8">例子1</text>
+  <text x="250" y="504" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="8" fill="#94a3b8">例子1</text>
 
   <circle cx="150" cy="500" r="20" fill="#475569" opacity="0.7"/>
-  <text x="150" y="504" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#94a3b8">例子2</text>
+  <text x="150" y="504" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="8" fill="#94a3b8">例子2</text>
 
   <circle cx="620" cy="500" r="20" fill="#475569" opacity="0.7"/>
-  <text x="620" y="504" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#94a3b8">应用</text>
+  <text x="620" y="504" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="8" fill="#94a3b8">应用</text>
 
   <!-- 关系标签 -->
-  <text x="350" y="353" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#64748b">推导</text>
-  <text x="445" y="353" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#64748b">并列</text>
-  <text x="355" y="425" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#64748b">因果</text>
-  <text x="480" y="425" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#64748b">推导</text>
+  <text x="350" y="353" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="8" fill="#64748b">推导</text>
+  <text x="445" y="353" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="8" fill="#64748b">并列</text>
+  <text x="355" y="425" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="8" fill="#64748b">因果</text>
+  <text x="480" y="425" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="8" fill="#64748b">推导</text>
 
   <!-- 编号 -->
   <circle cx="60" cy="26" r="16" fill="#f59e0b" opacity="0.3"/>
-  <text x="60" y="32" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f59e0b">16</text>
+  <text x="60" y="32" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#f59e0b">16</text>
 </svg>

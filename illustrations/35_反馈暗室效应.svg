@@ -1,62 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 410">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
   </defs>
   <rect width="800" height="410" fill="url(#bg)"/>
   
-  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="sans-serif">反馈缺失的"暗室效应"</text>
-  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">动力不来自奖励本身，来自"看到自己在进步"</text>
+  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">反馈缺失的"暗室效应"</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">动力不来自奖励本身，来自"看到自己在进步"</text>
   
   <!-- 左：无反馈 -->
   <rect x="20" y="70" width="370" height="120" rx="12" fill="#1e293b" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="205" y="98" text-anchor="middle" fill="#f87171" font-size="13" font-weight="bold" font-family="sans-serif">😞 没有反馈 → 暗室推石头</text>
+  <text x="205" y="98" text-anchor="middle" fill="#f87171" font-size="13" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">😞 没有反馈 → 暗室推石头</text>
   
   <!-- 暗室 -->
   <rect x="60" y="115" width="290" height="55" rx="8" fill="#450a0a" stroke="#ef4444" stroke-width="0.8"/>
-  <text x="95" y="148" text-anchor="middle" fill="#fca5a5" font-size="24" font-family="sans-serif">🪨</text>
-  <text x="160" y="145" text-anchor="middle" fill="#f87171" font-size="10" font-family="sans-serif">推了整整一周</text>
-  <text x="160" y="162" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="sans-serif">→ 动了没？不知道</text>
-  <text x="300" y="148" text-anchor="middle" fill="#f87171" font-size="11" font-family="sans-serif">力气耗尽</text>
+  <text x="95" y="148" text-anchor="middle" fill="#fca5a5" font-size="24" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🪨</text>
+  <text x="160" y="145" text-anchor="middle" fill="#f87171" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">推了整整一周</text>
+  <text x="160" y="162" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→ 动了没？不知道</text>
+  <text x="300" y="148" text-anchor="middle" fill="#f87171" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">力气耗尽</text>
   
-  <text x="205" y="200" text-anchor="middle" fill="#f87171" font-size="11" font-family="sans-serif">结果：越学越没劲 → 放弃</text>
+  <text x="205" y="200" text-anchor="middle" fill="#f87171" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">结果：越学越没劲 → 放弃</text>
   
   <!-- 中间 VS -->
   <circle cx="400" cy="130" r="18" fill="#334155"/>
-  <text x="400" y="135" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="bold" font-family="sans-serif">VS</text>
+  <text x="400" y="135" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">VS</text>
   
   <!-- 右：有反馈 -->
   <rect x="410" y="70" width="370" height="120" rx="12" fill="#1e293b" stroke="#22c55e" stroke-width="1.5"/>
-  <text x="595" y="98" text-anchor="middle" fill="#4ade80" font-size="13" font-weight="bold" font-family="sans-serif">🌟 有反馈 → 看得见每一点进步</text>
+  <text x="595" y="98" text-anchor="middle" fill="#4ade80" font-size="13" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🌟 有反馈 → 看得见每一点进步</text>
   
   <rect x="450" y="115" width="290" height="55" rx="8" fill="#052e16" stroke="#22c55e" stroke-width="0.8"/>
-  <text x="485" y="148" text-anchor="middle" fill="#4ade80" font-size="24" font-family="sans-serif">🪨</text>
-  <text x="550" y="145" text-anchor="middle" fill="#86efac" font-size="10" font-family="sans-serif">只推动了1厘米</text>
-  <text x="550" y="162" text-anchor="middle" fill="#4ade80" font-size="10" font-family="sans-serif">→ 但清晰可见！</text>
-  <text x="690" y="148" text-anchor="middle" fill="#4ade80" font-size="11" font-family="sans-serif">动力满满</text>
+  <text x="485" y="148" text-anchor="middle" fill="#4ade80" font-size="24" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🪨</text>
+  <text x="550" y="145" text-anchor="middle" fill="#86efac" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">只推动了1厘米</text>
+  <text x="550" y="162" text-anchor="middle" fill="#4ade80" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→ 但清晰可见！</text>
+  <text x="690" y="148" text-anchor="middle" fill="#4ade80" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">动力满满</text>
   
-  <text x="595" y="200" text-anchor="middle" fill="#4ade80" font-size="11" font-family="sans-serif">结果：看见进步 → 继续推 💪</text>
+  <text x="595" y="200" text-anchor="middle" fill="#4ade80" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">结果：看见进步 → 继续推 💪</text>
   
   <!-- 底部：反馈工具 -->
-  <text x="400" y="255" text-anchor="middle" fill="#f1f5f9" font-size="13" font-weight="bold" font-family="sans-serif">🔧 三种自我反馈工具</text>
+  <text x="400" y="255" text-anchor="middle" fill="#f1f5f9" font-size="13" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🔧 三种自我反馈工具</text>
   
   <rect x="20" y="275" width="240" height="110" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="1"/>
-  <text x="140" y="302" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="bold" font-family="sans-serif">📋 完成-标记法</text>
-  <text x="140" y="322" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">每完成一个微小任务</text>
-  <text x="140" y="340" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">→ 红笔狠狠划掉</text>
-  <text x="140" y="358" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">→ 释放多巴胺微循环</text>
-  <text x="140" y="376" text-anchor="middle" fill="#64748b" font-size="8" font-family="sans-serif">即时的可见反馈</text>
+  <text x="140" y="302" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">📋 完成-标记法</text>
+  <text x="140" y="322" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">每完成一个微小任务</text>
+  <text x="140" y="340" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→ 红笔狠狠划掉</text>
+  <text x="140" y="358" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→ 释放多巴胺微循环</text>
+  <text x="140" y="376" text-anchor="middle" fill="#64748b" font-size="8" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">即时的可见反馈</text>
   
   <rect x="280" y="275" width="240" height="110" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="1"/>
-  <text x="400" y="302" text-anchor="middle" fill="#60a5fa" font-size="12" font-weight="bold" font-family="sans-serif">📖 进步日志</text>
-  <text x="400" y="322" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">每晚写一条"比昨天好一点"</text>
-  <text x="400" y="340" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">→ 每周日总结本周小赢</text>
-  <text x="400" y="358" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">→ 连续三天没变化就开始焦虑</text>
-  <text x="400" y="376" text-anchor="middle" fill="#64748b" font-size="8" font-family="sans-serif">日反馈 + 周反馈</text>
+  <text x="400" y="302" text-anchor="middle" fill="#60a5fa" font-size="12" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">📖 进步日志</text>
+  <text x="400" y="322" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">每晚写一条"比昨天好一点"</text>
+  <text x="400" y="340" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→ 每周日总结本周小赢</text>
+  <text x="400" y="358" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">→ 连续三天没变化就开始焦虑</text>
+  <text x="400" y="376" text-anchor="middle" fill="#64748b" font-size="8" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">日反馈 + 周反馈</text>
   
   <rect x="540" y="275" width="240" height="110" rx="10" fill="#1e293b" stroke="#22c55e" stroke-width="1"/>
-  <text x="660" y="302" text-anchor="middle" fill="#4ade80" font-size="12" font-weight="bold" font-family="sans-serif">📊 双轨反馈</text>
-  <text x="660" y="322" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">每月一次月结</text>
-  <text x="660" y="340" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">结果轨：成绩·错题·速度</text>
-  <text x="660" y="358" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">过程轨：方法·习惯·精力</text>
-  <text x="660" y="376" text-anchor="middle" fill="#64748b" font-size="8" font-family="sans-serif">月反馈 + 调整优化</text>
+  <text x="660" y="302" text-anchor="middle" fill="#4ade80" font-size="12" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">📊 双轨反馈</text>
+  <text x="660" y="322" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">每月一次月结</text>
+  <text x="660" y="340" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">结果轨：成绩·错题·速度</text>
+  <text x="660" y="358" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">过程轨：方法·习惯·精力</text>
+  <text x="660" y="376" text-anchor="middle" fill="#64748b" font-size="8" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">月反馈 + 调整优化</text>
 </svg>
