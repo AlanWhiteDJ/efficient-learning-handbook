@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+    </style>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="8"/>
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#e2e8f0" stroke-width="2" rx="6"/>
+  
+  <text x="780" y="28" font-size="10" fill="#94a3b8" text-anchor="end">📖 高效学习手册 · 深度工作（Deep Work）</text>
+  
+  <text x="400" y="58" font-size="22" font-weight="bold" fill="#1e3a5f" text-anchor="middle">🔬 深度区块排程卡</text>
+  <text x="400" y="78" font-size="11" fill="#64748b" text-anchor="middle">把最清醒的时段留给最重要的事——一次只做一件事</text>
+  
+  <!-- 峰值时段 -->
+  <rect x="50" y="98" width="700" height="44" fill="#fef3c7" stroke="#fcd34d" rx="6"/>
+  <text x="400" y="122" font-size="16" font-weight="bold" fill="#92400e" text-anchor="middle">⚡ 我的认知峰值时段是 ____ : ____ 到 ____ : ____（从精力记录表数据得出）</text>
+  
+  <!-- 深度区块 -->
+  <rect x="50" y="156" width="520" height="170" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="8"/>
+  <rect x="50" y="156" width="520" height="38" fill="#3b82f6" rx="8"/>
+  <rect x="50" y="175" width="520" height="19" fill="#3b82f6"/>
+  <text x="310" y="180" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">🔬 深度区块 —— 专注攻坚</text>
+  
+  <text x="70" y="216" font-size="13" fill="#1e40af" font-weight="bold">时段：</text>
+  <text x="130" y="216" font-size="13" fill="#64748b">_______________（例如：9:00-11:00）</text>
+  
+  <text x="70" y="246" font-size="13" fill="#1e40af" font-weight="bold">📌 只做一件事：</text>
+  <text x="220" y="246" font-size="13" fill="#94a3b8">_____________________________________________</text>
+  
+  <text x="70" y="276" font-size="13" fill="#1e40af" font-weight="bold">📋 预期产出：</text>
+  <text x="180" y="276" font-size="13" fill="#94a3b8">_____________________________________________</text>
+  
+  <rect x="70" y="290" width="480" height="26" fill="#eff6ff" rx="4"/>
+  <text x="310" y="308" font-size="11" fill="#3b82f6" text-anchor="middle">⚠️ 深度区块期间：手机静音、消息不回、只做这一件事</text>
+  
+  <!-- 便签区 -->
+  <rect x="582" y="156" width="168" height="170" fill="#fef9c3" stroke="#fde68a" rx="6"/>
+  <text x="666" y="180" font-size="12" fill="#92400e" font-weight="bold" text-anchor="middle">📝 便签区</text>
+  <text x="666" y="200" font-size="11" fill="#a16207" text-anchor="middle">突然想到的杂事</text>
+  <text x="666" y="218" font-size="11" fill="#a16207" text-anchor="middle">↓ 记下来 ↓</text>
+  <text x="666" y="240" font-size="11" fill="#a16207" text-anchor="middle">区块结束后处理</text>
+  
+  <line x1="598" y1="250" x2="734" y2="250" stroke="#e2e8f0" stroke-dasharray="3,3"/>
+  <line x1="598" y1="268" x2="734" y2="268" stroke="#e2e8f0" stroke-dasharray="3,3"/>
+  <line x1="598" y1="286" x2="734" y2="286" stroke="#e2e8f0" stroke-dasharray="3,3"/>
+  <line x1="598" y1="304" x2="734" y2="304" stroke="#e2e8f0" stroke-dasharray="3,3"/>
+  
+  <!-- 浅度任务区 -->
+  <rect x="50" y="340" width="700" height="120" fill="#f8fafc" stroke="#e2e8f0" rx="6"/>
+  <rect x="50" y="340" width="700" height="36" fill="#e2e8f0" rx="6"/>
+  <rect x="50" y="358" width="700" height="18" fill="#e2e8f0"/>
+  <text x="400" y="363" font-size="14" fill="#64748b" font-weight="bold" text-anchor="middle">📋 浅度任务区（可碎片化处理）</text>
+  
+  <text x="76" y="398" font-size="13" fill="#64748b">🔹</text>
+  <text x="100" y="398" font-size="13" fill="#94a3b8">____________________</text>
+  <text x="356" y="398" font-size="13" fill="#64748b">🔹</text>
+  <text x="380" y="398" font-size="13" fill="#94a3b8">____________________</text>
+  <text x="636" y="398" font-size="13" fill="#64748b">🔹</text>
+  <text x="660" y="398" font-size="13" fill="#94a3b8">________________________</text>
+  
+  <text x="76" y="428" font-size="13" fill="#64748b">🔹</text>
+  <text x="100" y="428" font-size="13" fill="#94a3b8">____________________</text>
+  <text x="356" y="428" font-size="13" fill="#64748b">🔹</text>
+  <text x="380" y="428" font-size="13" fill="#94a3b8">____________________</text>
+  <text x="636" y="428" font-size="13" fill="#64748b">🔹</text>
+  <text x="660" y="428" font-size="13" fill="#94a3b8">________________________</text>
+  
+  <!-- 底部 -->
+  <rect x="50" y="476" width="340" height="48" fill="#f0fdf4" stroke="#86efac" rx="6"/>
+  <text x="66" y="500" font-size="13" fill="#166534" font-weight="bold">✅ 今天深度区块完成率：____%</text>
+  
+  <rect x="410" y="476" width="340" height="48" fill="#f0f9ff" stroke="#bae6fd" rx="6"/>
+  <text x="426" y="500" font-size="12" fill="#0369a1">💡 完成率低于70% → 检查是否被干扰打断</text>
+  
+  <text x="400" y="560" font-size="11" fill="#94a3b8" text-anchor="middle">深度工作90分钟 ≈ 碎片化工作4小时。保护好你的深度区块。</text>
+</svg>

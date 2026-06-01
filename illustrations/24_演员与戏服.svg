@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  
+  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="sans-serif">演员与戏服——题型一变为什么就懵</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">知识是演员，题型是戏服。认识演员，别只看戏服。</text>
+  
+  <!-- 舞台上 -->
+  <rect x="60" y="80" width="680" height="200" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  
+  <!-- 舞台装饰 -->
+  <rect x="60" y="80" width="680" height="25" rx="12" fill="#334155"/>
+  <text x="400" y="96" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">🎭 考 试 舞 台</text>
+  
+  <!-- 中央演员 -->
+  <circle cx="400" cy="170" r="35" fill="#166534" stroke="#4ade80" stroke-width="2.5"/>
+  <text x="400" y="166" text-anchor="middle" fill="#4ade80" font-size="13" font-weight="bold" font-family="sans-serif">知识</text>
+  <text x="400" y="182" text-anchor="middle" fill="#4ade80" font-size="10" font-family="sans-serif">本体</text>
+  
+  <!-- 三套戏服 -->
+  <!-- 第一套: 选择题 -->
+  <rect x="120" y="135" width="65" height="70" rx="6" fill="#1e3a5f" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="152" y="158" text-anchor="middle" fill="#60a5fa" font-size="9" font-family="sans-serif">A B C D</text>
+  <text x="152" y="175" text-anchor="middle" fill="#60a5fa" font-size="9" font-family="sans-serif">选择题</text>
+  <text x="152" y="192" text-anchor="middle" fill="#93c5fd" font-size="7" font-family="sans-serif">戏服①</text>
+  
+  <!-- 第二套: 填空题 -->
+  <rect x="320" y="120" width="65" height="70" rx="6" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="352" y="143" text-anchor="middle" fill="#fbbf24" font-size="9" font-family="sans-serif">____</text>
+  <text x="352" y="160" text-anchor="middle" fill="#fbbf24" font-size="9" font-family="sans-serif">填空题</text>
+  <text x="352" y="177" text-anchor="middle" fill="#fcd34d" font-size="7" font-family="sans-serif">戏服②</text>
+  
+  <!-- 第三套: 解答题 -->
+  <rect x="500" y="130" width="65" height="70" rx="6" fill="#4c1d95" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="532" y="153" text-anchor="middle" fill="#c084fc" font-size="9" font-family="sans-serif">解：</text>
+  <text x="532" y="170" text-anchor="middle" fill="#c084fc" font-size="9" font-family="sans-serif">解答题</text>
+  <text x="532" y="187" text-anchor="middle" fill="#d8b4fe" font-size="7" font-family="sans-serif">戏服③</text>
+  
+  <!-- 观众席 -->
+  <text x="400" y="300" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">观众席上的学生：</text>
+  
+  <!-- 学生反应 -->
+  <!-- 学生A：认出戏服1 -->
+  <rect x="80" y="320" width="140" height="55" rx="8" fill="#064e3b" stroke="#22c55e" stroke-width="1"/>
+  <text x="150" y="343" text-anchor="middle" fill="#4ade80" font-size="9" font-family="sans-serif">看到戏服①</text>
+  <text x="150" y="360" text-anchor="middle" fill="#4ade80" font-size="9" font-family="sans-serif">🙂 "这个我会!"</text>
+  
+  <!-- 学生B：戏服2懵了 -->
+  <rect x="250" y="320" width="140" height="55" rx="8" fill="#7f1d1d" stroke="#ef4444" stroke-width="1"/>
+  <text x="320" y="343" text-anchor="middle" fill="#f87171" font-size="9" font-family="sans-serif">看到戏服②</text>
+  <text x="320" y="360" text-anchor="middle" fill="#f87171" font-size="9" font-family="sans-serif">😰 "这啥?"</text>
+  
+  <!-- 学生C：认出演员 -->
+  <rect x="420" y="320" width="140" height="55" rx="8" fill="#064e3b" stroke="#22c55e" stroke-width="2"/>
+  <text x="490" y="343" text-anchor="middle" fill="#4ade80" font-size="9" font-family="sans-serif">看穿戏服！</text>
+  <text x="490" y="360" text-anchor="middle" fill="#fbbf24" font-size="9" font-family="sans-serif">😎 "原来是同一个知识!"</text>
+  
+  <!-- 学生D：戏服3也懵 -->
+  <rect x="590" y="320" width="140" height="55" rx="8" fill="#7f1d1d" stroke="#ef4444" stroke-width="1"/>
+  <text x="660" y="343" text-anchor="middle" fill="#f87171" font-size="9" font-family="sans-serif">看到戏服③</text>
+  <text x="660" y="360" text-anchor="middle" fill="#f87171" font-size="9" font-family="sans-serif">😱 "完全陌生!"</text>
+  
+  <!-- 底部结论 -->
+  <rect x="130" y="395" width="540" height="38" rx="8" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="400" y="420" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="bold" font-family="sans-serif">同一份知识，变一套戏服就认不出来 → 你记的是戏服，不是演员</text>
+</svg>

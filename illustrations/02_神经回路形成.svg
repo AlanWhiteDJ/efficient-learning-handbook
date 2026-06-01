@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glowStrong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <marker id="arrowGold" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6" fill="#f59e0b"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0f172a"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.05">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="500" stroke="#f59e0b" stroke-width="0.5"/>
+  </g>
+
+  <!-- Neuron houses scattered -->
+  <!-- Neuron 1 -->
+  <g transform="translate(80,280)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="0" cy="0" r="14" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" opacity="0.7"/>
+    <circle cx="0" cy="0" r="6" fill="#3b82f6" opacity="0.6"/>
+    <line x1="22" y1="0" x2="48" y2="0" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+    <line x1="0" y1="22" x2="0" y2="42" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-16" y1="-16" x2="-34" y2="-34" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+    <text x="0" y="50" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="10">神经元</text>
+  </g>
+
+  <!-- Neuron 2 -->
+  <g transform="translate(220,180)">
+    <circle cx="0" cy="0" r="20" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" opacity="0.7"/>
+    <circle cx="0" cy="0" r="5" fill="#3b82f6" opacity="0.6"/>
+    <line x1="20" y1="0" x2="42" y2="0" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+    <line x1="0" y1="-20" x2="0" y2="-40" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- Neuron 3 -->
+  <g transform="translate(480,150)">
+    <circle cx="0" cy="0" r="18" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" opacity="0.7"/>
+    <circle cx="0" cy="0" r="5" fill="#3b82f6" opacity="0.6"/>
+    <line x1="18" y1="0" x2="40" y2="0" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+    <line x1="0" y1="18" x2="0" y2="38" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- Neuron 4 -->
+  <g transform="translate(640,320)">
+    <circle cx="0" cy="0" r="25" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" opacity="0.7"/>
+    <circle cx="0" cy="0" r="7" fill="#3b82f6" opacity="0.6"/>
+    <line x1="-25" y1="0" x2="-52" y2="0" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+    <line x1="0" y1="25" x2="0" y2="45" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+    <line x1="18" y1="-18" x2="36" y2="-36" stroke="#475569" stroke-width="1.5" opacity="0.6"/>
+    <text x="0" y="52" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="10">神经元</text>
+  </g>
+
+  <!-- Nerve fiber roads being built (construction theme) -->
+  <g filter="url(#glow)">
+    <path d="M102,280 Q160,260 220,180" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="8,4" opacity="0.7"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M250,178 Q350,155 480,150" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6,4" opacity="0.5"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M505,165 Q560,220 615,320" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6,10" opacity="0.4"/>
+  </g>
+
+  <!-- THE MAIN BRIGHT CIRCUIT -->
+  <g filter="url(#glowStrong)">
+    <path d="M105,300 Q300,360 500,168" fill="none" stroke="url(#goldGrad)" stroke-width="4" opacity="0.95"/>
+    <path d="M105,300 Q300,360 500,168" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.6" stroke-dasharray="3,12"/>
+  </g>
+
+  <!-- LTP Sign -->
+  <g transform="translate(310,250)" filter="url(#glowStrong)">
+    <rect x="-42" y="-22" width="84" height="30" rx="15" fill="#7c2d12" stroke="#f59e0b" stroke-width="2"/>
+    <text x="0" y="-1" text-anchor="middle" fill="#fef08a" font-family="sans-serif" font-size="15" font-weight="bold">LTP 🔥</text>
+  </g>
+
+  <!-- Icons along path -->
+  <g filter="url(#glow)">
+    <text x="160" y="290" font-size="14" fill="#fbbf24" opacity="0.8">🔨</text>
+    <text x="380" y="280" font-size="12" fill="#fbbf24" opacity="0.8">⚡</text>
+    <text x="300" y="220" font-size="10" fill="#fbbf24" opacity="0.6">🧬</text>
+  </g>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="55" fill="#1e293b" opacity="0.8"/>
+  <text x="400" y="20" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="12" letter-spacing="4">第2讲  ·  记忆的生物学基础</text>
+
+  <!-- Bottom text -->
+  <rect x="150" y="430" width="500" height="42" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="1" opacity="0.9"/>
+  <text x="400" y="457" text-anchor="middle" fill="#fef08a" font-family="sans-serif" font-size="18" font-weight="bold">记忆的物理本质是新神经回路的形成</text>
+
+  <!-- Synapse detail zoom -->
+  <g transform="translate(560,70)" filter="url(#glow)">
+    <rect x="0" y="0" width="100" height="60" rx="6" fill="none" stroke="#475569" stroke-width="1"/>
+    <circle cx="20" cy="30" r="8" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="70" cy="30" r="10" fill="none" stroke="#34d399" stroke-width="1.5"/>
+    <circle cx="35" cy="22" r="1.5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="38" cy="30" r="1.5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="33" cy="34" r="1.5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="41" cy="36" r="1.5" fill="#f59e0b" opacity="0.8"/>
+    <path d="M52,26 L62,26" fill="none" stroke="#f59e0b" stroke-width="1" marker-end="url(#arrowGold)"/>
+    <text x="55" y="55" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="8">突触传递</text>
+  </g>
+
+  <!-- Long-term potentiation label -->
+  <text x="625" y="155" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="11">
+    <tspan x="625" dy="0">长时程增强</tspan>
+    <tspan x="625" dy="15">Long-Term Potentiation</tspan>
+  </text>
+
+  <!-- Pathway labels -->
+  <text x="168" y="315" fill="#fbbf24" font-family="sans-serif" font-size="9" opacity="0.8">新回路→</text>
+  <text x="420" y="185" fill="#fbbf24" font-family="sans-serif" font-size="9" opacity="0.8">→新回路</text>
+
+  <!-- Stack of myelin wraps -->
+  <g transform="translate(60,150)" opacity="0.4">
+    <ellipse cx="0" cy="0" rx="16" ry="6" fill="none" stroke="#34d399" stroke-width="1"/>
+    <ellipse cx="0" cy="4" rx="16" ry="6" fill="none" stroke="#34d399" stroke-width="1"/>
+    <ellipse cx="0" cy="8" rx="16" ry="6" fill="none" stroke="#34d399" stroke-width="1"/>
+    <text x="0" y="28" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">髓鞘包裹</text>
+  </g>
+
+  <!-- Subtle DNA helix decoration -->
+  <g transform="translate(700,120)" opacity="0.15">
+    <path d="M0,0 Q10,20 0,40" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+    <path d="M10,0 Q0,20 10,40" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+    <path d="M0,20 Q-10,20 -15,10" fill="none" stroke="#f59e0b" stroke-width="1"/>
+  </g>
+</svg>

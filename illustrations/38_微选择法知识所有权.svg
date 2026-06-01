@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+  <rect width="800" height="550" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="topBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1e293b"/><stop offset="100%" stop-color="#0f172a"/></linearGradient>
+    <linearGradient id="botBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#064e3b"/><stop offset="100%" stop-color="#0f172a"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowGreen"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- ===== 上半：微选择 ===== -->
+  <rect x="0" y="0" width="800" height="260" fill="url(#topBg)"/>
+  <line x1="0" y1="260" x2="800" y2="260" stroke="#475569" stroke-width="1" stroke-dasharray="8,4"/>
+
+  <text x="400" y="25" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="sans-serif" letter-spacing="2">微 选 择 法</text>
+
+  <!-- 学生 -->
+  <g transform="translate(180, 170)" filter="url(#shadow)">
+    <!-- 身体 -->
+    <rect x="-20" y="-40" width="40" height="55" rx="8" fill="#3b82f6"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-55" r="18" fill="#fcd34d" opacity="0.9"/>
+    <!-- 眼睛 -->
+    <circle cx="-6" cy="-58" r="2.5" fill="#0f172a"/>
+    <circle cx="6" cy="-58" r="2.5" fill="#0f172a"/>
+    <!-- 微笑 -->
+    <path d="M-5,-48 Q0,-44 5,-48" fill="none" stroke="#0f172a" stroke-width="1"/>
+    <!-- 手臂指向 -->
+    <path d="M20,-30 L50,-50 Q55,-55 60,-55" fill="none" stroke="#fcd34d" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="60" cy="-55" r="4" fill="#fcd34d"/>
+  </g>
+
+  <!-- 选择手势：两个选项 -->
+  <!-- 数学 -->
+  <g transform="translate(300, 70)" filter="url(#shadow)">
+    <rect x="0" y="0" width="120" height="55" rx="12" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+    <text x="60" y="23" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="sans-serif">📐 数学</text>
+    <text x="60" y="42" text-anchor="middle" fill="#64748b" font-size="9" font-family="sans-serif">第4章习题</text>
+  </g>
+
+  <!-- 物理（被选中） -->
+  <g transform="translate(300, 140)" filter="url(#glow)">
+    <rect x="0" y="0" width="120" height="55" rx="12" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2.5"/>
+    <text x="60" y="23" text-anchor="middle" fill="#60a5fa" font-size="13" font-weight="bold" font-family="sans-serif">⚡ 物理</text>
+    <text x="60" y="42" text-anchor="middle" fill="#93c5fd" font-size="9" font-family="sans-serif">电磁学</text>
+    <!-- 选中标记 -->
+    <circle cx="105" cy="12" r="8" fill="#3b82f6"/>
+    <text x="105" y="17" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif">✓</text>
+  </g>
+
+  <!-- 气泡 -->
+  <g transform="translate(445, 85)">
+    <path d="M0,15 Q-5,-25 30,-50 L150,-50 Q190,-50 190,-20 Q190,10 150,10 L56,10 L45,30 Z" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="12" y="-18" fill="#fcd34d" font-size="14" font-weight="bold" font-family="sans-serif">🎯 我选择先做物理</text>
+    <text x="12" y="4" fill="#94a3b8" font-size="10" font-family="sans-serif">不是"应该"，而是"我选择"</text>
+  </g>
+
+  <!-- 主动选择的标注 -->
+  <g transform="translate(445, 155)">
+    <text x="0" y="0" fill="#f59e0b" font-size="10" font-family="sans-serif">💡 把"不得不"变成"我选择"</text>
+    <text x="0" y="18" fill="#94a3b8" font-size="9" font-family="sans-serif">微选择 = 哪怕只有一点点主动权</text>
+    <text x="0" y="33" fill="#94a3b8" font-size="9" font-family="sans-serif">也能大幅提升内在动力</text>
+  </g>
+
+  <!-- ===== 下半：知识所有权 ===== -->
+  <rect x="0" y="261" width="800" height="289" fill="url(#botBg)"/>
+
+  <text x="400" y="288" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="sans-serif" letter-spacing="2">知 识 所 有 权</text>
+
+  <!-- 发光种子 -->
+  <g transform="translate(200, 370)" filter="url(#glowGreen)">
+    <!-- 种子 -->
+    <ellipse cx="0" cy="0" rx="18" ry="25" fill="#34d399"/>
+    <ellipse cx="0" cy="-8" rx="10" ry="14" fill="#6ee7b7" opacity="0.6"/>
+    <!-- 发光根 -->
+    <path d="M-5,20 Q-10,35 -8,45" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"/>
+    <path d="M2,22 Q6,38 4,48" fill="none" stroke="#34d399" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M8,18 Q14,30 11,40" fill="none" stroke="#34d399" stroke-width="1" stroke-linecap="round"/>
+    <!-- 光环 -->
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#34d399" stroke-width="1" opacity="0.3"/>
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#34d399" stroke-width="0.5" opacity="0.15"/>
+  </g>
+
+  <!-- "个人项目"标签 -->
+  <g transform="translate(130, 420)" filter="url(#shadow)">
+    <rect x="0" y="0" width="180" height="30" rx="15" fill="#065f46" stroke="#34d399" stroke-width="1.5"/>
+    <text x="90" y="20" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="bold" font-family="sans-serif">🌱 个人项目：XXX 研究</text>
+  </g>
+
+  <!-- 周围元素 -->
+  <!-- 笔记 -->
+  <g transform="translate(350, 340)" filter="url(#shadow)">
+    <rect x="0" y="0" width="100" height="75" rx="3" fill="#fef3c7" stroke="#f59e0b" stroke-width="0.8"/>
+    <line x1="10" y1="18" x2="90" y2="18" stroke="#d97706" stroke-width="0.5"/>
+    <line x1="10" y1="30" x2="85" y2="30" stroke="#d97706" stroke-width="0.5"/>
+    <line x1="10" y1="42" x2="75" y2="42" stroke="#d97706" stroke-width="0.5"/>
+    <line x1="10" y1="54" x2="90" y2="54" stroke="#d97706" stroke-width="0.5"/>
+    <text x="50" y="12" text-anchor="middle" fill="#78350f" font-size="8" font-family="sans-serif">笔记</text>
+  </g>
+
+  <!-- 资料 -->
+  <g transform="translate(480, 360)" filter="url(#shadow)">
+    <rect x="0" y="0" width="70" height="50" rx="3" fill="#3b82f6" opacity="0.7"/>
+    <rect x="5" y="5" width="60" height="40" rx="1" fill="#1e3a5f"/>
+    <line x1="15" y1="18" x2="55" y2="18" stroke="#93c5fd" stroke-width="0.5"/>
+    <line x1="15" y1="28" x2="50" y2="28" stroke="#93c5fd" stroke-width="0.5"/>
+    <line x1="15" y1="38" x2="55" y2="38" stroke="#93c5fd" stroke-width="0.5"/>
+    <text x="35" y="62" text-anchor="middle" fill="#60a5fa" font-size="8" font-family="sans-serif">资料</text>
+  </g>
+
+  <!-- 放大镜 -->
+  <g transform="translate(550, 320)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#f59e0b" stroke-width="3"/>
+    <circle cx="0" cy="0" r="14" fill="#3b82f6" opacity="0.15"/>
+    <line x1="13" y1="13" x2="25" y2="25" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- 连接线 -->
+  <path d="M250,370 Q300,340 350,340" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  <path d="M250,380 Q420,370 480,365" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  <path d="M250,385 Q400,390 550,338" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+
+  <!-- 底部标注 -->
+  <rect x="150" y="490" width="500" height="40" rx="20" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+  <text x="400" y="516" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">选择感 = 所有权 · 当学习变成"我的项目"时，动力源源不断</text>
+</svg>

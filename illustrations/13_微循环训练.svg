@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="lensGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <clipPath id="lensClip">
+      <circle cx="400" cy="205" r="75"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0f172a"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="48" fill="#1e293b" opacity="0.85"/>
+  <text x="400" y="18" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="12" letter-spacing="4">第13讲  ·  微循环训练</text>
+
+  <!-- === Large equation in background (slightly faded) === -->
+  <g opacity="0.12">
+    <text x="100" y="180" font-family="sans-serif" font-size="36" fill="#cbd5e1">3(x - 2) + 4(2x + 1) = 5(x + 3) - 8</text>
+    <text x="150" y="230" font-family="sans-serif" font-size="30" fill="#cbd5e1">3x - 6 + 8x + 4 = 5x + 15 - 8</text>
+    <text x="180" y="275" font-family="sans-serif" font-size="28" fill="#cbd5e1">11x - 2 = 5x + 7</text>
+    <text x="220" y="315" font-family="sans-serif" font-size="26" fill="#fbbf24">6x = 9</text>
+    <text x="280" y="350" font-family="sans-serif" font-size="24" fill="#fbbf24">x = 1.5</text>
+  </g>
+
+  <!-- === Main: Magnifying Glass over "去括号" step === -->
+  <g filter="url(#lensGlow)">
+    <!-- Lens outer ring -->
+    <circle cx="400" cy="205" r="85" fill="#0f172a" stroke="#f59e0b" stroke-width="3.5" opacity="0.95"/>
+
+    <!-- Lens handle -->
+    <rect x="470" y="260" width="14" height="90" rx="7" fill="#475569" stroke="#64748b" stroke-width="1.5" transform="rotate(35, 477, 305)"/>
+    <rect x="475" y="312" width="4" height="40" rx="2" fill="#64748b" transform="rotate(35, 477, 332)"/>
+
+    <!-- Lens glass effect -->
+    <circle cx="400" cy="205" r="78" fill="#0f172a" opacity="0.3"/>
+    <circle cx="390" cy="195" r="20" fill="#fbbf24" opacity="0.06"/>
+  </g>
+
+  <!-- === Zoomed content inside lens === -->
+  <g clip-path="url(#lensClip)">
+    <!-- Highlight background -->
+    <rect x="325" y="130" width="150" height="150" fill="#1e293b"/>
+
+    <!-- The focused equation: 3(x-2) expansion highlighted -->
+    <text x="355" y="170" font-family="sans-serif" font-size="22" fill="#cbd5e1">3<tspan fill="#fbbf24" font-weight="bold">(</tspan>x - 2<tspan fill="#fbbf24" font-weight="bold">)</tspan></text>
+
+    <!-- Expansion arrows -->
+    <g transform="translate(365,180)">
+      <path d="M0,0 L45,0" stroke="#f59e0b" stroke-width="2"/>
+      <text x="22" y="-5" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="10">展开→</text>
+    </g>
+
+    <!-- Result of expansion -->
+    <text x="378" y="210" font-family="sans-serif" font-size="20" fill="#34d399" font-weight="bold">3x - 6</text>
+
+    <!-- Highlight the parentheses with glow -->
+    <text x="375" y="240" font-family="sans-serif" font-size="11" fill="#f59e0b">🔍「去括号」环节</text>
+
+    <!-- Mini annotation -->
+    <text x="395" y="260" font-family="sans-serif" font-size="9" fill="#94a3b8">分配律：a(b+c)=ab+ac</text>
+  </g>
+
+  <!-- Label pointing to lens -->
+  <text x="280" y="130" font-family="sans-serif" font-size="11" fill="#f59e0b" font-weight="bold">🎯 聚焦薄弱点 →</text>
+
+  <!-- === Right side: Calendar (14-day plan) === -->
+  <g transform="translate(560,120)">
+    <!-- Calendar frame -->
+    <rect x="0" y="0" width="200" height="270" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+
+    <!-- Calendar header -->
+    <rect x="0" y="0" width="200" height="45" rx="10" fill="#1e3a5f"/>
+    <rect x="0" y="30" width="200" height="15" fill="#1e3a5f"/>
+    <text x="100" y="22" text-anchor="middle" fill="#93c5fd" font-family="sans-serif" font-size="13" font-weight="bold">📅 微循环训练</text>
+    <text x="100" y="38" text-anchor="middle" fill="#60a5fa" font-family="sans-serif" font-size="9">每天 3 分钟 × 14 天</text>
+
+    <!-- Calendar grid: 7 columns x 2 rows -->
+    <!-- Day headers -->
+    <g transform="translate(10,52)">
+      <text x="9" y="0" fill="#64748b" font-family="sans-serif" font-size="7" text-anchor="middle">一</text>
+      <text x="35" y="0" fill="#64748b" font-family="sans-serif" font-size="7" text-anchor="middle">二</text>
+      <text x="61" y="0" fill="#64748b" font-family="sans-serif" font-size="7" text-anchor="middle">三</text>
+      <text x="87" y="0" fill="#64748b" font-family="sans-serif" font-size="7" text-anchor="middle">四</text>
+      <text x="113" y="0" fill="#64748b" font-family="sans-serif" font-size="7" text-anchor="middle">五</text>
+      <text x="139" y="0" fill="#64748b" font-family="sans-serif" font-size="7" text-anchor="middle">六</text>
+      <text x="165" y="0" fill="#64748b" font-family="sans-serif" font-size="7" text-anchor="middle">日</text>
+    </g>
+
+    <!-- Week 1: Day 1-7 filled with checkmarks -->
+    <g transform="translate(10,58)">
+      <!-- Day 1 -->
+      <rect x="0" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.2" stroke="#34d399" stroke-width="0.8"/>
+      <text x="11" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">1</text>
+      <!-- Day 2 -->
+      <rect x="26" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.2" stroke="#34d399" stroke-width="0.8"/>
+      <text x="37" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">2</text>
+      <!-- Day 3 -->
+      <rect x="52" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.25" stroke="#34d399" stroke-width="0.8"/>
+      <text x="63" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">3</text>
+      <!-- Day 4 -->
+      <rect x="78" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.3" stroke="#34d399" stroke-width="0.8"/>
+      <text x="89" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">4</text>
+      <!-- Day 5 -->
+      <rect x="104" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.35" stroke="#34d399" stroke-width="0.8"/>
+      <text x="115" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">5</text>
+      <!-- Day 6 -->
+      <rect x="130" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.4" stroke="#34d399" stroke-width="0.8"/>
+      <text x="141" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">6</text>
+      <!-- Day 7 (highlight: one week mark) -->
+      <rect x="156" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.45" stroke="#34d399" stroke-width="1.2"/>
+      <text x="167" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">7</text>
+      <text x="167" y="28" text-anchor="middle" fill="#6ee7b7" font-family="sans-serif" font-size="6">1周√</text>
+    </g>
+
+    <!-- Week 2: Day 8-14 -->
+    <g transform="translate(10,90)">
+      <rect x="0" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.5" stroke="#34d399" stroke-width="0.8"/>
+      <text x="11" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">8</text>
+      <rect x="26" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.55" stroke="#34d399" stroke-width="0.8"/>
+      <text x="37" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">9</text>
+      <rect x="52" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.6" stroke="#34d399" stroke-width="0.8"/>
+      <text x="63" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">10</text>
+      <rect x="78" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.65" stroke="#34d399" stroke-width="0.8"/>
+      <text x="89" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">11</text>
+      <rect x="104" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.7" stroke="#34d399" stroke-width="0.8"/>
+      <text x="115" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">12</text>
+      <rect x="130" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.8" stroke="#34d399" stroke-width="0.8"/>
+      <text x="141" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="8">13</text>
+      <!-- Day 14: Milestone -->
+      <rect x="156" y="0" width="22" height="22" rx="4" fill="#34d399" opacity="0.9" stroke="#6ee7b7" stroke-width="1.5"/>
+      <text x="167" y="15" text-anchor="middle" fill="#6ee7b7" font-family="sans-serif" font-size="8" font-weight="bold">14</text>
+    </g>
+
+    <!-- Progress bar -->
+    <g transform="translate(10,142)">
+      <rect x="0" y="0" width="180" height="8" rx="4" fill="#1e293b" stroke="#475569" stroke-width="0.8"/>
+      <rect x="0" y="0" width="178" height="8" rx="4" fill="#34d399" opacity="0.7"/>
+      <text x="178" y="-5" text-anchor="end" fill="#6ee7b7" font-family="sans-serif" font-size="8">99%</text>
+    </g>
+
+    <!-- Mini celebration -->
+    <g filter="url(#glow)">
+      <text x="100" y="175" text-anchor="middle" font-size="28">🎉</text>
+    </g>
+
+    <!-- Flag: Done! -->
+    <g transform="translate(158,168)">
+      <text font-size="20" fill="#f59e0b">🚩</text>
+    </g>
+
+    <!-- Done text -->
+    <text x="100" y="205" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">搞定！</text>
+    <text x="100" y="223" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="10">换下一个薄弱点 →</text>
+
+    <!-- Arrow to next -->
+    <text x="100" y="248" text-anchor="middle" fill="#f59e0b" font-size="16">⬇️</text>
+    <text x="100" y="262" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="8">新一轮微循环</text>
+  </g>
+
+  <!-- === Left side: Small explanatory note === -->
+  <g transform="translate(40,370)">
+    <rect x="0" y="0" width="300" height="90" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="1"/>
+
+    <text x="20" y="22" fill="#93c5fd" font-family="sans-serif" font-size="11" font-weight="bold">🔬 微循环训练法</text>
+
+    <text x="20" y="44" fill="#94a3b8" font-family="sans-serif" font-size="10">
+      <tspan x="20" dy="0">1. 找到一道题里的</tspan>
+      <tspan fill="#fbbf24" font-weight="bold">一个薄弱环节</tspan>
+    </text>
+    <text x="20" y="64" fill="#94a3b8" font-family="sans-serif" font-size="10">
+      <tspan x="20" dy="0">2. 每天只练</tspan>
+      <tspan fill="#34d399" font-weight="bold">3分钟</tspan>
+      <tspan>，坚持</tspan>
+      <tspan fill="#34d399" font-weight="bold">14天</tspan>
+    </text>
+    <text x="20" y="84" fill="#94a3b8" font-family="sans-serif" font-size="10">3. 攻克一个，再攻下一个</text>
+  </g>
+
+  <!-- === Bottom tagline === -->
+  <rect x="120" y="450" width="560" height="38" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="400" y="474" text-anchor="middle" fill="#fef08a" font-family="sans-serif" font-size="15" font-weight="bold">🏗️ 把大知识拆成小块，每天攻克一点——积微成著</text>
+</svg>

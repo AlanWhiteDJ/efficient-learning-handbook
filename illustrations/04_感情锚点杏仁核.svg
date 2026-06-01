@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glowStrong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <linearGradient id="fireGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="550" fill="#0f172a"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="800" height="48" fill="#1e293b" opacity="0.85"/>
+  <text x="400" y="18" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="11" letter-spacing="4">第4讲  ·  感情锚点法</text>
+
+  <!-- === LEFT: Plain formula === -->
+  <g transform="translate(30,80)">
+    <text x="0" y="0" fill="#64748b" font-family="sans-serif" font-size="11">输入 →</text>
+
+    <!-- Plain formula symbol - boring -->
+    <rect x="75" y="-30" width="100" height="40" rx="5" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+    <text x="125" y="-5" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">f(x)=ax²</text>
+
+    <!-- Arrow to amygdala -->
+    <path d="M180,-10 Q220,-10 230,-10" fill="none" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="205" y="-18" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="8">→</text>
+  </g>
+
+  <!-- === CENTER: Amygdala (almond-shaped, fire/lightning) === -->
+  <g transform="translate(290,70)" filter="url(#glow)">
+    <!-- Almond shape -->
+    <ellipse cx="0" cy="0" rx="38" ry="55" fill="#3b1212" stroke="url(#fireGrad)" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="30" ry="48" fill="none" stroke="#ef4444" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- Lightning bolt inside -->
+    <path d="M-5,-40 L0,-15 L-8,-15 L3,25 L-3,0 L5,0 Z" fill="#fbbf24" opacity="0.9"/>
+    <!-- Small fire sparks -->
+    <circle cx="15" cy="-35" r="2" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="-18" cy="-20" r="1.5" fill="#ef4444" opacity="0.7"/>
+    <circle cx="12" cy="30" r="2.5" fill="#f59e0b" opacity="0.6"/>
+    <circle cx="-14" cy="15" r="1.5" fill="#fbbf24" opacity="0.8"/>
+
+    <text x="0" y="75" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="11" font-weight="bold">杏仁核</text>
+    <text x="0" y="90" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="8">Amygdala</text>
+  </g>
+
+  <!-- === Emotional label tags being applied === -->
+  <g transform="translate(370,50)" filter="url(#glowStrong)">
+    <!-- Tag 1 -->
+    <rect x="0" y="0" width="75" height="22" rx="11" fill="#b91c1c" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="37" y="15" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="10" font-weight="bold">🏷️ 情绪标签</text>
+
+    <!-- Tag 2 -->
+    <rect x="10" y="30" width="90" height="22" rx="11" fill="#7c2d12" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="55" y="45" text-anchor="middle" fill="#fde68a" font-family="sans-serif" font-size="9">🔥 强烈情感标记</text>
+  </g>
+
+  <!-- === Formula after emotional labeling (now shiny!) === -->
+  <g transform="translate(370,100)" filter="url(#glow)">
+    <rect x="0" y="0" width="110" height="40" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="2.5"/>
+    <text x="55" y="12" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="18" font-weight="bold">f(x)=ax²</text>
+    <text x="55" y="28" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="9">✨ 记忆增强!</text>
+
+    <!-- Sparkles -->
+    <text x="-12" y="-10" font-size="12" fill="#fbbf24" opacity="0.9">✦</text>
+    <text x="115" y="-5" font-size="10" fill="#f59e0b" opacity="0.8">✧</text>
+    <text x="105" y="30" font-size="8" fill="#fbbf24" opacity="0.7">✦</text>
+  </g>
+
+  <!-- === RIGHT: Hippocampus security gate === -->
+  <g transform="translate(530,70)">
+    <!-- Gate arch -->
+    <rect x="0" y="5" width="120" height="65" rx="5" fill="#0f2a1a" stroke="#34d399" stroke-width="2.5"/>
+    <path d="M20,70 L20,30 A40,35 0 0,1 100,30 L100,70" fill="none" stroke="#34d399" stroke-width="2.5"/>
+
+    <!-- Gate scanner beam -->
+    <line x1="60" y1="20" x2="60" y2="55" stroke="#34d399" stroke-width="1.5" opacity="0.6" stroke-dasharray="2,4"/>
+    <text x="60" y="15" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="9">✅ 通关</text>
+
+    <!-- Inside hippocampus representation -->
+    <rect x="15" y="40" width="90" height="22" rx="4" fill="#064e3b" stroke="#34d399" stroke-width="1"/>
+    <text x="60" y="55" text-anchor="middle" fill="#6ee7b7" font-family="sans-serif" font-size="9">海马体安检</text>
+
+    <!-- Check mark -->
+    <text x="75" y="82" font-size="18" fill="#34d399">✓</text>
+    <text x="60" y="98" text-anchor="middle" fill="#34d399" font-family="sans-serif" font-size="10" font-weight="bold">→ 长期记忆</text>
+  </g>
+
+  <!-- Arrow from shiny formula to gate -->
+  <g filter="url(#glow)">
+    <path d="M485,120 Q505,100 530,95" fill="none" stroke="#34d399" stroke-width="2"/>
+  </g>
+
+  <!-- === BOTTOM LEFT: Homophone anchoring example === -->
+  <g transform="translate(30,210)">
+    <rect x="0" y="0" width="340" height="130" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+    <rect x="0" y="0" width="340" height="30" rx="10" fill="#1e3a5f"/>
+    <rect x="0" y="15" width="340" height="15" fill="#1e3a5f"/>
+    <text x="170" y="20" text-anchor="middle" fill="#60a5fa" font-family="sans-serif" font-size="13" font-weight="bold">📎 谐音锚定示例</text>
+
+    <text x="25" y="55" fill="#94a3b8" font-family="sans-serif" font-size="12">
+      <tspan x="25" dy="0">"氧化铜" → 想想它真的在</tspan>
+      <tspan x="25" dy="0" font-weight="bold" fill="#fbbf24">"痒"</tspan>
+      <tspan fill="#94a3b8">，因为它</tspan>
+      <tspan font-weight="bold" fill="#fbbf24">"化"</tspan>
+      <tspan fill="#94a3b8">合了氧</tspan>
+    </text>
+
+    <text x="25" y="85" fill="#64748b" font-family="sans-serif" font-size="11">
+      <tspan x="25" dy="0">"戊二醛" → 一个</tspan>
+      <tspan font-weight="bold" fill="#34d399">"五"</tspan>
+      <tspan fill="#64748b">岁小孩遇上二</tspan>
+      <tspan font-weight="bold" fill="#34d399">"二"</tspan>
+      <tspan fill="#64748b">醛(全)新世界</tspan>
+    </text>
+
+    <text x="25" y="115" fill="#64748b" font-family="sans-serif" font-size="10" font-style="italic">→ 把抽象符号连接到具体画面/故事</text>
+  </g>
+
+  <!-- === BOTTOM RIGHT: Flow summary === -->
+  <g transform="translate(400,210)">
+    <rect x="0" y="0" width="345" height="130" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+    <rect x="0" y="0" width="345" height="30" rx="10" fill="#422006"/>
+    <rect x="0" y="15" width="345" height="15" fill="#422006"/>
+    <text x="172" y="20" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">🧠 感情锚点工作流程</text>
+
+    <!-- Flow steps -->
+    <g transform="translate(25,50)">
+      <rect x="0" y="0" width="70" height="24" rx="6" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1"/>
+      <text x="35" y="16" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="9">信息输入</text>
+      <text x="38" y="50" text-anchor="middle" fill="#475569" font-size="14">⬇</text>
+
+      <rect x="85" y="0" width="70" height="24" rx="6" fill="#3b1212" stroke="#ef4444" stroke-width="1"/>
+      <text x="120" y="16" text-anchor="middle" fill="#fca5a5" font-family="sans-serif" font-size="9">杏仁核激活</text>
+
+      <rect x="170" y="0" width="70" height="24" rx="6" fill="#7c2d12" stroke="#f59e0b" stroke-width="1"/>
+      <text x="205" y="16" text-anchor="middle" fill="#fde68a" font-family="sans-serif" font-size="9">情绪绑定</text>
+
+      <text x="290" y="15" text-anchor="middle" fill="#475569" font-size="14">⬇</text>
+
+      <rect x="245" y="0" width="70" height="24" rx="6" fill="#0f2a1a" stroke="#34d399" stroke-width="1"/>
+      <text x="280" y="16" text-anchor="middle" fill="#6ee7b7" font-family="sans-serif" font-size="9">海马体长存</text>
+    </g>
+  </g>
+
+  <!-- === Bottom decoration: neuron sparks === -->
+  <g transform="translate(0,370)" opacity="0.15">
+    <circle cx="100" cy="30" r="3" fill="#f59e0b"/>
+    <circle cx="200" cy="10" r="2" fill="#3b82f6"/>
+    <circle cx="350" cy="35" r="2.5" fill="#34d399"/>
+    <circle cx="500" cy="15" r="2" fill="#f59e0b"/>
+    <circle cx="650" cy="30" r="3" fill="#3b82f6"/>
+    <circle cx="750" cy="20" r="1.5" fill="#34d399"/>
+    <line x1="100" y1="30" x2="200" y2="10" stroke="#475569" stroke-width="0.5"/>
+    <line x1="200" y1="10" x2="350" y2="35" stroke="#475569" stroke-width="0.5"/>
+    <line x1="350" y1="35" x2="500" y2="15" stroke="#475569" stroke-width="0.5"/>
+    <line x1="500" y1="15" x2="650" y2="30" stroke="#475569" stroke-width="0.5"/>
+    <line x1="650" y1="30" x2="750" y2="20" stroke="#475569" stroke-width="0.5"/>
+  </g>
+
+  <!-- Citation / footer -->
+  <text x="400" y="410" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="10">感情不光是"感觉"，更是记忆的催化剂 —— 杏仁核是情绪的"记忆开关"</text>
+
+  <!-- Bottom tagline -->
+  <rect x="200" y="420" width="400" height="35" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="1" opacity="0.85"/>
+  <text x="400" y="443" text-anchor="middle" fill="#fef08a" font-family="sans-serif" font-size="15" font-weight="bold">给知识贴一张情绪标签，记忆就不容易丢</text>
+</svg>

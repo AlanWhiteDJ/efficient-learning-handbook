@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+  <rect width="800" height="550" fill="#0f172a"/>
+  <!-- 标题 -->
+  <text x="400" y="32" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">题目翻译法 · 反向找茬法</text>
+  <line x1="280" y1="40" x2="520" y2="40" stroke="#f59e0b" stroke-width="1" opacity="0.4"/>
+
+  <!-- ===== 上半：题目翻译法 ===== -->
+  <text x="400" y="62" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#3b82f6">题目翻译法</text>
+
+  <!-- 原题 -->
+  <rect x="160" y="78" width="480" height="55" rx="8" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="180" y="99" font-family="sans-serif" font-size="10" fill="#64748b">原题：</text>
+  <text x="180" y="118" font-family="sans-serif" font-size="12" fill="#93c5fd">"一个质量为 m 的物体在倾角为 θ 的斜面上…"</text>
+
+  <!-- 翻译箭头 -->
+  <polygon points="400,142 410,162 390,162" fill="#f59e0b"/>
+  <rect x="350" y="163" width="100" height="22" rx="4" fill="#78350f"/>
+  <text x="400" y="179" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fcd34d">翻译成 ↓</text>
+
+  <!-- 翻译结果 -->
+  <rect x="220" y="195" width="360" height="45" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+  <text x="400" y="216" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#6ee7b7">"一个东西在斜坡上往下滑"</text>
+  <text x="400" y="233" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#34d399">问：它受什么力？加速度多大？</text>
+
+  <!-- 分隔线 -->
+  <line x1="60" y1="265" x2="740" y2="265" stroke="#334155" stroke-width="1"/>
+
+  <!-- ===== 下半：反向找茬法 ===== -->
+  <text x="400" y="290" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#f59e0b">反向找茬法</text>
+
+  <!-- 条件卡片 -->
+  <rect x="80" y="310" width="180" height="80" rx="8" fill="#1e293b" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="170" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fca5a5">改极端值</text>
+  <text x="170" y="352" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#94a3b8">θ → 90°（竖直）？</text>
+  <text x="170" y="368" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#94a3b8">m → 极大/极小？</text>
+  <text x="170" y="384" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#64748b">解法变了吗？</text>
+
+  <rect x="290" y="310" width="180" height="80" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="380" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fcd34d">去掉条件</text>
+  <text x="380" y="352" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#94a3b8">去掉"光滑"？</text>
+  <text x="380" y="368" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#94a3b8">去掉"初速为0"？</text>
+  <text x="380" y="384" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#64748b">解法变了吗？</text>
+
+  <rect x="500" y="310" width="180" height="80" rx="8" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="590" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#c4b5fd">反着问</text>
+  <text x="590" y="352" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#94a3b8">给加速度→</text>
+  <text x="590" y="368" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#94a3b8">求斜面角度？</text>
+  <text x="590" y="384" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#64748b">解法变了吗？</text>
+
+  <!-- 底部总结 -->
+  <rect x="160" y="420" width="480" height="55" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="400" y="445" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fcd34d">💡 核心：通过翻译去掉包装 → 通过找茬挖掘本质</text>
+  <text x="400" y="465" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">翻译：剥离专业术语的伪装 | 找茬：测试解法的适用范围</text>
+
+  <!-- 编号 -->
+  <circle cx="60" cy="26" r="16" fill="#f59e0b" opacity="0.3"/>
+  <text x="60" y="32" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f59e0b">23</text>
+</svg>

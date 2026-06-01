@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
+  </defs>
+  <rect width="800" height="430" fill="url(#bg)"/>
+  
+  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="sans-serif">邓宁-克鲁格效应——不知道自己不知道</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">最危险的盲区：不是你不会的知识，而是你不知道自己不会的知识</text>
+  
+  <!-- 坐标轴 -->
+  <line x1="60" y1="340" x2="720" y2="340" stroke="#475569" stroke-width="1.5"/>
+  <line x1="60" y1="340" x2="60" y2="60" stroke="#475569" stroke-width="1.5"/>
+  <text x="390" y="362" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">能力/知识水平 →</text>
+  <text x="42" y="210" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif" transform="rotate(-90,42,210)">自信程度</text>
+  
+  <!-- 邓宁克鲁格曲线 -->
+  <path d="M70,310 Q120,100 180,90 Q240,85 300,110 Q380,240 450,280 Q500,295 560,300 Q620,310 700,320" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  
+  <!-- 曲线下的阶段标注 -->
+  <!-- 愚昧之山 -->
+  <rect x="100" y="55" width="150" height="25" rx="6" fill="#7f1d1d" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="175" y="72" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold" font-family="sans-serif">🏔 愚昧之山</text>
+  
+  <text x="175" y="95" text-anchor="middle" fill="#f87171" font-size="9" font-family="sans-serif">"这太简单了!"</text>
+  <text x="175" y="110" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="sans-serif">极度自信·一无所知</text>
+  
+  <!-- 绝望之谷 -->
+  <rect x="270" y="240" width="120" height="25" rx="6" fill="#1e3a5f" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="330" y="257" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="bold" font-family="sans-serif">🕳 绝望之谷</text>
+  
+  <text x="330" y="278" text-anchor="middle" fill="#60a5fa" font-size="9" font-family="sans-serif">"我什么都不会…"</text>
+  <text x="330" y="293" text-anchor="middle" fill="#93c5fd" font-size="9" font-family="sans-serif">发现越多不懂的越多</text>
+  
+  <!-- 开悟之坡 -->
+  <rect x="480" y="260" width="200" height="25" rx="6" fill="#166534" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="580" y="277" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold" font-family="sans-serif">📈 开悟之坡</text>
+  
+  <text x="580" y="298" text-anchor="middle" fill="#86efac" font-size="9" font-family="sans-serif">稳步成长·知道自己的边界</text>
+  <text x="580" y="313" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">不卑不亢</text>
+  
+  <!-- 危险区域标注 -->
+  <rect x="70" y="355" width="200" height="55" rx="8" fill="#7f1d1d" stroke="#ef4444" stroke-width="1"/>
+  <text x="170" y="378" text-anchor="middle" fill="#f87171" font-size="11" font-weight="bold" font-family="sans-serif">⚠ 最危险的阶段</text>
+  <text x="170" y="398" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="sans-serif">你不知道自己不知道 → 从不复习</text>
+  
+  <rect x="480" y="355" width="200" height="55" rx="8" fill="#166534" stroke="#22c55e" stroke-width="1"/>
+  <text x="580" y="378" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold" font-family="sans-serif">✅ 学习该有的位置</text>
+  <text x="580" y="398" text-anchor="middle" fill="#86efac" font-size="10" font-family="sans-serif">知道自己不知道，才能去知道</text>
+</svg>
