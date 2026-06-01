@@ -221,7 +221,7 @@ function buildToc(bookText) {
     
     for (let i = 0; i < lines.length; i++) {
         const t = lines[i].trim();
-        const chM = t.match(/^第(\d+)章\s+(.+)$/);
+        const chM = t.match(/^(?:#\s*)?第(\d+)章\s+(.+)$/);
         if (chM) {
             const num = parseInt(chM[1]);
             const partEntry = partMap[num] || '';
@@ -283,7 +283,7 @@ function buildSidebar(bookText) {
     
     for (let i = 0; i < lines.length; i++) {
         const t = lines[i].trim();
-        const chM = t.match(/^第(\d+)章\s+(.+)$/);
+        const chM = t.match(/^(?:#{1,3}\s*)?第(\d+)章\s+(.+)$/);
         if (chM) { flushCh(); ch = parseInt(chM[1]); chTitle = chM[2]; subs = []; continue; }
         const subM = t.match(/^([一二三四五六七八九十])、(.+)$/);
         if (subM && ch > 0) { subs.push({ n: subs.length + 1, text: subM[1] + '、' + subM[2].substring(0, 18) }); }
@@ -530,11 +530,15 @@ function mdToHtmlBook(mdText) {
             let text = hMatch[2];
             
             if (level === 1) {
-                // Book title
-                const cls = firstH1 ? ' class="no-break"' : '';
-                firstH1 = false;
-                const ch21_tag = text.startsWith('第21章') ? ' id="ch21"' : '';
-                htmlLines.push(`<h1${cls}${ch21_tag}>${processInline(text)}</h1>`);
+                // Book title or chapter with # prefix
+                const chNumH1 = isChapterTitle(text.trim());
+                if (chNumH1 > 0) {
+                    emitChapterH1(chNumH1, text.trim());
+                } else {
+                    const cls = firstH1 ? ' class="no-break"' : '';
+                    firstH1 = false;
+                    htmlLines.push(`<h1${cls}>${processInline(text)}</h1>`);
+                }
             } else if (level === 2) {
                 const textClean = text.trim();
                 const chNum = isChapterTitle(textClean);
