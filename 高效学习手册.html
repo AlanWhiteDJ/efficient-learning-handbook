@@ -128,22 +128,54 @@ body { margin: 0; padding: 0; }
     left: 0; top: 0; bottom: 0;
     width: 250px;
     overflow-y: auto;
+    overflow-x: hidden;
     background: #1a2332;
     color: #c8d6e5;
     font-family: SimHei, 'Microsoft YaHei', sans-serif;
     font-size: 11pt;
-    padding: 12px 0;
+    padding: 0;
     z-index: 100;
     scrollbar-width: thin;
     scrollbar-color: #3a4f6a #1a2332;
+    transition: width 0.25s ease, transform 0.25s ease;
+}
+/* ---- 侧边栏折叠按钮 ---- */
+#sidebar-toggle {
+    position: absolute;
+    right: 8px; top: 8px;
+    width: 32px; height: 32px;
+    border: none;
+    background: none;
+    color: #8395a7;
+    font-size: 18pt;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.15s, background 0.15s;
+    z-index: 10;
+    line-height: 1;
+    padding: 0;
+}
+#sidebar-toggle:hover {
+    color: #fff;
+    background: #253548;
+}
+#sidebar-header {
+    padding: 12px 36px 8px 12px;
+    border-bottom: 1px solid #2b5797;
+    margin-bottom: 10px;
+    min-height: 24px;
 }
 #sidebar h3 {
     color: #fff;
     font-size: 13pt;
     text-align: center;
-    margin: 0 0 10px 0;
-    padding: 0 12px 8px 12px;
-    border-bottom: 1px solid #2b5797;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
 }
 #sidebar .nav-chapter {
     display: block;
@@ -151,6 +183,8 @@ body { margin: 0; padding: 0; }
     text-decoration: none;
     padding: 3px 14px;
     border-left: 3px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
 }
 #sidebar .nav-chapter:hover {
     background: #253548;
@@ -164,6 +198,8 @@ body { margin: 0; padding: 0; }
     padding: 2px 28px;
     font-size: 10pt;
     border-left: 3px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
 }
 #sidebar .nav-sub:hover {
     background: #1e2d3d;
@@ -177,15 +213,91 @@ body { margin: 0; padding: 0; }
     padding: 8px 14px 2px 14px;
     margin-top: 6px;
     border-top: 1px solid #253548;
+    white-space: nowrap;
+    overflow: hidden;
 }
+/* ---- 折叠状态 ---- */
+body.sidebar-collapsed #sidebar {
+    width: 44px;
+}
+body.sidebar-collapsed #sidebar h3,
+body.sidebar-collapsed #sidebar .nav-chapter,
+body.sidebar-collapsed #sidebar .nav-sub,
+body.sidebar-collapsed #sidebar .nav-part {
+    opacity: 0;
+    pointer-events: none;
+}
+body.sidebar-collapsed #sidebar-toggle {
+    right: 6px;
+}
+body.sidebar-collapsed #sidebar:hover {
+    width: 250px;
+    box-shadow: 2px 0 16px rgba(0,0,0,0.4);
+}
+body.sidebar-collapsed #sidebar:hover h3,
+body.sidebar-collapsed #sidebar:hover .nav-chapter,
+body.sidebar-collapsed #sidebar:hover .nav-sub,
+body.sidebar-collapsed #sidebar:hover .nav-part {
+    opacity: 1;
+    pointer-events: auto;
+}
+/* 移动端：点击外部关闭 */
+body.sidebar-collapsed #sidebar:not(:hover) #sidebar-header {
+    border-bottom-color: transparent;
+}
+/* ---- 主内容区 ---- */
 #main-content {
     margin-left: 260px;
     padding: 16px 24px;
     max-width: 900px;
+    transition: margin-left 0.25s ease;
+}
+body.sidebar-collapsed #main-content {
+    margin-left: 54px;
 }
 @media print {
     #sidebar { display: none; }
     #main-content { margin-left: 0; }
+}
+/* 移动端响应式 */
+@media (max-width: 768px) {
+    #sidebar {
+        width: 280px;
+        transform: translateX(-100%);
+    }
+    body.sidebar-collapsed #sidebar {
+        width: 280px;
+        transform: translateX(0);
+        box-shadow: 4px 0 24px rgba(0,0,0,0.5);
+    }
+    body.sidebar-collapsed #sidebar h3,
+    body.sidebar-collapsed #sidebar .nav-chapter,
+    body.sidebar-collapsed #sidebar .nav-sub,
+    body.sidebar-collapsed #sidebar .nav-part {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    body.sidebar-collapsed #sidebar:hover {
+        width: 280px;
+    }
+    #main-content {
+        margin-left: 0;
+        padding: 12px 12px;
+    }
+    body.sidebar-collapsed #main-content {
+        margin-left: 0;
+    }
+    /* 移动端遮罩 */
+    #sidebar-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.4);
+        z-index: 99;
+    }
+    body.sidebar-collapsed #sidebar-overlay {
+        display: block;
+    }
 }
 
 </style>
@@ -193,7 +305,10 @@ body { margin: 0; padding: 0; }
 <body>
 
 <nav id="sidebar">
+<div id="sidebar-header">
 <h3>📖 高效学习手册</h3>
+<button id="sidebar-toggle" title="折叠/展开目录" aria-label="折叠目录">☰</button>
+</div>
 <div class="nav-part">记忆篇</div>
 <a class="nav-chapter" href="#ch1">第1章 海马体：为什么背了就忘</a>
 <a class="nav-sub" href="#ch1-s1">一、为什么会忘记</a>
@@ -314,6 +429,7 @@ body { margin: 0; padding: 0; }
 <a class="nav-chapter" href="#家长指南">给家长的使用指南</a>
 </nav>
 
+<div id="sidebar-overlay"></div>
 
 <div id="main-content">
 
@@ -3819,6 +3935,82 @@ body { margin: 0; padding: 0; }
 
 
 </div>
+
+<script>
+(function() {
+    var sidebar = document.getElementById('sidebar');
+    var toggle = document.getElementById('sidebar-toggle');
+    var overlay = document.getElementById('sidebar-overlay');
+    var body = document.body;
+    var STORAGE_KEY = 'sidebar_collapsed';
+
+    function isCollapsed() {
+        return body.classList.contains('sidebar-collapsed');
+    }
+
+    function collapse() {
+        body.classList.add('sidebar-collapsed');
+        toggle.setAttribute('aria-label', '展开目录');
+        toggle.innerHTML = '☰';
+        try { localStorage.setItem(STORAGE_KEY, '1'); } catch(e) {}
+    }
+
+    function expand() {
+        body.classList.remove('sidebar-collapsed');
+        toggle.setAttribute('aria-label', '折叠目录');
+        toggle.innerHTML = '✕';
+        try { localStorage.setItem(STORAGE_KEY, '0'); } catch(e) {}
+    }
+
+    function toggleSidebar() {
+        if (isCollapsed()) {
+            expand();
+        } else {
+            collapse();
+        }
+    }
+
+    // 点击按钮切换
+    toggle.addEventListener('click', function(e) {
+        e.stopPropagation();
+        toggleSidebar();
+    });
+
+    // 移动端点击遮罩关闭
+    if (overlay) {
+        overlay.addEventListener('click', function() {
+            expand();
+        });
+    }
+
+    // 移动端：点击正文区域关闭侧边栏
+    var mainContent = document.getElementById('main-content');
+    if (mainContent) {
+        mainContent.addEventListener('click', function() {
+            if (window.innerWidth <= 768 && isCollapsed()) {
+                expand();
+            }
+        });
+    }
+
+    // 键盘快捷键：Ctrl+B 切换
+    document.addEventListener('keydown', function(e) {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'b') {
+            e.preventDefault();
+            toggleSidebar();
+        }
+    });
+
+    // 初始状态：默认展开
+    var saved = null;
+    try { saved = localStorage.getItem(STORAGE_KEY); } catch(e) {}
+    if (saved === '1') {
+        collapse();
+    } else {
+        expand();
+    }
+})();
+</script>
 
 </body>
 </html>
