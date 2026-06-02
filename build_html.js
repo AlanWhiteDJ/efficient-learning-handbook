@@ -134,22 +134,53 @@ body { margin: 0; padding: 0; }
     left: 0; top: 0; bottom: 0;
     width: 250px;
     overflow-y: auto;
+    overflow-x: hidden;
     background: #1a2332;
     color: #c8d6e5;
     font-family: SimHei, 'Microsoft YaHei', sans-serif;
     font-size: 11pt;
-    padding: 12px 0;
+    padding: 0;
     z-index: 100;
     scrollbar-width: thin;
     scrollbar-color: #3a4f6a #1a2332;
+    transition: width 0.25s ease, transform 0.25s ease;
+}
+#sidebar-toggle {
+    position: absolute;
+    right: 8px; top: 8px;
+    width: 32px; height: 32px;
+    border: none;
+    background: none;
+    color: #8395a7;
+    font-size: 18pt;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.15s, background 0.15s;
+    z-index: 10;
+    line-height: 1;
+    padding: 0;
+}
+#sidebar-toggle:hover {
+    color: #fff;
+    background: #253548;
+}
+#sidebar-header {
+    padding: 12px 36px 8px 12px;
+    border-bottom: 1px solid #2b5797;
+    margin-bottom: 10px;
+    min-height: 24px;
 }
 #sidebar h3 {
     color: #fff;
     font-size: 13pt;
     text-align: center;
-    margin: 0 0 10px 0;
-    padding: 0 12px 8px 12px;
-    border-bottom: 1px solid #2b5797;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
 }
 #sidebar .nav-chapter {
     display: block;
@@ -157,6 +188,8 @@ body { margin: 0; padding: 0; }
     text-decoration: none;
     padding: 3px 14px;
     border-left: 3px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
 }
 #sidebar .nav-chapter:hover {
     background: #253548;
@@ -170,6 +203,8 @@ body { margin: 0; padding: 0; }
     padding: 2px 28px;
     font-size: 10pt;
     border-left: 3px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
 }
 #sidebar .nav-sub:hover {
     background: #1e2d3d;
@@ -183,17 +218,92 @@ body { margin: 0; padding: 0; }
     padding: 8px 14px 2px 14px;
     margin-top: 6px;
     border-top: 1px solid #253548;
+    white-space: nowrap;
+    overflow: hidden;
+}
+body.sidebar-collapsed #sidebar {
+    width: 44px;
+}
+body.sidebar-collapsed #sidebar h3,
+body.sidebar-collapsed #sidebar .nav-chapter,
+body.sidebar-collapsed #sidebar .nav-sub,
+body.sidebar-collapsed #sidebar .nav-part {
+    opacity: 0;
+    pointer-events: none;
+}
+body.sidebar-collapsed #sidebar-toggle {
+    right: 6px;
+}
+body.sidebar-collapsed #sidebar:hover {
+    width: 250px;
+    box-shadow: 2px 0 16px rgba(0,0,0,0.4);
+}
+body.sidebar-collapsed #sidebar:hover h3,
+body.sidebar-collapsed #sidebar:hover .nav-chapter,
+body.sidebar-collapsed #sidebar:hover .nav-sub,
+body.sidebar-collapsed #sidebar:hover .nav-part {
+    opacity: 1;
+    pointer-events: auto;
+}
+body.sidebar-collapsed #sidebar:not(:hover) #sidebar-header {
+    border-bottom-color: transparent;
 }
 #main-content {
     margin-left: 260px;
     padding: 16px 24px;
     max-width: 900px;
+    transition: margin-left 0.25s ease;
+}
+body.sidebar-collapsed #main-content {
+    margin-left: 54px;
 }
 @media print {
     #sidebar { display: none; }
     #main-content { margin-left: 0; }
 }
+@media (max-width: 768px) {
+    #sidebar {
+        width: 280px;
+        transform: translateX(-100%);
+    }
+    body.sidebar-collapsed #sidebar {
+        width: 280px;
+        transform: translateX(0);
+        box-shadow: 4px 0 24px rgba(0,0,0,0.5);
+    }
+    body.sidebar-collapsed #sidebar h3,
+    body.sidebar-collapsed #sidebar .nav-chapter,
+    body.sidebar-collapsed #sidebar .nav-sub,
+    body.sidebar-collapsed #sidebar .nav-part {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    body.sidebar-collapsed #sidebar:hover {
+        width: 280px;
+    }
+    #main-content {
+        margin-left: 0;
+        padding: 12px 12px;
+    }
+    body.sidebar-collapsed #main-content {
+        margin-left: 0;
+    }
+    #sidebar-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.4);
+        z-index: 99;
+    }
+    body.sidebar-collapsed #sidebar-overlay {
+        display: block;
+    }
+}
 `;
+
+function makeAnchorId(text) {
+    return text.replace(/[：:，,\s]+/g, '');
+}
 
 function escapeHtml(text) {
     return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -257,7 +367,17 @@ function buildToc(bookText) {
         }
     }
     
-    html += '<p class="toc-item toc-special"><a href="#家长指南">附录：给家长的使用指南</a></p>\n';
+    html += '<p class="toc-part">家长指南</p>\n';
+    html += '<p class="toc-item"><a href="#记忆篇你孩子的脑子不是硬盘">记忆篇：你孩子的脑子不是硬盘</a></p>\n';
+    html += '<p class="toc-item"><a href="#理解篇孩子的脑子里没有挂钩">理解篇：孩子的脑子里没有挂钩</a></p>\n';
+    html += '<p class="toc-item"><a href="#应用篇会做的题为什么考不出来">应用篇：会做的题为什么考不出来</a></p>\n';
+    html += '<p class="toc-item"><a href="#专注篇动不了不是懒">专注篇：动不了不是懒</a></p>\n';
+    html += '<p class="toc-item"><a href="#动力篇不是你孩子没上进心">动力篇：不是你孩子没上进心</a></p>\n';
+    html += '<p class="toc-item"><a href="#调节篇孩子不是不想好是不知道怎么好">调节篇：孩子不是不想好，是不知道怎么好</a></p>\n';
+    html += '<p class="toc-item"><a href="#屏幕专题这不是你跟孩子的战争">屏幕专题：这不是你跟孩子的战争</a></p>\n';
+    html += '<p class="toc-item"><a href="#考试专题考不好不一定是没学会">考试专题：考不好不一定是没学会</a></p>\n';
+    html += '<p class="toc-item"><a href="#ai专题当孩子用ai写作业">AI专题：当孩子用AI写作业</a></p>\n';
+    html += '<p class="toc-item"><a href="#附录家长自测清单">附录：家长自测清单</a></p>\n';
     html += '</div>\n';
     return html;
 }
@@ -270,7 +390,7 @@ function buildSidebar(bookText) {
         19:'拓展篇',20:'',21:''
     };
     let html = '<nav id="sidebar">\n';
-    html += '<h3>📖 高效学习手册</h3>\n';
+    html += '<div id="sidebar-header">\n<h3>📖 高效学习手册</h3>\n<button id="sidebar-toggle" title="折叠/展开目录" aria-label="折叠目录">☰</button>\n</div>\n';
     
     let ch = 0, chTitle = '', subs = [], lastPart = '';
     
@@ -297,7 +417,17 @@ function buildSidebar(bookText) {
     html += '<div class="nav-part">附录</div>\n';
     html += '<a class="nav-chapter" href="#AI推荐语">AI推荐语</a>\n';
     html += '<a class="nav-chapter" href="#后记">后记</a>\n';
-    html += '<a class="nav-chapter" href="#家长指南">给家长的使用指南</a>\n';
+    html += '<div class="nav-part">家长指南</div>\n';
+    html += '<a class="nav-sub" href="#记忆篇你孩子的脑子不是硬盘">记忆篇：你孩子的脑子不是硬盘</a>\n';
+    html += '<a class="nav-sub" href="#理解篇孩子的脑子里没有挂钩">理解篇：孩子的脑子里没有挂钩</a>\n';
+    html += '<a class="nav-sub" href="#应用篇会做的题为什么考不出来">应用篇：会做的题为什么考不出来</a>\n';
+    html += '<a class="nav-sub" href="#专注篇动不了不是懒">专注篇：动不了不是懒</a>\n';
+    html += '<a class="nav-sub" href="#动力篇不是你孩子没上进心">动力篇：不是你孩子没上进心</a>\n';
+    html += '<a class="nav-sub" href="#调节篇孩子不是不想好是不知道怎么好">调节篇：孩子不是不想好，是不知道怎么好</a>\n';
+    html += '<a class="nav-sub" href="#屏幕专题这不是你跟孩子的战争">屏幕专题：这不是你跟孩子的战争</a>\n';
+    html += '<a class="nav-sub" href="#考试专题考不好不一定是没学会">考试专题：考不好不一定是没学会</a>\n';
+    html += '<a class="nav-sub" href="#ai专题当孩子用ai写作业">AI专题：当孩子用AI写作业</a>\n';
+    html += '<a class="nav-sub" href="#附录家长自测清单">附录：家长自测清单</a>\n';
     html += '</nav>\n';
     return html;
 }
@@ -560,7 +690,7 @@ function mdToHtmlBook(mdText) {
                 } else if (textClean === '自测清单') {
                     htmlLines.push(`<h2 id="自测清单">${processInline(textClean)}</h2>`);
                 } else {
-                    htmlLines.push(`<h2>${processInline(text)}</h2>`);
+                    htmlLines.push(`<h2 id="${makeAnchorId(textClean)}">${processInline(text)}</h2>`);
                 }
             } else if (level === 3) {
                 htmlLines.push(`<h3>${processInline(text)}</h3>`);
@@ -818,7 +948,7 @@ function mdToHtmlSimple(mdText, section) {
                     htmlLines.push(`<h1${cls}>${processInline(text)}</h1>`);
                 }
             } else if (level === 2) {
-                htmlLines.push(`<h2>${processInline(text)}</h2>`);
+                htmlLines.push(`<h2 id="${makeAnchorId(text.trim())}">${processInline(text)}</h2>`);
             } else if (level === 3) {
                 htmlLines.push(`<h3>${processInline(text)}</h3>`);
             } else {
@@ -901,6 +1031,8 @@ ${CSS}
 
 ${navHtml}
 
+<div id="sidebar-overlay"></div>
+
 <div id="main-content">
 
 <!-- ====== 目录 ====== -->
@@ -916,6 +1048,77 @@ ${bookHtml}
 ${parentHtml}
 
 </div>
+
+<script>
+(function() {
+    var sidebar = document.getElementById('sidebar');
+    var toggle = document.getElementById('sidebar-toggle');
+    var overlay = document.getElementById('sidebar-overlay');
+    var body = document.body;
+    var STORAGE_KEY = 'sidebar_collapsed';
+
+    function isCollapsed() {
+        return body.classList.contains('sidebar-collapsed');
+    }
+
+    function collapse() {
+        body.classList.add('sidebar-collapsed');
+        toggle.setAttribute('aria-label', '展开目录');
+        toggle.innerHTML = '☰';
+        try { localStorage.setItem(STORAGE_KEY, '1'); } catch(e) {}
+    }
+
+    function expand() {
+        body.classList.remove('sidebar-collapsed');
+        toggle.setAttribute('aria-label', '折叠目录');
+        toggle.innerHTML = '✕';
+        try { localStorage.setItem(STORAGE_KEY, '0'); } catch(e) {}
+    }
+
+    function toggleSidebar() {
+        if (isCollapsed()) {
+            expand();
+        } else {
+            collapse();
+        }
+    }
+
+    toggle.addEventListener('click', function(e) {
+        e.stopPropagation();
+        toggleSidebar();
+    });
+
+    if (overlay) {
+        overlay.addEventListener('click', function() {
+            expand();
+        });
+    }
+
+    var mainContent = document.getElementById('main-content');
+    if (mainContent) {
+        mainContent.addEventListener('click', function() {
+            if (window.innerWidth <= 768 && isCollapsed()) {
+                expand();
+            }
+        });
+    }
+
+    document.addEventListener('keydown', function(e) {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'b') {
+            e.preventDefault();
+            toggleSidebar();
+        }
+    });
+
+    var saved = null;
+    try { saved = localStorage.getItem(STORAGE_KEY); } catch(e) {}
+    if (saved === '1') {
+        collapse();
+    } else {
+        expand();
+    }
+})();
+</script>
 
 </body>
 </html>`;
