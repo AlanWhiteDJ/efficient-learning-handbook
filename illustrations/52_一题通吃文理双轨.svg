@@ -1,110 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 500">
-  <rect width="800" height="500" fill="#0f172a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#ffffff"/>
   
   <!-- Title -->
-  <text x="400" y="32" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">一题通吃 · 文理双轨</text>
+  <text x="400" y="32" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">一题通吃 · 文理双轨</text>
   
   <!-- Horizontal divider -->
-  <line x1="40" y1="242" x2="760" y2="242" stroke="#334155" stroke-width="1"/>
+  <line x1="40" y1="242" x2="760" y2="242" stroke="#cbd5e1" stroke-width="1"/>
   
   <!-- ============ TOP HALF: 理科 ============ -->
-  <text x="55" y="62" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#3b82f6">理科</text>
+  <text x="55" y="62" font-family="sans-serif" font-size="12" font-weight="bold" fill="#3b82f6">理科</text>
   <line x1="80" y1="58" x2="155" y2="58" stroke="#3b82f6" stroke-width="1.5"/>
   
   <!-- Math card -->
-  <rect x="50" y="72" rx="8" ry="8" width="310" height="155" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
-  <rect x="50" y="72" rx="8" ry="8" width="310" height="26" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
-  <text x="205" y="90" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#60a5fa">二次函数最值 (理科典型题)</text>
+  <rect x="50" y="72" rx="8" ry="8" width="310" height="155" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="50" y="72" rx="8" ry="8" width="310" height="26" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="205" y="90" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2563eb">二次函数最值 (理科典型题)</text>
   
   <!-- Math formula -->
-  <text x="205" y="115" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="16" fill="#f8fafc">𝒇(𝒙) = 𝒙² + 4𝒙 + 3</text>
-  <text x="205" y="133" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#94a3b8">求 𝒇(𝒙) 在 [−5, 1] 上的最值</text>
+  <text x="205" y="115" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#1e3a5f">𝒇(𝒙) = 𝒙² + 4𝒙 + 3</text>
+  <text x="205" y="133" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">求 𝒇(𝒙) 在 [−5, 1] 上的最值</text>
   
   <!-- Arrow down -->
-  <text x="205" y="152" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" fill="#475569">↧ 拆解 ↧</text>
+  <text x="205" y="152" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#94a3b8">↧ 拆解 ↧</text>
   
   <!-- Solution template box -->
-  <rect x="370" y="72" rx="8" ry="8" width="380" height="155" fill="#1e293b" stroke="#22c55e" stroke-width="1.5"/>
-  <rect x="370" y="72" rx="8" ry="8" width="130" height="24" fill="#22c55e" opacity="0.15"/>
-  <text x="435" y="89" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#22c55e">🧩 解题模板</text>
+  <rect x="370" y="72" rx="8" ry="8" width="380" height="155" fill="#f8fafc" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="370" y="72" rx="8" ry="8" width="130" height="24" fill="#16a34a" opacity="0.15"/>
+  <text x="435" y="89" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#16a34a">🧩 解题模板</text>
   
   <!-- Step 1 -->
-  <rect x="380" y="102" rx="4" ry="4" width="18" height="18" fill="#22c55e" opacity="0.8"/>
-  <text x="389" y="115" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#0f172a">1</text>
-  <text x="408" y="115" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#86efac">配方：</text>
-  <text x="460" y="115" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#f8fafc">𝒇(𝒙) = (𝒙+2)² − 1</text>
+  <rect x="380" y="102" rx="4" ry="4" width="18" height="18" fill="#16a34a" opacity="0.8"/>
+  <text x="389" y="115" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">1</text>
+  <text x="408" y="115" font-family="sans-serif" font-size="12" fill="#10b981">配方：</text>
+  <text x="460" y="115" font-family="sans-serif" font-size="12" fill="#1e3a5f">𝒇(𝒙) = (𝒙+2)² − 1</text>
   
   <!-- Step 2 -->
-  <rect x="380" y="128" rx="4" ry="4" width="18" height="18" fill="#22c55e" opacity="0.8"/>
-  <text x="389" y="141" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#0f172a">2</text>
-  <text x="408" y="141" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#86efac">顶点：</text>
-  <text x="460" y="141" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#f8fafc">(−2, −1)，对称轴在区间内</text>
+  <rect x="380" y="128" rx="4" ry="4" width="18" height="18" fill="#16a34a" opacity="0.8"/>
+  <text x="389" y="141" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">2</text>
+  <text x="408" y="141" font-family="sans-serif" font-size="12" fill="#10b981">顶点：</text>
+  <text x="460" y="141" font-family="sans-serif" font-size="12" fill="#1e3a5f">(−2, −1)，对称轴在区间内</text>
   
   <!-- Step 3 -->
-  <rect x="380" y="154" rx="4" ry="4" width="18" height="18" fill="#22c55e" opacity="0.8"/>
-  <text x="389" y="167" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#0f172a">3</text>
-  <text x="408" y="167" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#86efac">范围：</text>
-  <text x="460" y="167" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#f8fafc">比较 𝒇(−5)、𝒇(−2)、𝒇(1)</text>
+  <rect x="380" y="154" rx="4" ry="4" width="18" height="18" fill="#16a34a" opacity="0.8"/>
+  <text x="389" y="167" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">3</text>
+  <text x="408" y="167" font-family="sans-serif" font-size="12" fill="#10b981">范围：</text>
+  <text x="460" y="167" font-family="sans-serif" font-size="12" fill="#1e3a5f">比较 𝒇(−5)、𝒇(−2)、𝒇(1)</text>
   
   <!-- Template tag at bottom -->
-  <rect x="370" y="193" rx="4" ry="4" width="80" height="22" fill="#22c55e" opacity="0.2"/>
-  <text x="410" y="208" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#34d399">▶ 解题模板</text>
+  <rect x="370" y="193" rx="4" ry="4" width="80" height="22" fill="#16a34a" opacity="0.2"/>
+  <text x="410" y="208" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#34d399">▶ 解题模板</text>
   
   <!-- Connector: "解法模板" floating -->
-  <rect x="550" y="198" rx="4" ry="4" width="70" height="20" fill="#22c55e" opacity="0.15"/>
-  <text x="585" y="212" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#34d399">配方→顶点→范围</text>
+  <rect x="550" y="198" rx="4" ry="4" width="70" height="20" fill="#16a34a" opacity="0.15"/>
+  <text x="585" y="212" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#34d399">配方→顶点→范围</text>
   
   <!-- ============ MIDDLE ROW: Core Insight ============ -->
   <rect x="130" y="234" rx="20" ry="20" width="540" height="22" fill="#f59e0b" opacity="0.12"/>
-  <text x="400" y="249" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#fbbf24">理科解一道通一类　·　文科拆一题通一型　·　本质相同</text>
+  <text x="400" y="249" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#b45309">理科解一道通一类　·　文科拆一题通一型　·　本质相同</text>
   
   <!-- ============ BOTTOM HALF: 文科 ============ -->
-  <text x="55" y="272" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#a855f7">文科</text>
+  <text x="55" y="272" font-family="sans-serif" font-size="12" font-weight="bold" fill="#a855f7">文科</text>
   <line x1="80" y1="268" x2="155" y2="268" stroke="#a855f7" stroke-width="1.5"/>
   
   <!-- History card -->
-  <rect x="50" y="282" rx="8" ry="8" width="310" height="200" fill="#1e293b" stroke="#a855f7" stroke-width="1.5"/>
-  <rect x="50" y="282" rx="8" ry="8" width="310" height="26" fill="#1e293b" stroke="#a855f7" stroke-width="1.5"/>
-  <text x="205" y="300" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#c084fc">评价 XX 变法 (文科典型题)</text>
+  <rect x="50" y="282" rx="8" ry="8" width="310" height="200" fill="#f8fafc" stroke="#a855f7" stroke-width="1.5"/>
+  <rect x="50" y="282" rx="8" ry="8" width="310" height="26" fill="#f8fafc" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="205" y="300" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#7c3aed">评价 XX 变法 (文科典型题)</text>
   
-  <text x="205" y="325" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#f8fafc">"结合材料，试评价</text>
-  <text x="205" y="343" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#f8fafc">XX变法的历史意义与局限性"</text>
+  <text x="205" y="325" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1e3a5f">"结合材料，试评价</text>
+  <text x="205" y="343" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1e3a5f">XX变法的历史意义与局限性"</text>
   
   <!-- Arrow down -->
-  <text x="205" y="372" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" fill="#475569">↧ 拆解 ↧</text>
+  <text x="205" y="372" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#94a3b8">↧ 拆解 ↧</text>
   
   <!-- Framework box -->
-  <rect x="370" y="282" rx="8" ry="8" width="380" height="200" fill="#1e293b" stroke="#c084fc" stroke-width="1.5"/>
+  <rect x="370" y="282" rx="8" ry="8" width="380" height="200" fill="#f8fafc" stroke="#7c3aed" stroke-width="1.5"/>
   <rect x="370" y="282" rx="8" ry="8" width="120" height="24" fill="#a855f7" opacity="0.15"/>
-  <text x="430" y="299" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#c084fc">📋 答题框架</text>
+  <text x="430" y="299" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#7c3aed">📋 答题框架</text>
   
   <g transform="translate(380,310)">
-    <rect x="0" y="0" rx="3" ry="3" width="18" height="18" fill="#c084fc" opacity="0.8"/>
-    <text x="9" y="13" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold" fill="#0f172a">1</text>
-    <text x="24" y="14" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#e9d5ff">背景：时代矛盾与变法必要性</text>
+    <rect x="0" y="0" rx="3" ry="3" width="18" height="18" fill="#7c3aed" opacity="0.8"/>
+    <text x="9" y="13" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ffffff">1</text>
+    <text x="24" y="14" font-family="sans-serif" font-size="11" fill="#7c3aed">背景：时代矛盾与变法必要性</text>
     
-    <rect x="0" y="24" rx="3" ry="3" width="18" height="18" fill="#c084fc" opacity="0.8"/>
-    <text x="9" y="37" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold" fill="#0f172a">2</text>
-    <text x="24" y="38" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#e9d5ff">内容：改革的核心措施</text>
+    <rect x="0" y="24" rx="3" ry="3" width="18" height="18" fill="#7c3aed" opacity="0.8"/>
+    <text x="9" y="37" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ffffff">2</text>
+    <text x="24" y="38" font-family="sans-serif" font-size="11" fill="#7c3aed">内容：改革的核心措施</text>
     
-    <rect x="0" y="48" rx="3" ry="3" width="18" height="18" fill="#c084fc" opacity="0.8"/>
-    <text x="9" y="61" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold" fill="#0f172a">3</text>
-    <text x="24" y="62" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#e9d5ff">积极：促进了哪些进步</text>
+    <rect x="0" y="48" rx="3" ry="3" width="18" height="18" fill="#7c3aed" opacity="0.8"/>
+    <text x="9" y="61" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ffffff">3</text>
+    <text x="24" y="62" font-family="sans-serif" font-size="11" fill="#7c3aed">积极：促进了哪些进步</text>
     
-    <rect x="0" y="72" rx="3" ry="3" width="18" height="18" fill="#c084fc" opacity="0.8"/>
-    <text x="9" y="85" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold" fill="#0f172a">4</text>
-    <text x="24" y="86" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#e9d5ff">局限：阶级/时代局限性</text>
+    <rect x="0" y="72" rx="3" ry="3" width="18" height="18" fill="#7c3aed" opacity="0.8"/>
+    <text x="9" y="85" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ffffff">4</text>
+    <text x="24" y="86" font-family="sans-serif" font-size="11" fill="#7c3aed">局限：阶级/时代局限性</text>
     
-    <rect x="0" y="96" rx="3" ry="3" width="18" height="18" fill="#c084fc" opacity="0.8"/>
-    <text x="9" y="109" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold" fill="#0f172a">5</text>
-    <text x="24" y="110" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#e9d5ff">定位：历史坐标与启示</text>
+    <rect x="0" y="96" rx="3" ry="3" width="18" height="18" fill="#7c3aed" opacity="0.8"/>
+    <text x="9" y="109" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ffffff">5</text>
+    <text x="24" y="110" font-family="sans-serif" font-size="11" fill="#7c3aed">定位：历史坐标与启示</text>
   </g>
   
   <!-- Framework tag -->
   <rect x="370" y="445" rx="4" ry="4" width="70" height="22" fill="#a855f7" opacity="0.2"/>
-  <text x="405" y="460" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#c084fc">▶ 答题框架</text>
+  <text x="405" y="460" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7c3aed">▶ 答题框架</text>
   
   <!-- Bottom decorative -->
-  <line x1="40" y1="478" x2="760" y2="478" stroke="#334155" stroke-width="0.5"/>
-  <text x="400" y="494" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#475569">结构化思维 · 文理通法 · 举一反三 · Transfer Learning</text>
+  <line x1="40" y1="478" x2="760" y2="478" stroke="#cbd5e1" stroke-width="0.5"/>
+  <text x="400" y="494" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#94a3b8">结构化思维 · 文理通法 · 举一反三 · Transfer Learning</text>
 </svg>

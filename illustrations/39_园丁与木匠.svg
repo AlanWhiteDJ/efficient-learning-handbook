@@ -1,54 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 430">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
   </defs>
   <rect width="800" height="430" fill="url(#bg)"/>
   
-  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">园丁与木匠——学习的两种隐喻</text>
-  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">"学这个有什么用?"的终极答案</text>
+  <text x="400" y="28" text-anchor="middle" fill="#1e3a5f" font-size="18" font-weight="bold" font-family="sans-serif">园丁与木匠——学习的两种隐喻</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">"学这个有什么用?"的终极答案</text>
   
   <!-- 左：木匠 -->
-  <rect x="20" y="70" width="370" height="330" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
-  <text x="205" y="100" text-anchor="middle" fill="#fbbf24" font-size="14" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🪚 木匠模式</text>
+  <rect x="20" y="70" width="370" height="330" rx="12" fill="#f8fafc" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="205" y="100" text-anchor="middle" fill="#b45309" font-size="14" font-weight="bold" font-family="sans-serif">🪚 木匠模式</text>
   
   <!-- 木匠工作场景 -->
-  <rect x="60" y="120" width="290" height="70" rx="8" fill="#78350f" stroke="#f59e0b" stroke-width="1"/>
-  <text x="85" y="152" fill="#fcd34d" font-size="28" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">📐</text>
-  <text x="120" y="148" fill="#fbbf24" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">拿着精确图纸</text>
-  <text x="120" y="165" fill="#fcd34d" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">按规格切割打磨</text>
+  <rect x="60" y="120" width="290" height="70" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+  <text x="85" y="152" fill="#92400e" font-size="28" font-family="sans-serif">📐</text>
+  <text x="120" y="148" fill="#b45309" font-size="10" font-family="sans-serif">拿着精确图纸</text>
+  <text x="120" y="165" fill="#92400e" font-size="10" font-family="sans-serif">按规格切割打磨</text>
   
-  <text x="205" y="220" text-anchor="middle" fill="#f1f5f9" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">目标：塑造规定功能的零件</text>
-  <line x1="60" y1="238" x2="350" y2="238" stroke="#475569" stroke-width="0.5"/>
+  <text x="205" y="220" text-anchor="middle" fill="#1e3a5f" font-size="11" font-family="sans-serif">目标：塑造规定功能的零件</text>
+  <line x1="60" y1="238" x2="350" y2="238" stroke="#94a3b8" stroke-width="0.5"/>
   
-  <text x="60" y="260" fill="#fca5a5" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">❌ 只对应具体职业技能</text>
-  <text x="60" y="280" fill="#fca5a5" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">❌ 看不到用途就判"无用"</text>
-  <text x="60" y="300" fill="#fca5a5" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">❌ 按统一标准评价所有学生</text>
+  <text x="60" y="260" fill="#ef4444" font-size="10" font-family="sans-serif">❌ 只对应具体职业技能</text>
+  <text x="60" y="280" fill="#ef4444" font-size="10" font-family="sans-serif">❌ 看不到用途就判"无用"</text>
+  <text x="60" y="300" fill="#ef4444" font-size="10" font-family="sans-serif">❌ 按统一标准评价所有学生</text>
   
-  <rect x="60" y="325" width="290" height="55" rx="8" fill="#7f1d1d" stroke="#ef4444" stroke-width="1"/>
-  <text x="205" y="348" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">"学二次函数有什么用？</text>
-  <text x="205" y="366" text-anchor="middle" fill="#fca5a5" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">　我又不做数学家。" 😞</text>
+  <rect x="60" y="325" width="290" height="55" rx="8" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+  <text x="205" y="348" text-anchor="middle" fill="#ef4444" font-size="10" font-family="sans-serif">"学二次函数有什么用？</text>
+  <text x="205" y="366" text-anchor="middle" fill="#ef4444" font-size="10" font-family="sans-serif">　我又不做数学家。" 😞</text>
   
   <!-- 中间 VS -->
-  <circle cx="400" cy="235" r="18" fill="#334155"/>
-  <text x="400" y="240" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">VS</text>
+  <circle cx="400" cy="235" r="18" fill="#cbd5e1"/>
+  <text x="400" y="240" text-anchor="middle" fill="#b45309" font-size="12" font-weight="bold" font-family="sans-serif">VS</text>
   
   <!-- 右：园丁 -->
-  <rect x="410" y="70" width="370" height="330" rx="12" fill="#1e293b" stroke="#22c55e" stroke-width="1.5"/>
-  <text x="595" y="100" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🌱 园丁模式</text>
+  <rect x="410" y="70" width="370" height="330" rx="12" fill="#f8fafc" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="595" y="100" text-anchor="middle" fill="#059669" font-size="14" font-weight="bold" font-family="sans-serif">🌱 园丁模式</text>
   
-  <rect x="450" y="120" width="290" height="70" rx="8" fill="#166534" stroke="#22c55e" stroke-width="1"/>
-  <text x="475" y="152" fill="#4ade80" font-size="28" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🌿</text>
-  <text x="510" y="148" fill="#4ade80" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">提供土壤、阳光、水</text>
-  <text x="510" y="165" fill="#86efac" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">让植物各自生长</text>
+  <rect x="450" y="120" width="290" height="70" rx="8" fill="#d1fae5" stroke="#16a34a" stroke-width="1"/>
+  <text x="475" y="152" fill="#059669" font-size="28" font-family="sans-serif">🌿</text>
+  <text x="510" y="148" fill="#059669" font-size="10" font-family="sans-serif">提供土壤、阳光、水</text>
+  <text x="510" y="165" fill="#10b981" font-size="10" font-family="sans-serif">让植物各自生长</text>
   
-  <text x="595" y="220" text-anchor="middle" fill="#f1f5f9" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">目标：培育无限可能的认知框架</text>
-  <line x1="450" y1="238" x2="740" y2="238" stroke="#475569" stroke-width="0.5"/>
+  <text x="595" y="220" text-anchor="middle" fill="#1e3a5f" font-size="11" font-family="sans-serif">目标：培育无限可能的认知框架</text>
+  <line x1="450" y1="238" x2="740" y2="238" stroke="#94a3b8" stroke-width="0.5"/>
   
-  <text x="450" y="260" fill="#86efac" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">✅ 浇灌大脑的神经网络</text>
-  <text x="450" y="280" fill="#86efac" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">✅ 扩大未来的选择范围</text>
-  <text x="450" y="300" fill="#86efac" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">✅ 构建灵活坚韧的认知体系</text>
+  <text x="450" y="260" fill="#10b981" font-size="10" font-family="sans-serif">✅ 浇灌大脑的神经网络</text>
+  <text x="450" y="280" fill="#10b981" font-size="10" font-family="sans-serif">✅ 扩大未来的选择范围</text>
+  <text x="450" y="300" fill="#10b981" font-size="10" font-family="sans-serif">✅ 构建灵活坚韧的认知体系</text>
   
-  <rect x="450" y="325" width="290" height="55" rx="8" fill="#166534" stroke="#22c55e" stroke-width="1"/>
-  <text x="595" y="348" text-anchor="middle" fill="#4ade80" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">"你在学的不是具体的技能，</text>
-  <text x="595" y="366" text-anchor="middle" fill="#4ade80" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">　你在锻造你的大脑本身。" 🌟</text>
+  <rect x="450" y="325" width="290" height="55" rx="8" fill="#d1fae5" stroke="#16a34a" stroke-width="1"/>
+  <text x="595" y="348" text-anchor="middle" fill="#059669" font-size="10" font-family="sans-serif">"你在学的不是具体的技能，</text>
+  <text x="595" y="366" text-anchor="middle" fill="#059669" font-size="10" font-family="sans-serif">　你在锻造你的大脑本身。" 🌟</text>
 </svg>

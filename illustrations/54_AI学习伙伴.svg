@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 550" width="800" height="550">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e293b"/>
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
     </linearGradient>
     <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#f59e0b"/>
@@ -21,16 +21,16 @@
       <stop offset="100%" stop-color="#7c3aed"/>
     </linearGradient>
     <linearGradient id="panelGold" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1e293b"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#ffffff"/>
     </linearGradient>
     <linearGradient id="panelBlue" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1e293b"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#ffffff"/>
     </linearGradient>
     <linearGradient id="panelPurple" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1e293b"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#ffffff"/>
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="2" result="blur"/>
@@ -70,42 +70,42 @@
 
   <!-- Scene: Student explaining to screen -->
   <!-- Monitor/screen -->
-  <rect x="32" y="105" width="70" height="50" rx="4" fill="#1a1a2e" stroke="#475569" stroke-width="1"/>
-  <rect x="35" y="108" width="64" height="44" rx="2" fill="#0f172a" opacity="0.8"/>
+  <rect x="32" y="105" width="70" height="50" rx="4" fill="#1a1a2e" stroke="#94a3b8" stroke-width="1"/>
+  <rect x="35" y="108" width="64" height="44" rx="2" fill="#ffffff" opacity="0.8"/>
   <!-- Screen content: AI interface -->
   <text x="67" y="125" text-anchor="middle" fill="#f59e0b" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7">🤖 AI</text>
   <rect x="40" y="132" width="54" height="16" rx="3" fill="#f59e0b" opacity="0.15"/>
-  <text x="67" y="143" text-anchor="middle" fill="#fbbf24" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">听你讲解中...</text>
+  <text x="67" y="143" text-anchor="middle" fill="#b45309" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">听你讲解中...</text>
 
   <!-- Student figure -->
-  <ellipse cx="145" cy="140" rx="18" ry="20" fill="#334155" opacity="0.6"/>
-  <circle cx="145" cy="118" r="10" fill="#475569"/>
+  <ellipse cx="145" cy="140" rx="18" ry="20" fill="#cbd5e1" opacity="0.6"/>
+  <circle cx="145" cy="118" r="10" fill="#94a3b8"/>
   <!-- Student face details -->
-  <circle cx="142" cy="116" r="1.5" fill="#cbd5e1"/>
-  <circle cx="148" cy="116" r="1.5" fill="#cbd5e1"/>
-  <ellipse cx="145" cy="121" rx="4" ry="2.5" fill="#cbd5e1"/>
+  <circle cx="142" cy="116" r="1.5" fill="#334155"/>
+  <circle cx="148" cy="116" r="1.5" fill="#334155"/>
+  <ellipse cx="145" cy="121" rx="4" ry="2.5" fill="#334155"/>
   <!-- Speaking gesture -->
   <line x1="155" y1="128" x2="168" y2="122" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
   <line x1="155" y1="133" x2="170" y2="133" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
 
   <!-- Speech bubble from student -->
   <rect x="128" y="165" width="90" height="32" rx="5" fill="url(#panelGold)" stroke="#f59e0b" stroke-width="0.8"/>
-  <text x="173" y="178" text-anchor="middle" fill="#e2e8f0" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">我觉得这个</text>
-  <text x="173" y="189" text-anchor="middle" fill="#e2e8f0" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">概念是这样...</text>
+  <text x="173" y="178" text-anchor="middle" fill="#475569" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">我觉得这个</text>
+  <text x="173" y="189" text-anchor="middle" fill="#475569" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">概念是这样...</text>
 
   <!-- AI response bubble -->
-  <rect x="25" y="175" width="160" height="52" rx="6" fill="#1e293b" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="105" y="191" text-anchor="middle" fill="#fde68a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">"你刚才说的第三点</text>
-  <text x="105" y="202" text-anchor="middle" fill="#fde68a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">跳了一步，能展开吗？</text>
-  <text x="105" y="218" text-anchor="middle" fill="#fbbf24" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6" font-weight="bold">→ 追问模糊点 🔍</text>
+  <rect x="25" y="175" width="160" height="52" rx="6" fill="#f8fafc" stroke="#b45309" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="105" y="191" text-anchor="middle" fill="#a16207" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">"你刚才说的第三点</text>
+  <text x="105" y="202" text-anchor="middle" fill="#a16207" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">跳了一步，能展开吗？</text>
+  <text x="105" y="218" text-anchor="middle" fill="#b45309" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6" font-weight="bold">→ 追问模糊点 🔍</text>
 
   <!-- Connection line from AI to student -->
   <path d="M185,201 C200,195 210,185 210,170 C210,158 200,150 185,150" fill="none" stroke="#f59e0b" stroke-width="0.8" opacity="0.4"/>
 
   <!-- Label below scene -->
   <rect x="25" y="240" width="222" height="50" rx="8" fill="#f59e0b" opacity="0.08" stroke="#f59e0b" stroke-width="0.8"/>
-  <text x="136" y="258" text-anchor="middle" fill="#fde68a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold">简 单</text>
-  <text x="136" y="278" text-anchor="middle" fill="#fbbf24" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">把AI当学生，讲解概念给它听</text>
+  <text x="136" y="258" text-anchor="middle" fill="#a16207" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold">简 单</text>
+  <text x="136" y="278" text-anchor="middle" fill="#b45309" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">把AI当学生，讲解概念给它听</text>
 
   <!-- ============ PANEL 2 - 苏格拉底对话 (center) ============ -->
   <g filter="url(#shadow)">
@@ -114,25 +114,25 @@
   <!-- Panel 2 header -->
   <rect x="276" y="45" width="248" height="36" rx="10" fill="#3b82f6" opacity="0.15"/>
   <rect x="276" y="71" width="248" height="10" fill="#3b82f6" opacity="0.15"/>
-  <text x="400" y="66" text-anchor="middle" fill="#60a5fa" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold">💡 苏格拉底对话</text>
+  <text x="400" y="66" text-anchor="middle" fill="#2563eb" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold">💡 苏格拉底对话</text>
 
   <!-- Student on left, initially confused -->
   <!-- Confused face stage -->
-  <circle cx="310" cy="110" r="12" fill="#475569"/>
+  <circle cx="310" cy="110" r="12" fill="#94a3b8"/>
   <text x="305" y="113" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">🤔</text>
 
   <!-- AI on right, asking questions -->
-  <rect x="370" y="92" width="60" height="40" rx="5" fill="#1a1a2e" stroke="#475569" stroke-width="1"/>
+  <rect x="370" y="92" width="60" height="40" rx="5" fill="#1a1a2e" stroke="#94a3b8" stroke-width="1"/>
   <text x="400" y="108" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7">🤖 AI</text>
 
   <!-- Question mark bubbles from AI -->
-  <rect x="345" y="138" width="175" height="55" rx="8" fill="#1e293b" stroke="#60a5fa" stroke-width="1.2"/>
-  <text x="432" y="154" text-anchor="middle" fill="#93c5fd" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6.5">"如果你要证明这个结论，</text>
-  <text x="432" y="166" text-anchor="middle" fill="#93c5fd" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6.5">第一步需要什么条件？"</text>
-  <text x="432" y="182" text-anchor="middle" fill="#60a5fa" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">❓ ❓ ❓</text>
+  <rect x="345" y="138" width="175" height="55" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="432" y="154" text-anchor="middle" fill="#3b82f6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6.5">"如果你要证明这个结论，</text>
+  <text x="432" y="166" text-anchor="middle" fill="#3b82f6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6.5">第一步需要什么条件？"</text>
+  <text x="432" y="182" text-anchor="middle" fill="#2563eb" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">❓ ❓ ❓</text>
 
   <!-- Arrow from AI to student -->
-  <path d="M345,168 C330,165 330,148 322,140" fill="none" stroke="#60a5fa" stroke-width="1" opacity="0.5"/>
+  <path d="M345,168 C330,165 330,148 322,140" fill="none" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
 
   <!-- Student → thinking → enlightened sequence -->
   <!-- Phase arrows -->
@@ -147,58 +147,58 @@
   <circle cx="360" cy="228" r="10" fill="#374151"/>
   <text x="355" y="231" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9">🤔</text>
 
-  <circle cx="430" cy="228" r="12" fill="#1e293b"/>
+  <circle cx="430" cy="228" r="12" fill="#f8fafc"/>
   <text x="424" y="232" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10">💡</text>
 
   <!-- Connecting arrows -->
-  <line x1="305" y1="228" x2="348" y2="228" stroke="#475569" stroke-width="1"/>
-  <line x1="372" y1="228" x2="416" y2="228" stroke="#475569" stroke-width="1"/>
+  <line x1="305" y1="228" x2="348" y2="228" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="372" y1="228" x2="416" y2="228" stroke="#94a3b8" stroke-width="1"/>
 
   <!-- Sparkles around epiphany -->
   <text x="445" y="218" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7">✨</text>
   <text x="450" y="238" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="6">✨</text>
 
   <!-- Label below scene -->
-  <rect x="288" y="255" width="224" height="50" rx="8" fill="#3b82f6" opacity="0.08" stroke="#60a5fa" stroke-width="0.8"/>
-  <text x="400" y="273" text-anchor="middle" fill="#93c5fd" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold">进 阶</text>
-  <text x="400" y="293" text-anchor="middle" fill="#60a5fa" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">让AI只问不答，引导自主思考</text>
+  <rect x="288" y="255" width="224" height="50" rx="8" fill="#3b82f6" opacity="0.08" stroke="#2563eb" stroke-width="0.8"/>
+  <text x="400" y="273" text-anchor="middle" fill="#3b82f6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold">进 阶</text>
+  <text x="400" y="293" text-anchor="middle" fill="#2563eb" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">让AI只问不答，引导自主思考</text>
 
   <!-- ============ PANEL 3 - AI系统集成 (right) ============ -->
   <g filter="url(#shadow)">
-    <rect x="540" y="45" width="248" height="310" rx="10" fill="url(#panelPurple)" stroke="#a78bfa" stroke-width="1.5" opacity="0.95"/>
+    <rect x="540" y="45" width="248" height="310" rx="10" fill="url(#panelPurple)" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
   </g>
   <!-- Panel 3 header -->
   <rect x="540" y="45" width="248" height="36" rx="10" fill="#8b5cf6" opacity="0.15"/>
   <rect x="540" y="71" width="248" height="10" fill="#8b5cf6" opacity="0.15"/>
-  <text x="664" y="66" text-anchor="middle" fill="#a78bfa" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold">🔄 AI 系统集成</text>
+  <text x="664" y="66" text-anchor="middle" fill="#8b5cf6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold">🔄 AI 系统集成</text>
 
   <!-- Circular flow diagram - 5 nodes in a cycle -->
   <!-- Center point: 664, 180, radius ~55 -->
 
   <!-- Node 1: 预习 (top) -->
-  <circle cx="664" cy="120" r="22" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5"/>
+  <circle cx="664" cy="120" r="22" fill="#f8fafc" stroke="#8b5cf6" stroke-width="1.5"/>
   <text x="656" y="118" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14">❓</text>
-  <text x="664" y="142" text-anchor="middle" fill="#c4b5fd" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7" font-weight="bold">预习</text>
+  <text x="664" y="142" text-anchor="middle" fill="#8b5cf6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7" font-weight="bold">预习</text>
 
   <!-- Node 2: 学习 (top-right) -->
-  <circle cx="723" cy="155" r="22" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+  <circle cx="723" cy="155" r="22" fill="#f8fafc" stroke="#10b981" stroke-width="1.5"/>
   <text x="715" y="153" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12">🎓</text>
-  <text x="723" y="177" text-anchor="middle" fill="#6ee7b7" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7" font-weight="bold">学习</text>
+  <text x="723" y="177" text-anchor="middle" fill="#059669" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7" font-weight="bold">学习</text>
 
   <!-- Node 3: 练习 (bottom-right) -->
-  <circle cx="723" cy="215" r="22" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="723" cy="215" r="22" fill="#f8fafc" stroke="#f59e0b" stroke-width="1.5"/>
   <text x="716" y="214" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13">✍️</text>
-  <text x="723" y="237" text-anchor="middle" fill="#fde68a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7" font-weight="bold">练习</text>
+  <text x="723" y="237" text-anchor="middle" fill="#a16207" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7" font-weight="bold">练习</text>
 
   <!-- Node 4: 复习 (bottom-left) -->
-  <circle cx="664" cy="245" r="22" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+  <circle cx="664" cy="245" r="22" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5"/>
   <text x="657" y="244" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13">🔄</text>
-  <text x="664" y="267" text-anchor="middle" fill="#93c5fd" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7" font-weight="bold">复习</text>
+  <text x="664" y="267" text-anchor="middle" fill="#3b82f6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7" font-weight="bold">复习</text>
 
   <!-- Node 5: 检测 (top-left) -->
-  <circle cx="605" cy="215" r="22" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="605" cy="215" r="22" fill="#f8fafc" stroke="#f59e0b" stroke-width="1.5"/>
   <text x="598" y="214" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13">📊</text>
-  <text x="605" y="237" text-anchor="middle" fill="#fde68a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7" font-weight="bold">检测</text>
+  <text x="605" y="237" text-anchor="middle" fill="#a16207" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7" font-weight="bold">检测</text>
 
   <!-- Arrows connecting the 5 nodes (clockwise) -->
   <!-- 预习 → 学习 -->
@@ -213,32 +213,32 @@
   <path d="M587,203 C570,185 570,155 587,137" fill="none" stroke="#f59e0b" stroke-width="1.5" marker-end="url(#arrowGold)" opacity="0.8"/>
 
   <!-- Label annotations for each node -->
-  <text x="664" y="105" text-anchor="middle" fill="#c4b5fd" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">问号提问</text>
+  <text x="664" y="105" text-anchor="middle" fill="#8b5cf6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">问号提问</text>
 
-  <text x="740" y="145" fill="#6ee7b7" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">费曼+</text>
-  <text x="740" y="153" fill="#6ee7b7" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">苏格拉底</text>
+  <text x="740" y="145" fill="#059669" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">费曼+</text>
+  <text x="740" y="153" fill="#059669" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">苏格拉底</text>
 
-  <text x="740" y="207" fill="#fde68a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">生成变式</text>
-  <text x="740" y="215" fill="#fde68a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">题目练习</text>
+  <text x="740" y="207" fill="#a16207" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">生成变式</text>
+  <text x="740" y="215" fill="#a16207" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">题目练习</text>
 
-  <text x="695" y="278" text-anchor="middle" fill="#93c5fd" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">错误模式</text>
-  <text x="695" y="286" text-anchor="middle" fill="#93c5fd" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">扫描分析</text>
+  <text x="695" y="278" text-anchor="middle" fill="#3b82f6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">错误模式</text>
+  <text x="695" y="286" text-anchor="middle" fill="#3b82f6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">扫描分析</text>
 
-  <text x="585" y="203" text-anchor="end" fill="#fde68a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">盲点压力</text>
-  <text x="585" y="211" text-anchor="end" fill="#fde68a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">测试检查</text>
+  <text x="585" y="203" text-anchor="end" fill="#a16207" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">盲点压力</text>
+  <text x="585" y="211" text-anchor="end" fill="#a16207" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="5">测试检查</text>
 
   <!-- Label below diagram -->
-  <rect x="552" y="285" width="224" height="50" rx="8" fill="#8b5cf6" opacity="0.08" stroke="#a78bfa" stroke-width="0.8"/>
-  <text x="664" y="303" text-anchor="middle" fill="#c4b5fd" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold">高 阶</text>
-  <text x="664" y="323" text-anchor="middle" fill="#a78bfa" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">AI嵌入学习全流程闭环</text>
+  <rect x="552" y="285" width="224" height="50" rx="8" fill="#8b5cf6" opacity="0.08" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="664" y="303" text-anchor="middle" fill="#8b5cf6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" font-weight="bold">高 阶</text>
+  <text x="664" y="323" text-anchor="middle" fill="#8b5cf6" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11">AI嵌入学习全流程闭环</text>
 
   <!-- ============ BOTTOM QUOTE ============ -->
-  <rect x="60" y="370" width="680" height="48" rx="10" fill="#1e293b" stroke="#475569" stroke-width="0.8" opacity="0.8"/>
+  <rect x="60" y="370" width="680" height="48" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8" opacity="0.8"/>
 
   <!-- Decorative left accent bar -->
   <rect x="60" y="370" width="3" height="48" rx="1.5" fill="url(#goldGrad)"/>
 
-  <text x="400" y="394" text-anchor="middle" fill="#fde68a" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" letter-spacing="1">
+  <text x="400" y="394" text-anchor="middle" fill="#a16207" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" letter-spacing="1">
     "AI 是副驾驶，不是自动驾驶。合上电脑，白纸重写，才是真的学会了。"
   </text>
   <text x="400" y="410" text-anchor="middle" fill="#64748b" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="8" font-style="italic">
@@ -249,6 +249,6 @@
   <line x1="200" y1="435" x2="600" y2="435" stroke="url(#goldGrad)" stroke-width="0.8" opacity="0.3"/>
 
   <!-- Version / footer tiny label -->
-  <text x="400" y="455" text-anchor="middle" fill="#475569" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7">高效学习手册 · 第21章 · AI学习伙伴</text>
+  <text x="400" y="455" text-anchor="middle" fill="#94a3b8" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="7">高效学习手册 · 第21章 · AI学习伙伴</text>
 
 </svg>

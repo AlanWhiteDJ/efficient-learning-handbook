@@ -1,133 +1,133 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 500">
-  <rect width="800" height="500" fill="#0f172a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#ffffff"/>
   
   <!-- Title -->
-  <text x="400" y="34" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">深度工作排程</text>
-  <text x="400" y="52" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#64748b">Deep Work Scheduling · 认知节律管理</text>
+  <text x="400" y="34" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">深度工作排程</text>
+  <text x="400" y="52" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#64748b">Deep Work Scheduling · 认知节律管理</text>
   
   <!-- Timeline background bar -->
-  <rect x="30" y="72" rx="8" ry="8" width="740" height="42" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <rect x="30" y="72" rx="8" ry="8" width="740" height="42" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
   
   <!-- ============ TIME SLOTS ============ -->
   
   <!-- 06:00-08:00 Morning (light gray) -->
-  <rect x="38" y="78" rx="4" ry="4" width="110" height="30" fill="#334155"/>
-  <text x="93" y="97" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#94a3b8">06:00-08:00</text>
+  <rect x="38" y="78" rx="4" ry="4" width="110" height="30" fill="#cbd5e1"/>
+  <text x="93" y="97" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">06:00-08:00</text>
   
   <!-- 08:00-10:00 Deep Focus (gold) -->
   <rect x="155" y="78" rx="6" ry="6" width="155" height="30" fill="#f59e0b"/>
-  <rect x="155" y="78" rx="6" ry="6" width="155" height="30" fill="#fbbf24" opacity="0.3"/>
-  <text x="232" y="98" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#0f172a">08:00-10:00 ⚡ 峰值</text>
+  <rect x="155" y="78" rx="6" ry="6" width="155" height="30" fill="#b45309" opacity="0.3"/>
+  <text x="232" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">08:00-10:00 ⚡ 峰值</text>
   
   <!-- 10:00-12:00 Deep Focus (gold) -->
   <rect x="317" y="78" rx="6" ry="6" width="155" height="30" fill="#f59e0b"/>
-  <rect x="317" y="78" rx="6" ry="6" width="155" height="30" fill="#fbbf24" opacity="0.3"/>
-  <text x="394" y="98" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#0f172a">10:00-12:00 ⚡ 峰值</text>
+  <rect x="317" y="78" rx="6" ry="6" width="155" height="30" fill="#b45309" opacity="0.3"/>
+  <text x="394" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">10:00-12:00 ⚡ 峰值</text>
   
   <!-- 12:00-14:00 Lunch break -->
-  <rect x="478" y="78" rx="4" ry="4" width="100" height="30" fill="#1e293b" stroke="#475569" stroke-width="1"/>
-  <text x="528" y="98" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#64748b">午餐·休息</text>
+  <rect x="478" y="78" rx="4" ry="4" width="100" height="30" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <text x="528" y="98" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#64748b">午餐·休息</text>
   
   <!-- 14:00-16:00 Shallow -->
-  <rect x="583" y="78" rx="4" ry="4" width="88" height="30" fill="#334155"/>
-  <text x="627" y="98" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#94a3b8">浅度时段</text>
+  <rect x="583" y="78" rx="4" ry="4" width="88" height="30" fill="#cbd5e1"/>
+  <text x="627" y="98" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#94a3b8">浅度时段</text>
   
   <!-- 16:00-18:00 Shallow -->
-  <rect x="676" y="78" rx="4" ry="4" width="86" height="30" fill="#334155"/>
-  <text x="719" y="98" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#94a3b8">浅度时段</text>
+  <rect x="676" y="78" rx="4" ry="4" width="86" height="30" fill="#cbd5e1"/>
+  <text x="719" y="98" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#94a3b8">浅度时段</text>
   
   <!-- ============ DEEP BLOCK DETAIL (below timeline) ============ -->
   
   <!-- Deep block #1 -->
-  <rect x="30" y="130" rx="8" ry="8" width="355" height="175" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="30" y="130" rx="8" ry="8" width="355" height="175" fill="#f8fafc" stroke="#f59e0b" stroke-width="2"/>
   <rect x="30" y="130" rx="8" ry="8" width="355" height="28" fill="#f59e0b"/>
-  <text x="207" y="149" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#0f172a">🔒 深度区块 (08:00-12:00)</text>
+  <text x="207" y="149" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">🔒 深度区块 (08:00-12:00)</text>
   
   <!-- Checklist items -->
   <g transform="translate(45,175)">
-    <line x1="0" y1="0" x2="0" y2="12" stroke="#fbbf24" stroke-width="2.5"/>
-    <line x1="0" y1="6" x2="6" y2="2" stroke="#fbbf24" stroke-width="2.5"/>
-    <text x="14" y="7" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#f8fafc">✕ 无干扰：手机静音 · 关通知 · 单窗口</text>
+    <line x1="0" y1="0" x2="0" y2="12" stroke="#b45309" stroke-width="2.5"/>
+    <line x1="0" y1="6" x2="6" y2="2" stroke="#b45309" stroke-width="2.5"/>
+    <text x="14" y="7" font-family="sans-serif" font-size="12" fill="#1e3a5f">✕ 无干扰：手机静音 · 关通知 · 单窗口</text>
     
-    <line x1="0" y1="22" x2="0" y2="34" stroke="#fbbf24" stroke-width="2.5"/>
-    <line x1="0" y1="28" x2="6" y2="24" stroke="#fbbf24" stroke-width="2.5"/>
-    <text x="14" y="29" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#f8fafc">✕ 单任务：只做一件核心工作</text>
+    <line x1="0" y1="22" x2="0" y2="34" stroke="#b45309" stroke-width="2.5"/>
+    <line x1="0" y1="28" x2="6" y2="24" stroke="#b45309" stroke-width="2.5"/>
+    <text x="14" y="29" font-family="sans-serif" font-size="12" fill="#1e3a5f">✕ 单任务：只做一件核心工作</text>
     
-    <line x1="0" y1="44" x2="0" y2="56" stroke="#fbbf24" stroke-width="2.5"/>
-    <line x1="0" y1="50" x2="6" y2="46" stroke="#fbbf24" stroke-width="2.5"/>
-    <text x="14" y="51" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#f8fafc">✕ 高价值：压轴题 / 作文 / 深度阅读</text>
+    <line x1="0" y1="44" x2="0" y2="56" stroke="#b45309" stroke-width="2.5"/>
+    <line x1="0" y1="50" x2="6" y2="46" stroke="#b45309" stroke-width="2.5"/>
+    <text x="14" y="51" font-family="sans-serif" font-size="12" fill="#1e3a5f">✕ 高价值：压轴题 / 作文 / 深度阅读</text>
     
-    <line x1="0" y1="66" x2="0" y2="78" stroke="#fbbf24" stroke-width="2.5"/>
-    <line x1="0" y1="72" x2="6" y2="68" stroke="#fbbf24" stroke-width="2.5"/>
-    <text x="14" y="73" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#f8fafc">⏱ 每90分钟休息15分钟</text>
+    <line x1="0" y1="66" x2="0" y2="78" stroke="#b45309" stroke-width="2.5"/>
+    <line x1="0" y1="72" x2="6" y2="68" stroke="#b45309" stroke-width="2.5"/>
+    <text x="14" y="73" font-family="sans-serif" font-size="12" fill="#1e3a5f">⏱ 每90分钟休息15分钟</text>
   </g>
   
   <!-- Brain rhythm wave -->
-  <path d="M50,260 Q90,245 130,260 Q170,275 210,260 Q250,245 290,260 Q330,275 370,260" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.4"/>
+  <path d="M50,260 Q90,245 130,260 Q170,275 210,260 Q250,245 290,260 Q330,275 370,260" fill="none" stroke="#b45309" stroke-width="1.5" opacity="0.4"/>
   
   <!-- ============ SHALLOW BLOCK DETAIL ============ -->
   
-  <rect x="415" y="130" rx="8" ry="8" width="355" height="175" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
-  <rect x="415" y="130" rx="8" ry="8" width="355" height="28" fill="#334155"/>
-  <text x="592" y="149" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#94a3b8">📱 浅度时段 (14:00-18:00)</text>
+  <rect x="415" y="130" rx="8" ry="8" width="355" height="175" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="415" y="130" rx="8" ry="8" width="355" height="28" fill="#cbd5e1"/>
+  <text x="592" y="149" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#94a3b8">📱 浅度时段 (14:00-18:00)</text>
   
   <g transform="translate(430,175)">
     <circle cx="5" cy="4" r="3" fill="#64748b"/>
-    <text x="16" y="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#94a3b8">回消息 · 处理通知</text>
+    <text x="16" y="9" font-family="sans-serif" font-size="12" fill="#94a3b8">回消息 · 处理通知</text>
     
     <circle cx="5" cy="26" r="3" fill="#64748b"/>
-    <text x="16" y="31" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#94a3b8">抄笔记 · 整理错题</text>
+    <text x="16" y="31" font-family="sans-serif" font-size="12" fill="#94a3b8">抄笔记 · 整理错题</text>
     
     <circle cx="5" cy="48" r="3" fill="#64748b"/>
-    <text x="16" y="53" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#94a3b8">简单复习 · 刷选择题</text>
+    <text x="16" y="53" font-family="sans-serif" font-size="12" fill="#94a3b8">简单复习 · 刷选择题</text>
     
     <circle cx="5" cy="70" r="3" fill="#64748b"/>
-    <text x="16" y="75" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#94a3b8">运动 · 社交 · 放松</text>
+    <text x="16" y="75" font-family="sans-serif" font-size="12" fill="#94a3b8">运动 · 社交 · 放松</text>
   </g>
   
   <!-- ============ STICKY NOTE (floating) ============ -->
   
   <g transform="translate(430,250)">
     <!-- Sticky note paper -->
-    <rect x="0" y="0" rx="2" ry="2" width="170" height="48" fill="#fef9c3" opacity="0.9" transform="rotate(-4,85,24)"/>
-    <rect x="0" y="10" rx="2" ry="2" width="170" height="38" fill="#fef9c3" opacity="0.85" transform="rotate(-4,85,24)"/>
+    <rect x="0" y="0" rx="2" ry="2" width="170" height="48" fill="#92400e" opacity="0.9" transform="rotate(-4,85,24)"/>
+    <rect x="0" y="10" rx="2" ry="2" width="170" height="38" fill="#92400e" opacity="0.85" transform="rotate(-4,85,24)"/>
     <!-- Pin -->
     <circle cx="85" cy="5" r="5" fill="#ef4444" transform="rotate(-4,85,24)"/>
     
     <!-- Text on sticky -->
-    <text x="85" y="24" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#854d0e" transform="rotate(-4,85,24)">突然想到的杂事</text>
-    <text x="85" y="38" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#854d0e" transform="rotate(-4,85,24)">→ 区块结束后处理</text>
+    <text x="85" y="24" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fef3c7" transform="rotate(-4,85,24)">突然想到的杂事</text>
+    <text x="85" y="38" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fef3c7" transform="rotate(-4,85,24)">→ 区块结束后处理</text>
   </g>
   
   <!-- Arrow from sticky to shallow area -->
-  <path d="M590,275 Q640,290 620,300" fill="none" stroke="#fef9c3" stroke-width="1" stroke-dasharray="3,2" opacity="0.5" transform="rotate(-4,85,24)"/>
+  <path d="M590,275 Q640,290 620,300" fill="none" stroke="#92400e" stroke-width="1" stroke-dasharray="3,2" opacity="0.5" transform="rotate(-4,85,24)"/>
   
   <!-- ============ BOTTOM SECTION ============ -->
   
   <!-- Big insight box -->
-  <rect x="80" y="340" rx="10" ry="10" width="640" height="48" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="80" y="340" rx="10" ry="10" width="640" height="48" fill="#f8fafc" stroke="#f59e0b" stroke-width="2"/>
   
   <!-- Intensity meter icon -->
   <g transform="translate(110,358)">
-    <rect x="0" y="8" width="6" height="16" rx="1" fill="#22c55e"/>
-    <rect x="9" y="2" width="6" height="22" rx="1" fill="#22c55e"/>
+    <rect x="0" y="8" width="6" height="16" rx="1" fill="#16a34a"/>
+    <rect x="9" y="2" width="6" height="22" rx="1" fill="#16a34a"/>
     <rect x="18" y="0" width="6" height="24" rx="1" fill="#f59e0b"/>
-    <rect x="27" y="12" width="6" height="12" rx="1" fill="#475569"/>
+    <rect x="27" y="12" width="6" height="12" rx="1" fill="#94a3b8"/>
   </g>
   
-  <text x="145" y="358" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" fill="#fbbf24" font-weight="bold">核心原则</text>
-  <text x="145" y="378" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#94a3b8">认知峰值时段 → 只做最需要脑力的工作 → 饱和投入，不允许切换</text>
+  <text x="145" y="358" font-family="sans-serif" font-size="12" fill="#b45309" font-weight="bold">核心原则</text>
+  <text x="145" y="378" font-family="sans-serif" font-size="11" fill="#94a3b8">认知峰值时段 → 只做最需要脑力的工作 → 饱和投入，不允许切换</text>
   
   <!-- Bottom quote -->
-  <text x="400" y="430" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="15" fill="#94a3b8" font-style="italic">"不是尽量专注，是不允许不专注"</text>
+  <text x="400" y="430" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#94a3b8" font-style="italic">"不是尽量专注，是不允许不专注"</text>
   
   <!-- Footer -->
-  <line x1="60" y1="450" x2="740" y2="450" stroke="#334155" stroke-width="0.5"/>
-  <text x="400" y="470" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#475569">Deep Work · Cal Newport · 认知节奏 · 时间区块管理</text>
+  <line x1="60" y1="450" x2="740" y2="450" stroke="#cbd5e1" stroke-width="0.5"/>
+  <text x="400" y="470" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#94a3b8">Deep Work · Cal Newport · 认知节奏 · 时间区块管理</text>
   
   <!-- Cognitive peak indicator on timeline -->
   <g transform="translate(228,62)">
     <polygon points="0,6 5,0 10,6" fill="#f59e0b"/>
-    <text x="5" y="0" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="8" fill="#f59e0b">认知峰值</text>
+    <text x="5" y="0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#f59e0b">认知峰值</text>
   </g>
 </svg>

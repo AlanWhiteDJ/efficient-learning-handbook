@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 440">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
   </defs>
   <rect width="800" height="440" fill="url(#bg)"/>
   
-  <text x="400" y="28" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">知识被锁在情境里</text>
-  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">情境绑定是大脑记忆的本能——打破它需要多情境提取</text>
+  <text x="400" y="28" text-anchor="middle" fill="#1e3a5f" font-size="18" font-weight="bold" font-family="sans-serif">知识被锁在情境里</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">情境绑定是大脑记忆的本能——打破它需要多情境提取</text>
   
   <!-- 中心：知识被锁 -->
-  <rect x="300" y="80" width="200" height="90" rx="10" fill="#166534" stroke="#4ade80" stroke-width="2"/>
-  <text x="400" y="110" text-anchor="middle" fill="#4ade80" font-size="16" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">重力 F=mg</text>
-  <text x="400" y="135" text-anchor="middle" fill="#86efac" font-size="10" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">被锁在课本第三章</text>
-  <text x="400" y="155" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">插图：斜坡上滑下的方块</text>
+  <rect x="300" y="80" width="200" height="90" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="2"/>
+  <text x="400" y="110" text-anchor="middle" fill="#059669" font-size="16" font-weight="bold" font-family="sans-serif">重力 F=mg</text>
+  <text x="400" y="135" text-anchor="middle" fill="#10b981" font-size="10" font-family="sans-serif">被锁在课本第三章</text>
+  <text x="400" y="155" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">插图：斜坡上滑下的方块</text>
   
   <!-- 锁链从书通向三个场景 -->
-  <line x1="300" y1="125" x2="100" y2="220" stroke="#475569" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <line x1="500" y1="125" x2="700" y2="220" stroke="#475569" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <line x1="400" y1="170" x2="400" y2="260" stroke="#475569" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="300" y1="125" x2="100" y2="220" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="500" y1="125" x2="700" y2="220" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="400" y1="170" x2="400" y2="260" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
   
   <!-- 场景1：爷爷修水泵 -->
-  <rect x="20" y="230" width="180" height="100" rx="10" fill="#7f1d1d" stroke="#ef4444" stroke-width="1"/>
-  <text x="110" y="258" text-anchor="middle" fill="#f87171" font-size="10" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🧑‍🔧 爷爷修水泵</text>
-  <text x="110" y="278" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">"这个原理是什么?"</text>
-  <text x="110" y="298" text-anchor="middle" fill="#f87171" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">我：大脑一片空白 😰</text>
-  <text x="110" y="318" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">知识被锁←提取失败</text>
+  <rect x="20" y="230" width="180" height="100" rx="10" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+  <text x="110" y="258" text-anchor="middle" fill="#dc2626" font-size="10" font-weight="bold" font-family="sans-serif">🧑‍🔧 爷爷修水泵</text>
+  <text x="110" y="278" text-anchor="middle" fill="#ef4444" font-size="9" font-family="sans-serif">"这个原理是什么?"</text>
+  <text x="110" y="298" text-anchor="middle" fill="#dc2626" font-size="9" font-family="sans-serif">我：大脑一片空白 😰</text>
+  <text x="110" y="318" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">知识被锁←提取失败</text>
   
   <!-- 场景2：水杯 -->
-  <rect x="310" y="270" width="180" height="100" rx="10" fill="#7f1d1d" stroke="#ef4444" stroke-width="1"/>
-  <text x="400" y="298" text-anchor="middle" fill="#f87171" font-size="10" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🥤 桌上的水杯</text>
-  <text x="400" y="318" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">"水为什么不飞走?"</text>
-  <text x="400" y="338" text-anchor="middle" fill="#f87171" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">联想到重力？→ 没有</text>
-  <text x="400" y="358" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">知识被锁←提取失败</text>
+  <rect x="310" y="270" width="180" height="100" rx="10" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+  <text x="400" y="298" text-anchor="middle" fill="#dc2626" font-size="10" font-weight="bold" font-family="sans-serif">🥤 桌上的水杯</text>
+  <text x="400" y="318" text-anchor="middle" fill="#ef4444" font-size="9" font-family="sans-serif">"水为什么不飞走?"</text>
+  <text x="400" y="338" text-anchor="middle" fill="#dc2626" font-size="9" font-family="sans-serif">联想到重力？→ 没有</text>
+  <text x="400" y="358" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">知识被锁←提取失败</text>
   
   <!-- 场景3：新闻 -->
-  <rect x="600" y="230" width="180" height="100" rx="10" fill="#7f1d1d" stroke="#ef4444" stroke-width="1"/>
-  <text x="690" y="258" text-anchor="middle" fill="#f87171" font-size="10" font-weight="bold" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">📺 看国际新闻</text>
-  <text x="690" y="278" text-anchor="middle" fill="#fca5a5" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">提到某历史事件</text>
-  <text x="690" y="298" text-anchor="middle" fill="#f87171" font-size="9" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">"好像学过…"</text>
-  <text x="690" y="318" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">但想不起来…😞</text>
+  <rect x="600" y="230" width="180" height="100" rx="10" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+  <text x="690" y="258" text-anchor="middle" fill="#dc2626" font-size="10" font-weight="bold" font-family="sans-serif">📺 看国际新闻</text>
+  <text x="690" y="278" text-anchor="middle" fill="#ef4444" font-size="9" font-family="sans-serif">提到某历史事件</text>
+  <text x="690" y="298" text-anchor="middle" fill="#dc2626" font-size="9" font-family="sans-serif">"好像学过…"</text>
+  <text x="690" y="318" text-anchor="middle" fill="#94a3b8" font-size="8" font-family="sans-serif">但想不起来…😞</text>
   
   <!-- 钥匙 -->
-  <text x="400" y="420" text-anchor="middle" fill="#fbbf24" font-size="11" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">🔑 解法：主动在多个场景中提取同一个知识 → 为它增加提取通路</text>
+  <text x="400" y="420" text-anchor="middle" fill="#b45309" font-size="11" font-family="sans-serif">🔑 解法：主动在多个场景中提取同一个知识 → 为它增加提取通路</text>
 </svg>

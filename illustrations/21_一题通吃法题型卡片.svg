@@ -1,63 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 550">
-  <rect width="800" height="550" fill="#0f172a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+  <rect width="800" height="550" fill="#ffffff"/>
   <!-- 标题 -->
-  <text x="400" y="32" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">一题通吃法 · 题型卡片</text>
+  <text x="400" y="32" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">一题通吃法 · 题型卡片</text>
   <line x1="300" y1="40" x2="500" y2="40" stroke="#f59e0b" stroke-width="1" opacity="0.4"/>
 
   <!-- A4半页卡片主体 -->
-  <rect x="140" y="55" width="520" height="440" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <rect x="140" y="55" width="520" height="440" rx="8" fill="#92400e" stroke="#d97706" stroke-width="2"/>
   <!-- 卡片阴影 -->
-  <rect x="148" y="63" width="520" height="440" rx="8" fill="#92400e" opacity="0.2"/>
-  <rect x="140" y="55" width="520" height="440" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <rect x="148" y="63" width="520" height="440" rx="8" fill="#fef3c7" opacity="0.2"/>
+  <rect x="140" y="55" width="520" height="440" rx="8" fill="#92400e" stroke="#d97706" stroke-width="2"/>
 
   <!-- 顶部题目区域 -->
   <rect x="160" y="72" width="480" height="55" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1"/>
-  <text x="180" y="92" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#92400e">📝 题目：</text>
-  <text x="180" y="112" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="16" fill="#1e293b">解一元二次方程：x² - 5x + 6 = 0</text>
+  <text x="180" y="92" font-family="sans-serif" font-size="11" font-weight="bold" fill="#fef3c7">📝 题目：</text>
+  <text x="180" y="112" font-family="sans-serif" font-size="16" fill="#f8fafc">解一元二次方程：x² - 5x + 6 = 0</text>
 
   <!-- 分步精解区域 -->
   <rect x="160" y="140" width="480" height="210" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1"/>
 
   <!-- 第1步 -->
-  <rect x="175" y="152" width="450" height="42" rx="4" fill="#dbeafe"/>
-  <text x="185" y="170" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#1d4ed8">第1步：</text>
-  <text x="245" y="170" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#1e293b">因式分解：找两个数，和为-5，积为6</text>
-  <text x="185" y="187" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#3b82f6">为什么：二次方程可写成 (x+m)(x+n)=0 形式</text>
+  <rect x="175" y="152" width="450" height="42" rx="4" fill="#3b82f6"/>
+  <text x="185" y="170" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1d4ed8">第1步：</text>
+  <text x="245" y="170" font-family="sans-serif" font-size="11" fill="#f8fafc">因式分解：找两个数，和为-5，积为6</text>
+  <text x="185" y="187" font-family="sans-serif" font-size="10" fill="#3b82f6">为什么：二次方程可写成 (x+m)(x+n)=0 形式</text>
 
   <!-- 第2步 -->
   <rect x="175" y="202" width="450" height="42" rx="4" fill="#dcfce7"/>
-  <text x="185" y="220" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#166534">第2步：</text>
-  <text x="245" y="220" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#1e293b">找到 -2 和 -3：→ (x-2)(x-3) = 0</text>
-  <text x="185" y="237" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#34d399">为什么：-2+-3=-5 ✓   (-2)×(-3)=6 ✓</text>
+  <text x="185" y="220" font-family="sans-serif" font-size="11" font-weight="bold" fill="#d1fae5">第2步：</text>
+  <text x="245" y="220" font-family="sans-serif" font-size="11" fill="#f8fafc">找到 -2 和 -3：→ (x-2)(x-3) = 0</text>
+  <text x="185" y="237" font-family="sans-serif" font-size="10" fill="#34d399">为什么：-2+-3=-5 ✓   (-2)×(-3)=6 ✓</text>
 
   <!-- 第3步 -->
-  <rect x="175" y="252" width="450" height="42" rx="4" fill="#f3e8ff"/>
-  <text x="185" y="270" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#7c3aed">第3步：</text>
-  <text x="245" y="270" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" fill="#1e293b">令每个因子=0：x-2=0 或 x-3=0</text>
-  <text x="185" y="287" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#a78bfa">为什么：A×B=0 时，A=0 或 B=0</text>
+  <rect x="175" y="252" width="450" height="42" rx="4" fill="#8b5cf6"/>
+  <text x="185" y="270" font-family="sans-serif" font-size="11" font-weight="bold" fill="#7c3aed">第3步：</text>
+  <text x="245" y="270" font-family="sans-serif" font-size="11" fill="#f8fafc">令每个因子=0：x-2=0 或 x-3=0</text>
+  <text x="185" y="287" font-family="sans-serif" font-size="10" fill="#8b5cf6">为什么：A×B=0 时，A=0 或 B=0</text>
 
   <!-- 第4步 -->
-  <rect x="175" y="302" width="450" height="38" rx="4" fill="#fef9c3"/>
-  <text x="185" y="320" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#a16207">✅ 答案：</text>
-  <text x="255" y="320" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#92400e">x₁ = 2    x₂ = 3</text>
-  <text x="185" y="335" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#d97706">为什么：解出后代入原式验证</text>
+  <rect x="175" y="302" width="450" height="38" rx="4" fill="#92400e"/>
+  <text x="185" y="320" font-family="sans-serif" font-size="11" font-weight="bold" fill="#fef9c3">✅ 答案：</text>
+  <text x="255" y="320" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fef3c7">x₁ = 2    x₂ = 3</text>
+  <text x="185" y="335" font-family="sans-serif" font-size="10" fill="#d97706">为什么：解出后代入原式验证</text>
 
   <!-- 底部红色警戒区 -->
   <rect x="160" y="365" width="480" height="115" rx="6" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="185" y="385" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#dc2626">🚨 易错点 &amp; 变式提示</text>
+  <text x="185" y="385" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dc2626">🚨 易错点 &amp; 变式提示</text>
 
-  <rect x="175" y="398" width="220" height="35" rx="4" fill="#fee2e2"/>
-  <text x="285" y="414" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#dc2626">⚠️ 忘记正负号</text>
-  <text x="285" y="428" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#dc2626">(x-2)(x-3)≠(x+2)(x+3)</text>
+  <rect x="175" y="398" width="220" height="35" rx="4" fill="#fef2f2"/>
+  <text x="285" y="414" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#dc2626">⚠️ 忘记正负号</text>
+  <text x="285" y="428" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#dc2626">(x-2)(x-3)≠(x+2)(x+3)</text>
 
-  <rect x="410" y="398" width="215" height="35" rx="4" fill="#fee2e2"/>
-  <text x="517" y="414" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#dc2626">⚠️ 漏掉另一个根</text>
-  <text x="517" y="428" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="9" fill="#dc2626">x=2之后要写x=3</text>
+  <rect x="410" y="398" width="215" height="35" rx="4" fill="#fef2f2"/>
+  <text x="517" y="414" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#dc2626">⚠️ 漏掉另一个根</text>
+  <text x="517" y="428" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#dc2626">x=2之后要写x=3</text>
 
-  <rect x="175" y="440" width="450" height="30" rx="4" fill="#dbeafe"/>
-  <text x="400" y="460" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="10" fill="#1d4ed8">🔄 变式：x²-5x+6=0 → 2x²-10x+12=0 → x²-5x=-6 → 解的几何意义</text>
+  <rect x="175" y="440" width="450" height="30" rx="4" fill="#3b82f6"/>
+  <text x="400" y="460" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1d4ed8">🔄 变式：x²-5x+6=0 → 2x²-10x+12=0 → x²-5x=-6 → 解的几何意义</text>
 
   <!-- 编号 -->
   <circle cx="60" cy="26" r="16" fill="#f59e0b" opacity="0.3"/>
-  <text x="60" y="32" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#f59e0b">21</text>
+  <text x="60" y="32" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f59e0b">21</text>
 </svg>
