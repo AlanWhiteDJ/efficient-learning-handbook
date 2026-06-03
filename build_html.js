@@ -462,6 +462,8 @@ function mdToHtmlBook(mdText) {
     let inUl = false;
     let inOl = false;
     let firstH1 = true;
+    let _chNum = 0;
+    let _subCnt = 0;
     
     // Track chapter sequence
     let chapterSequenceStarted = false;  // true after 第1章 is seen
