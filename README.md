@@ -48,7 +48,8 @@ efficient-learning-handbook/
 
 ## 📥 下载与阅读
 
-- 🌐 **在线阅读**：[**点击这里在线阅读**](https://alanwhitedj.github.io/efficient-learning-handbook/)（GitHub Pages，无需下载）
+- 🌐 **在线阅读（通用版）**：[**点击这里**](https://alanwhitedj.github.io/efficient-learning-handbook/)（GitHub Pages，无需下载）
+- 🏫 **在线阅读（初中版）**：[**点击这里**](https://alanwhitedj.github.io/efficient-learning-handbook/junior/)（全学科例子适配初中，七~九年级）
 - 📄 **离线 HTML**：下载 `高效学习手册.html`，用浏览器直接打开
 - 📝 **阅读 Markdown**：下载 `高效学习手册.md`，推荐用 Typora、Obsidian 或 VS Code 打开
 - 🖨️ **打印/导出 PDF**：用浏览器打开 HTML 文件 → 打印 → 另存为 PDF
