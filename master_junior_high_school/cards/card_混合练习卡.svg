@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="12"/>
+  <rect x="16" y="16" width="768" height="568" fill="none" stroke="#e2e8f0" stroke-width="2" rx="8" filter="url(#shadow)"/>
+  <!-- Header bar -->
+  <rect x="16" y="16" width="768" height="48" fill="#1e3a5f" rx="8"/>
+  <rect x="16" y="40" width="768" height="24" fill="#1e3a5f"/>
+  <text x="400" y="47" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">card13 ｜ 混合练习排程卡</text>
+  <text x="400" y="84" text-anchor="middle" fill="#64748b" font-size="13">方法：交错练习 · Interleaving Practice</text>
+  <!-- Today's new content -->
+  <rect x="40" y="104" width="720" height="32" fill="#f8fafc" rx="4" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="56" y="125" fill="#1e3a5f" font-size="14" font-weight="600">今日新学内容：</text>
+  <rect x="200" y="111" width="544" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+  <!-- Main table -->
+  <rect x="40" y="148" width="720" height="348" fill="none" stroke="#e2e8f0" stroke-width="1" rx="2"/>
+  <!-- Header row -->
+  <rect x="40" y="148" width="720" height="32" fill="#f1f5f9"/>
+  <line x1="40" y1="180" x2="760" y2="180" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="80" y="170" text-anchor="middle" fill="#1e3a5f" font-size="12" font-weight="700">题号</text>
+  <text x="220" y="170" text-anchor="middle" fill="#1e3a5f" font-size="12" font-weight="700">类型（新/旧）</text>
+  <text x="420" y="170" text-anchor="middle" fill="#1e3a5f" font-size="12" font-weight="700">题目来源</text>
+  <text x="590" y="170" text-anchor="middle" fill="#1e3a5f" font-size="12" font-weight="700">完成 ✓</text>
+  <text x="700" y="170" text-anchor="middle" fill="#1e3a5f" font-size="12" font-weight="700">用时</text>
+  <!-- Vertical lines -->
+  <line x1="120" y1="148" x2="120" y2="496" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="260" y1="148" x2="260" y2="496" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="510" y1="148" x2="510" y2="496" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="640" y1="148" x2="640" y2="496" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- 10 rows -->
+  <g font-size="11" fill="#475569">
+    <line x1="40" y1="208" x2="760" y2="208" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="40" y1="238" x2="760" y2="238" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="40" y1="268" x2="760" y2="268" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="40" y1="298" x2="760" y2="298" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="40" y1="328" x2="760" y2="328" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="40" y1="358" x2="760" y2="358" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="40" y1="388" x2="760" y2="388" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="40" y1="418" x2="760" y2="418" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="40" y1="448" x2="760" y2="448" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="40" y1="478" x2="760" y2="478" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+  </g>
+  <!-- Row labels -->
+  <g font-size="10" fill="#94a3b8">
+    <text x="100" y="230" text-anchor="middle">01</text>
+    <text x="100" y="260" text-anchor="middle">02</text>
+    <text x="100" y="290" text-anchor="middle">03</text>
+    <text x="100" y="320" text-anchor="middle">04</text>
+    <text x="100" y="350" text-anchor="middle">05</text>
+    <text x="100" y="380" text-anchor="middle">06</text>
+    <text x="100" y="410" text-anchor="middle">07</text>
+    <text x="100" y="440" text-anchor="middle">08</text>
+    <text x="100" y="470" text-anchor="middle">09</text>
+    <text x="100" y="500" text-anchor="middle">10</text>
+  </g>
+  <!-- Checkmark hints -->
+  <g font-size="8" fill="#cbd5e1">
+    <text x="590" y="226" text-anchor="middle">□</text>
+    <text x="590" y="256" text-anchor="middle">□</text>
+    <text x="590" y="286" text-anchor="middle">□</text>
+    <text x="590" y="316" text-anchor="middle">□</text>
+    <text x="590" y="346" text-anchor="middle">□</text>
+    <text x="590" y="376" text-anchor="middle">□</text>
+    <text x="590" y="406" text-anchor="middle">□</text>
+    <text x="590" y="436" text-anchor="middle">□</text>
+    <text x="590" y="466" text-anchor="middle">□</text>
+    <text x="590" y="496" text-anchor="middle">□</text>
+  </g>
+  <!-- Time hints -->
+  <g font-size="9" fill="#cbd5e1">
+    <text x="700" y="226" text-anchor="middle">_:_"</text>
+    <text x="700" y="256" text-anchor="middle">_:_"</text>
+    <text x="700" y="286" text-anchor="middle">_:_"</text>
+    <text x="700" y="316" text-anchor="middle">_:_"</text>
+    <text x="700" y="346" text-anchor="middle">_:_"</text>
+    <text x="700" y="376" text-anchor="middle">_:_"</text>
+    <text x="700" y="406" text-anchor="middle">_:_"</text>
+    <text x="700" y="436" text-anchor="middle">_:_"</text>
+    <text x="700" y="466" text-anchor="middle">_:_"</text>
+    <text x="700" y="496" text-anchor="middle">_:_"</text>
+  </g>
+  <!-- Bottom rule -->
+  <rect x="40" y="506" width="720" height="36" fill="#eff6ff" rx="4" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="400" y="530" text-anchor="middle" fill="#1e40af" font-size="13" font-weight="600">📐 规则：每 3 道新题后插入 1 道旧题（新旧交替 = 记得更牢）</text>
+  <!-- Footer -->
+  <text x="400" y="570" text-anchor="middle" fill="#94a3b8" font-size="10">高效学习手册 · 方法工具卡</text>
+</svg>

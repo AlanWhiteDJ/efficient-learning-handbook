@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+    </style>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="8"/>
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#e2e8f0" stroke-width="2" rx="6"/>
+  
+  <text x="780" y="28" font-size="10" fill="#94a3b8" text-anchor="end">📖 高效学习手册 · 弹性区块法</text>
+  
+  <text x="400" y="58" font-size="22" font-weight="bold" fill="#1e3a5f" text-anchor="middle">🧱 弹性区块周计划表</text>
+  <text x="400" y="78" font-size="11" fill="#64748b" text-anchor="middle">固定块=雷打不动 ｜ 浮动块=本周完成即可 ｜ 空白块=留给生活</text>
+  
+  <!-- 周标题 -->
+  <rect x="50" y="94" width="700" height="30" fill="#1e3a5f" rx="4"/>
+  <text x="400" y="115" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">第 ____ 周（ ____月____日 — ____月____日 ）</text>
+  
+  <!-- 7列表格 -->
+  <g transform="translate(50,130)">
+    <!-- 列宽：98 per column -->
+    <rect x="0" y="0" width="100" height="34" fill="#f1f5f9" stroke="#e2e8f0"/>
+    <text x="50" y="22" font-size="12" fill="#1e3a5f" font-weight="bold" text-anchor="middle">区块类型</text>
+    
+    <rect x="100" y="0" width="86" height="34" fill="#3b82f6" rx="3"/>
+    <text x="143" y="22" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">周一</text>
+    <rect x="186" y="0" width="86" height="34" fill="#3b82f6" rx="3"/>
+    <text x="229" y="22" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">周二</text>
+    <rect x="272" y="0" width="86" height="34" fill="#3b82f6" rx="3"/>
+    <text x="315" y="22" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">周三</text>
+    <rect x="358" y="0" width="86" height="34" fill="#3b82f6" rx="3"/>
+    <text x="401" y="22" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">周四</text>
+    <rect x="444" y="0" width="86" height="34" fill="#3b82f6" rx="3"/>
+    <text x="487" y="22" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">周五</text>
+    <rect x="530" y="0" width="86" height="34" fill="#3b82f6" rx="3"/>
+    <text x="573" y="22" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">周六</text>
+    <rect x="616" y="0" width="84" height="34" fill="#3b82f6" rx="3"/>
+    <text x="658" y="22" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">周日</text>
+    
+    <!-- 第1行：日期 -->
+    <rect x="0" y="38" width="100" height="42" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="50" y="64" font-size="12" fill="#64748b" font-weight="bold" text-anchor="middle">📅 日期</text>
+    <rect x="100" y="38" width="86" height="42" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="186" y="38" width="86" height="42" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="272" y="38" width="86" height="42" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="358" y="38" width="86" height="42" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="444" y="38" width="86" height="42" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="530" y="38" width="86" height="42" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="616" y="38" width="84" height="42" fill="#ffffff" stroke="#e2e8f0"/>
+    
+    <!-- 第2行：固定块 -->
+    <rect x="0" y="84" width="100" height="110" fill="#fef2f2" stroke="#e2e8f0"/>
+    <text x="50" y="130" font-size="12" fill="#dc2626" font-weight="bold" text-anchor="middle">🔒</text>
+    <text x="50" y="148" font-size="12" fill="#dc2626" font-weight="bold" text-anchor="middle">固定块</text>
+    <text x="50" y="165" font-size="10" fill="#9ca3af" text-anchor="middle">(必须做)</text>
+    <rect x="100" y="84" width="86" height="110" fill="#fef2f2" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="186" y="84" width="86" height="110" fill="#fef2f2" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="272" y="84" width="86" height="110" fill="#fef2f2" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="358" y="84" width="86" height="110" fill="#fef2f2" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="444" y="84" width="86" height="110" fill="#fef2f2" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="530" y="84" width="86" height="110" fill="#fef2f2" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="616" y="84" width="84" height="110" fill="#fef2f2" stroke="#e2e8f0" stroke-width="2"/>
+    
+    <!-- 第3行：浮动块 -->
+    <rect x="0" y="198" width="100" height="110" fill="#f0f9ff" stroke="#e2e8f0"/>
+    <text x="50" y="244" font-size="12" fill="#2563eb" font-weight="bold" text-anchor="middle">🌊</text>
+    <text x="50" y="262" font-size="12" fill="#2563eb" font-weight="bold" text-anchor="middle">浮动块</text>
+    <text x="50" y="279" font-size="10" fill="#9ca3af" text-anchor="middle">(本周内)</text>
+    <rect x="100" y="198" width="86" height="110" fill="#f0f9ff" stroke="#e2e8f0" stroke-dasharray="6,3"/>
+    <rect x="186" y="198" width="86" height="110" fill="#f0f9ff" stroke="#e2e8f0" stroke-dasharray="6,3"/>
+    <rect x="272" y="198" width="86" height="110" fill="#f0f9ff" stroke="#e2e8f0" stroke-dasharray="6,3"/>
+    <rect x="358" y="198" width="86" height="110" fill="#f0f9ff" stroke="#e2e8f0" stroke-dasharray="6,3"/>
+    <rect x="444" y="198" width="86" height="110" fill="#f0f9ff" stroke="#e2e8f0" stroke-dasharray="6,3"/>
+    <rect x="530" y="198" width="86" height="110" fill="#f0f9ff" stroke="#e2e8f0" stroke-dasharray="6,3"/>
+    <rect x="616" y="198" width="84" height="110" fill="#f0f9ff" stroke="#e2e8f0" stroke-dasharray="6,3"/>
+    
+    <!-- 第4行：空白块 -->
+    <rect x="0" y="312" width="100" height="80" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="50" y="346" font-size="12" fill="#64748b" font-weight="bold" text-anchor="middle">⬜</text>
+    <text x="50" y="364" font-size="12" fill="#64748b" font-weight="bold" text-anchor="middle">空白块</text>
+    <text x="50" y="381" font-size="10" fill="#9ca3af" text-anchor="middle">(留白)</text>
+    <rect x="100" y="312" width="86" height="80" fill="#f8fafc" stroke="#e2e8f0"/>
+    <rect x="186" y="312" width="86" height="80" fill="#f8fafc" stroke="#e2e8f0"/>
+    <rect x="272" y="312" width="86" height="80" fill="#f8fafc" stroke="#e2e8f0"/>
+    <rect x="358" y="312" width="86" height="80" fill="#f8fafc" stroke="#e2e8f0"/>
+    <rect x="444" y="312" width="86" height="80" fill="#f8fafc" stroke="#e2e8f0"/>
+    <rect x="530" y="312" width="86" height="80" fill="#f8fafc" stroke="#e2e8f0"/>
+    <rect x="616" y="312" width="84" height="80" fill="#f8fafc" stroke="#e2e8f0"/>
+  </g>
+  
+  <!-- 底部总结 -->
+  <rect x="50" y="536" width="340" height="48" fill="#f0fdf4" rx="6" stroke="#86efac"/>
+  <text x="66" y="560" font-size="13" fill="#166534" font-weight="bold">📊 本周完成率：____%</text>
+  
+  <rect x="410" y="536" width="340" height="48" fill="#fefce8" rx="6" stroke="#fde047"/>
+  <text x="426" y="560" font-size="13" fill="#92400e" font-weight="bold">🔄 下周调整：________________</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg)"/>
+  
+  <text x="400" y="28" text-anchor="middle" fill="#1e3a5f" font-size="18" font-weight="bold" font-family="sans-serif">表面特征 vs 深层结构——系统1 vs 系统2</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">大脑的快慢两套系统：一个凭经验秒判断，一个用力分析本质</text>
+  
+  <!-- 一道题 -->
+  <rect x="250" y="70" width="300" height="100" rx="10" fill="#f8fafc" stroke="#f59e0b" stroke-width="2"/>
+  <text x="400" y="95" text-anchor="middle" fill="#b45309" font-size="12" font-weight="bold" font-family="sans-serif">📝 考题</text>
+  <text x="400" y="118" text-anchor="middle" fill="#1e3a5f" font-size="11" font-family="sans-serif">"甲乙两车相向而行，甲速60km/h，</text>
+  <text x="400" y="136" text-anchor="middle" fill="#1e3a5f" font-size="11" font-family="sans-serif">　乙速40km/h，相距200km，何时相遇？"</text>
+  
+  <!-- 箭头分叉 -->
+  <line x1="320" y1="175" x2="150" y2="250" stroke="#ef4444" stroke-width="2"/>
+  <line x1="480" y1="175" x2="650" y2="250" stroke="#16a34a" stroke-width="2"/>
+  
+  <!-- 左：系统1 错判 -->
+  <text x="200" y="195" text-anchor="middle" fill="#ef4444" font-size="10" font-family="sans-serif">⚡ 系统1 触发</text>
+  <rect x="30" y="260" width="240" height="90" rx="10" fill="#fee2e2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="150" y="285" text-anchor="middle" fill="#dc2626" font-size="11" font-weight="bold" font-family="sans-serif">凭表面关键词匹配</text>
+  <text x="150" y="305" text-anchor="middle" fill="#ef4444" font-size="10" font-family="sans-serif">"相遇"→是追及问题!</text>
+  <text x="150" y="322" text-anchor="middle" fill="#ef4444" font-size="10" font-family="sans-serif">→ 套公式 → 错了</text>
+  <text x="150" y="342" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">"这个字眼我见过!"</text>
+  
+  <!-- 右：系统2 正确 -->
+  <text x="600" y="195" text-anchor="middle" fill="#16a34a" font-size="10" font-family="sans-serif">🧐 系统2 介入</text>
+  <rect x="530" y="260" width="240" height="90" rx="10" fill="#d1fae5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="650" y="285" text-anchor="middle" fill="#059669" font-size="11" font-weight="bold" font-family="sans-serif">翻译成自己的话</text>
+  <text x="650" y="305" text-anchor="middle" fill="#10b981" font-size="10" font-family="sans-serif">→ 距离÷(速度和)=?</text>
+  <text x="650" y="322" text-anchor="middle" fill="#10b981" font-size="10" font-family="sans-serif">→ 其实就是"同时完成"</text>
+  <text x="650" y="342" text-anchor="middle" fill="#94a3b8" font-size="9" font-family="sans-serif">"这题真正在问什么?"</text>
+  
+  <!-- 底部对比 -->
+  <rect x="40" y="370" width="340" height="35" rx="6" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+  <text x="210" y="393" text-anchor="middle" fill="#dc2626" font-size="10" font-family="sans-serif">系统1：快速 · 自动 · 凭经验 → 容易错</text>
+  <rect x="420" y="370" width="340" height="35" rx="6" fill="#d1fae5" stroke="#16a34a" stroke-width="1"/>
+  <text x="590" y="393" text-anchor="middle" fill="#059669" font-size="10" font-family="sans-serif">系统2：慢 · 费力 · 分析结构 → 才正确</text>
+</svg>

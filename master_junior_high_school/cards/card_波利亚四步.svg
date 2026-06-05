@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+    </style>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="8"/>
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#e2e8f0" stroke-width="2" rx="6"/>
+  
+  <text x="780" y="28" font-size="10" fill="#94a3b8" text-anchor="end">📖 高效学习手册 · 波利亚解题法（George Pólya）</text>
+  
+  <text x="400" y="58" font-size="22" font-weight="bold" fill="#1e3a5f" text-anchor="middle">🧠 波利亚四步解题卡</text>
+  <text x="400" y="78" font-size="11" fill="#64748b" text-anchor="middle">"解题是一种实践技能，就像游泳一样，只能通过模仿和练习学会。" — G. Pólya</text>
+  
+  <!-- 第一步 -->
+  <g transform="translate(50,98)">
+    <rect x="0" y="0" width="700" height="95" fill="#fef3c7" stroke="#fcd34d" rx="6"/>
+    <rect x="0" y="0" width="100" height="95" fill="#eab308" rx="6"/>
+    <rect x="0" y="50" width="100" height="45" fill="#eab308"/>
+    <text x="50" y="35" font-size="20" fill="#ffffff" font-weight="bold" text-anchor="middle">①</text>
+    <text x="50" y="70" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">理解题目</text>
+    <text x="120" y="28" font-size="13" fill="#92400e" font-weight="bold">它在问什么？（用自己的话写一遍）</text>
+    <rect x="120" y="42" width="610" height="42" fill="#ffffff" stroke="#fcd34d" rx="4"/>
+    <text x="134" y="68" font-size="13" fill="#cbd5e1">_________________________________________________________________________</text>
+  </g>
+  
+  <!-- 第二步 -->
+  <g transform="translate(50,202)">
+    <rect x="0" y="0" width="700" height="85" fill="#dbeafe" stroke="#93c5fd" rx="6"/>
+    <rect x="0" y="0" width="100" height="85" fill="#2563eb" rx="6"/>
+    <rect x="0" y="50" width="100" height="35" fill="#2563eb"/>
+    <text x="50" y="35" font-size="20" fill="#ffffff" font-weight="bold" text-anchor="middle">②</text>
+    <text x="50" y="68" font-size="13" fill="#ffffff" font-weight="bold" text-anchor="middle">制定方案</text>
+    <text x="120" y="28" font-size="13" fill="#1e40af" font-weight="bold">这道题让我想到哪道做过的题？用什么方法？</text>
+    <rect x="120" y="40" width="610" height="36" fill="#ffffff" stroke="#93c5fd" rx="4"/>
+    <text x="134" y="63" font-size="13" fill="#cbd5e1">_________________________________________________________________________</text>
+  </g>
+  
+  <!-- 第三步 -->
+  <g transform="translate(50,296)">
+    <rect x="0" y="0" width="700" height="85" fill="#f0fdf4" stroke="#86efac" rx="6"/>
+    <rect x="0" y="0" width="100" height="85" fill="#16a34a" rx="6"/>
+    <rect x="0" y="50" width="100" height="35" fill="#16a34a"/>
+    <text x="50" y="35" font-size="20" fill="#ffffff" font-weight="bold" text-anchor="middle">③</text>
+    <text x="50" y="68" font-size="13" fill="#ffffff" font-weight="bold" text-anchor="middle">执行方案</text>
+    <text x="120" y="28" font-size="13" fill="#166534" font-weight="bold">一步一步写下来（不要跳步！）</text>
+    <rect x="120" y="40" width="610" height="36" fill="#ffffff" stroke="#86efac" rx="4"/>
+    <text x="134" y="63" font-size="13" fill="#cbd5e1">_________________________________________________________________________</text>
+  </g>
+  
+  <!-- 第四步 -->
+  <g transform="translate(50,390)">
+    <rect x="0" y="0" width="700" height="85" fill="#fce7f3" stroke="#f9a8d4" rx="6"/>
+    <rect x="0" y="0" width="100" height="85" fill="#db2777" rx="6"/>
+    <rect x="0" y="50" width="100" height="35" fill="#db2777"/>
+    <text x="50" y="35" font-size="20" fill="#ffffff" font-weight="bold" text-anchor="middle">④</text>
+    <text x="50" y="68" font-size="13" fill="#ffffff" font-weight="bold" text-anchor="middle">回顾反思</text>
+    <text x="120" y="28" font-size="13" fill="#9d174d" font-weight="bold">答案合理吗？有没有更简单的解法？这道题教会了我什么？</text>
+    <rect x="120" y="40" width="610" height="36" fill="#ffffff" stroke="#f9a8d4" rx="4"/>
+    <text x="134" y="63" font-size="13" fill="#cbd5e1">_________________________________________________________________________</text>
+  </g>
+  
+  <rect x="50" y="500" width="700" height="30" fill="#f1f5f9" rx="4"/>
+  <text x="400" y="520" font-size="12" fill="#64748b" text-anchor="middle">📋 每题一卡，复印使用。前两步花的时间越多，解题越快。</text>
+  
+  <rect x="50" y="538" width="700" height="44" fill="#fefce8" stroke="#fde047" rx="6"/>
+  <text x="70" y="562" font-size="12" fill="#92400e">💡 波利亚金句：</text>
+  <text x="180" y="562" font-size="12" fill="#92400e" font-style="italic">"如果你解不出一道题，那一定有一道更简单的题你也不会解——找到它。"</text>
+</svg>

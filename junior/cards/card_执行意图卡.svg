@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+    </style>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="8"/>
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#e2e8f0" stroke-width="2" rx="6"/>
+  
+  <text x="780" y="28" font-size="10" fill="#94a3b8" text-anchor="end">📖 高效学习手册 · 执行意图（Implementation Intention）</text>
+  
+  <text x="400" y="62" font-size="22" font-weight="bold" fill="#1e3a5f" text-anchor="middle">⚡ 如果—那么 执行卡</text>
+  <text x="400" y="85" font-size="12" fill="#64748b" text-anchor="middle">"如果X发生，我就做Y"——给大脑装上自动执行程序</text>
+  
+  <!-- 场景1 -->
+  <g transform="translate(50,108)">
+    <rect x="0" y="0" width="700" height="110" fill="#f8fafc" stroke="#e2e8f0" rx="6"/>
+    <text x="18" y="24" font-size="14" font-weight="bold" fill="#3b82f6">场景 ①</text>
+    
+    <rect x="30" y="36" width="640" height="28" fill="#ffffff" stroke="#e2e8f0" rx="4"/>
+    <text x="48" y="55" font-size="13" fill="#1e3a5f">当 </text>
+    <text x="80" y="55" font-size="13" fill="#94a3b8">________________________（触发事件/时间）</text>
+    <text x="400" y="55" font-size="13" fill="#1e3a5f">的时候</text>
+    
+    <rect x="30" y="68" width="640" height="28" fill="#ffffff" stroke="#e2e8f0" rx="4"/>
+    <text x="48" y="87" font-size="13" fill="#1e3a5f">我就在 </text>
+    <text x="116" y="87" font-size="13" fill="#94a3b8">________________________（地点/位置）</text>
+    
+    <rect x="30" y="100" width="640" height="28" fill="none" stroke="#e2e8f0" stroke-dasharray="4,3" rx="4"/>
+    <text x="48" y="119" font-size="13" fill="#1e3a5f">做 </text>
+    <text x="80" y="119" font-size="13" fill="#94a3b8">________________________（具体动作）</text>
+  </g>
+  
+  <!-- 场景2 -->
+  <g transform="translate(50,228)">
+    <rect x="0" y="0" width="700" height="110" fill="#f0f9ff" stroke="#e2e8f0" rx="6"/>
+    <text x="18" y="24" font-size="14" font-weight="bold" fill="#2563eb">场景 ②</text>
+    
+    <rect x="30" y="36" width="640" height="28" fill="#ffffff" stroke="#e2e8f0" rx="4"/>
+    <text x="48" y="55" font-size="13" fill="#1e3a5f">当 </text>
+    <text x="80" y="55" font-size="13" fill="#94a3b8">________________________（触发事件/时间）</text>
+    <text x="400" y="55" font-size="13" fill="#1e3a5f">的时候</text>
+    
+    <rect x="30" y="68" width="640" height="28" fill="#ffffff" stroke="#e2e8f0" rx="4"/>
+    <text x="48" y="87" font-size="13" fill="#1e3a5f">我就在 </text>
+    <text x="116" y="87" font-size="13" fill="#94a3b8">________________________（地点/位置）</text>
+    
+    <rect x="30" y="100" width="640" height="28" fill="none" stroke="#e2e8f0" stroke-dasharray="4,3" rx="4"/>
+    <text x="48" y="119" font-size="13" fill="#1e3a5f">做 </text>
+    <text x="80" y="119" font-size="13" fill="#94a3b8">________________________（具体动作）</text>
+  </g>
+  
+  <!-- 场景3 -->
+  <g transform="translate(50,348)">
+    <rect x="0" y="0" width="700" height="110" fill="#f8fafc" stroke="#e2e8f0" rx="6"/>
+    <text x="18" y="24" font-size="14" font-weight="bold" fill="#2563eb">场景 ③</text>
+    
+    <rect x="30" y="36" width="640" height="28" fill="#ffffff" stroke="#e2e8f0" rx="4"/>
+    <text x="48" y="55" font-size="13" fill="#1e3a5f">当 </text>
+    <text x="80" y="55" font-size="13" fill="#94a3b8">________________________（触发事件/时间）</text>
+    <text x="400" y="55" font-size="13" fill="#1e3a5f">的时候</text>
+    
+    <rect x="30" y="68" width="640" height="28" fill="#ffffff" stroke="#e2e8f0" rx="4"/>
+    <text x="48" y="87" font-size="13" fill="#1e3a5f">我就在 </text>
+    <text x="116" y="87" font-size="13" fill="#94a3b8">________________________（地点/位置）</text>
+    
+    <rect x="30" y="100" width="640" height="28" fill="none" stroke="#e2e8f0" stroke-dasharray="4,3" rx="4"/>
+    <text x="48" y="119" font-size="13" fill="#1e3a5f">做 </text>
+    <text x="80" y="119" font-size="13" fill="#94a3b8">________________________（具体动作）</text>
+  </g>
+  
+  <!-- 示例 -->
+  <rect x="50" y="475" width="700" height="100" fill="#f0fdf4" rx="6" stroke="#bbf7d0"/>
+  <text x="70" y="498" font-size="12" fill="#166534" font-weight="bold">📋 示例（照着填就行）：</text>
+  <text x="70" y="520" font-size="12" fill="#166534">当 <tspan fill="#15803d" font-weight="bold">放下碗筷</tspan> 的时候，我就在 <tspan fill="#15803d" font-weight="bold">书桌前</tspan>，做 <tspan fill="#15803d" font-weight="bold">翻开数学课本第3页读一遍</tspan></text>
+  <text x="70" y="542" font-size="12" fill="#166534">当 <tspan fill="#15803d" font-weight="bold">地铁到站前3分钟</tspan> 的时候，我就在 <tspan fill="#15803d" font-weight="bold">座位上</tspan>，做 <tspan fill="#15803d" font-weight="bold">掏出单词卡复习5个词</tspan></text>
+  <text x="70" y="564" font-size="11" fill="#64748b">💡 越具体越好！"看书"不如"翻开数学课本第3页读一遍"有效。</text>
+</svg>

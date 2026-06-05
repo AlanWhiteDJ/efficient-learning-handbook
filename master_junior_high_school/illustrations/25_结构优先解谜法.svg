@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+  <rect width="800" height="550" fill="#ffffff"/>
+  <!-- 标题 -->
+  <text x="400" y="34" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">结构优先解谜法</text>
+  <line x1="310" y1="42" x2="490" y2="42" stroke="#f59e0b" stroke-width="1" opacity="0.4"/>
+
+  <!-- 顶部：陌生题型出现 -->
+  <rect x="200" y="60" width="400" height="70" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+  <text x="400" y="85" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#94a3b8">一道陌生题型出现……</text>
+  <!-- 惊恐表情 -->
+  <text x="400" y="115" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#ef4444">😰</text>
+  <text x="400" y="128" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#64748b">这是什么！不会！</text>
+
+  <!-- 向下箭头流程 -->
+  <polygon points="400,136 412,156 388,156" fill="#64748b"/>
+
+  <!-- 四步流程 -->
+  <!-- 步骤1 -->
+  <rect x="60" y="165" width="155" height="90" rx="10" fill="#f8fafc" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="100" cy="190" r="14" fill="#3b82f6"/>
+  <text x="100" y="195" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff">①</text>
+  <text x="137" y="190" font-family="sans-serif" font-size="10" font-weight="bold" fill="#3b82f6">圈知识点关键词</text>
+  <text x="137" y="208" font-family="sans-serif" font-size="9" fill="#94a3b8">筛选题中熟悉的</text>
+  <text x="137" y="223" font-family="sans-serif" font-size="9" fill="#94a3b8">核心术语/公式</text>
+  <text x="137" y="238" font-family="sans-serif" font-size="9" fill="#94a3b8">消除陌生感</text>
+
+  <!-- 箭头1→2 -->
+  <polygon points="220,210 240,210" fill="#3b82f6"/>
+  <polygon points="235,206 245,210 235,214" fill="#3b82f6"/>
+  <text x="245" y="206" font-family="sans-serif" font-size="9" fill="#3b82f6">😐</text>
+
+  <!-- 步骤2 -->
+  <rect x="255" y="165" width="155" height="90" rx="10" fill="#f8fafc" stroke="#34d399" stroke-width="2"/>
+  <circle cx="295" cy="190" r="14" fill="#34d399"/>
+  <text x="295" y="195" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">②</text>
+  <text x="332" y="190" font-family="sans-serif" font-size="10" font-weight="bold" fill="#059669">连上知识网络</text>
+  <text x="332" y="208" font-family="sans-serif" font-size="9" fill="#94a3b8">这道题用到</text>
+  <text x="332" y="223" font-family="sans-serif" font-size="9" fill="#94a3b8">已学的哪些概念？</text>
+  <text x="332" y="238" font-family="sans-serif" font-size="9" fill="#94a3b8">将它们串起来</text>
+
+  <!-- 箭头2→3 -->
+  <polygon points="415,210 435,210" fill="#34d399"/>
+  <polygon points="430,206 440,210 430,214" fill="#34d399"/>
+  <text x="440" y="206" font-family="sans-serif" font-size="9" fill="#34d399">🙂</text>
+
+  <!-- 步骤3 -->
+  <rect x="450" y="165" width="155" height="90" rx="10" fill="#f8fafc" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="490" cy="190" r="14" fill="#f59e0b"/>
+  <text x="490" y="195" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">③</text>
+  <text x="527" y="190" font-family="sans-serif" font-size="10" font-weight="bold" fill="#92400e">回忆最简版原题</text>
+  <text x="527" y="208" font-family="sans-serif" font-size="9" fill="#94a3b8">最基础的版本</text>
+  <text x="527" y="223" font-family="sans-serif" font-size="9" fill="#94a3b8">是什么样子的？</text>
+  <text x="527" y="238" font-family="sans-serif" font-size="9" fill="#94a3b8">解法是什么？</text>
+
+  <!-- 箭头3→4 -->
+  <polygon points="610,210 630,210" fill="#f59e0b"/>
+  <polygon points="625,206 635,210 625,214" fill="#f59e0b"/>
+  <text x="635" y="206" font-family="sans-serif" font-size="9" fill="#f59e0b">😎</text>
+
+  <!-- 步骤4 -->
+  <rect x="645" y="165" width="105" height="90" rx="10" fill="#f8fafc" stroke="#8b5cf6" stroke-width="2"/>
+  <circle cx="675" cy="190" r="14" fill="#8b5cf6"/>
+  <text x="675" y="195" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff">④</text>
+  <text x="697" y="208" font-family="sans-serif" font-size="9" font-weight="bold" fill="#8b5cf6">步骤映射</text>
+  <text x="697" y="225" font-family="sans-serif" font-size="9" fill="#94a3b8">原解法</text>
+  <text x="697" y="240" font-family="sans-serif" font-size="9" fill="#94a3b8">→新格式</text>
+
+  <!-- 底部结果 -->
+  <rect x="200" y="285" width="400" height="55" rx="10" fill="#d1fae5" stroke="#34d399" stroke-width="1.5"/>
+  <text x="400" y="308" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#059669">✅ 搞定了！原来和做过的题一样！</text>
+  <text x="400" y="328" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#34d399">😎</text>
+
+  <!-- 底部注释 -->
+  <rect x="120" y="370" width="560" height="80" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="400" y="398" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#f59e0b">💡 结构优先：题型是皮肤，知识点是骨架</text>
+  <text x="400" y="420" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#94a3b8">陌生题 = 已学知识 × 新包装 → 剥开包装 → 骨架相同 → 步骤复用</text>
+  <text x="400" y="440" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">所有题都是"旧知识穿新衣"，先找骨架再解题</text>
+
+  <!-- 编号 -->
+  <circle cx="60" cy="26" r="16" fill="#f59e0b" opacity="0.3"/>
+  <text x="60" y="32" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f59e0b">25</text>
+</svg>

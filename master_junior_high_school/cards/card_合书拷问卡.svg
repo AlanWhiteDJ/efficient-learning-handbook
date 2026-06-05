@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+    </style>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="8"/>
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#e2e8f0" stroke-width="2" rx="6"/>
+  
+  <text x="780" y="28" font-size="10" fill="#94a3b8" text-anchor="end">📖 高效学习手册 · 合书拷问法</text>
+  
+  <text x="400" y="62" font-size="22" font-weight="bold" fill="#1e3a5f" text-anchor="middle">📕 合书拷问记录卡</text>
+  <text x="400" y="85" font-size="12" fill="#64748b" text-anchor="middle">关上书，拷问自己："刚刚到底学了什么？"——这是检验学习效果最诚实的方式</text>
+  
+  <!-- 表头 -->
+  <g transform="translate(36,110)">
+    <rect x="0" y="0" width="100" height="38" fill="#1e3a5f" rx="4"/>
+    <text x="50" y="25" font-size="13" fill="#ffffff" font-weight="bold" text-anchor="middle">日期</text>
+    
+    <rect x="108" y="0" width="180" height="38" fill="#1e3a5f" rx="4"/>
+    <text x="198" y="25" font-size="13" fill="#ffffff" font-weight="bold" text-anchor="middle">学习内容</text>
+    
+    <rect x="296" y="0" width="240" height="38" fill="#2563eb" rx="4"/>
+    <text x="416" y="25" font-size="13" fill="#ffffff" font-weight="bold" text-anchor="middle">💡 合书能想起什么</text>
+    
+    <rect x="544" y="0" width="220" height="38" fill="#dc2626" rx="4"/>
+    <text x="654" y="25" font-size="13" fill="#ffffff" font-weight="bold" text-anchor="middle">❗翻开后发现遗漏了什么</text>
+  </g>
+  
+  <!-- 6行数据 -->
+  <g transform="translate(36,148)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="728" height="52" fill="#f8fafc" stroke="#e2e8f0"/>
+    <line x1="100" y1="0" x2="100" y2="52" stroke="#e2e8f0"/>
+    <line x1="288" y1="0" x2="288" y2="52" stroke="#e2e8f0"/>
+    <line x1="536" y1="0" x2="536" y2="52" stroke="#e2e8f0"/>
+    
+    <rect x="0" y="56" width="728" height="52" fill="#ffffff" stroke="#e2e8f0"/>
+    <line x1="100" y1="56" x2="100" y2="108" stroke="#e2e8f0"/>
+    <line x1="288" y1="56" x2="288" y2="108" stroke="#e2e8f0"/>
+    <line x1="536" y1="56" x2="536" y2="108" stroke="#e2e8f0"/>
+    
+    <rect x="0" y="112" width="728" height="52" fill="#f8fafc" stroke="#e2e8f0"/>
+    <line x1="100" y1="112" x2="100" y2="164" stroke="#e2e8f0"/>
+    <line x1="288" y1="112" x2="288" y2="164" stroke="#e2e8f0"/>
+    <line x1="536" y1="112" x2="536" y2="164" stroke="#e2e8f0"/>
+    
+    <rect x="0" y="168" width="728" height="52" fill="#ffffff" stroke="#e2e8f0"/>
+    <line x1="100" y1="168" x2="100" y2="220" stroke="#e2e8f0"/>
+    <line x1="288" y1="168" x2="288" y2="220" stroke="#e2e8f0"/>
+    <line x1="536" y1="168" x2="536" y2="220" stroke="#e2e8f0"/>
+    
+    <rect x="0" y="224" width="728" height="52" fill="#f8fafc" stroke="#e2e8f0"/>
+    <line x1="100" y1="224" x2="100" y2="276" stroke="#e2e8f0"/>
+    <line x1="288" y1="224" x2="288" y2="276" stroke="#e2e8f0"/>
+    <line x1="536" y1="224" x2="536" y2="276" stroke="#e2e8f0"/>
+    
+    <rect x="0" y="280" width="728" height="52" fill="#ffffff" stroke="#e2e8f0"/>
+    <line x1="100" y1="280" x2="100" y2="332" stroke="#e2e8f0"/>
+    <line x1="288" y1="280" x2="288" y2="332" stroke="#e2e8f0"/>
+    <line x1="536" y1="280" x2="536" y2="332" stroke="#e2e8f0"/>
+  </g>
+  
+  <!-- 底部提示 -->
+  <rect x="36" y="495" width="728" height="80" fill="#fef2f2" rx="6" stroke="#fecaca"/>
+  <text x="400" y="520" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle">🔴 用红笔标注遗漏点，下次复习优先看红色部分！</text>
+  <text x="400" y="543" font-size="12" fill="#64748b" text-anchor="middle">红灯区 = 你以为会了但其实不会的 = 提分空间最大的地方</text>
+  <text x="400" y="563" font-size="11" fill="#94a3b8" text-anchor="middle">坚持一周，你会惊讶自己原来有这么多"假会"的知识点。</text>
+</svg>

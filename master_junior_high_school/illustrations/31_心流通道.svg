@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+  </defs>
+  <rect width="800" height="430" fill="url(#bg)"/>
+  
+  <text x="400" y="28" text-anchor="middle" fill="#1e3a5f" font-size="18" font-weight="bold" font-family="sans-serif">心流通道——挑战与技能的平衡</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">心流不是等来的，是在"舒适区边缘"设计出来的</text>
+  
+  <!-- 坐标轴 -->
+  <line x1="100" y1="350" x2="720" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="100" y1="350" x2="100" y2="80" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="410" y="372" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">技能水平 →</text>
+  <text x="80" y="220" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif" transform="rotate(-90,80,220)">挑战难度</text>
+  
+  <!-- 焦虑区 -->
+  <rect x="100" y="80" width="620" height="100" rx="0" fill="#fee2e2" opacity="0.3"/>
+  <text x="720" y="135" text-anchor="end" fill="#dc2626" font-size="14" font-weight="bold" font-family="sans-serif">焦虑区</text>
+  <text x="720" y="158" text-anchor="end" fill="#ef4444" font-size="10" font-family="sans-serif">挑战 > 技能</text>
+  
+  <!-- 无聊区 -->
+  <rect x="100" y="250" width="620" height="100" rx="0" fill="#f8fafc" opacity="0.5"/>
+  <text x="720" y="340" text-anchor="end" fill="#64748b" font-size="14" font-weight="bold" font-family="sans-serif">无聊区</text>
+  <text x="720" y="345" text-anchor="end" fill="#94a3b8" font-size="10" font-family="sans-serif">技能 > 挑战</text>
+  
+  <!-- 心流通道 -->
+  <path d="M100,180 L250,180 L280,210 L400,210 L430,240 L550,240 L580,270 L720,270" fill="none" stroke="#16a34a" stroke-width="4" opacity="0.8"/>
+  <rect x="0" y="0" width="0" height="0"/>
+  <text x="420" y="205" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold" font-family="sans-serif" font-style="italic">✨ 心流区</text>
+  <text x="420" y="223" text-anchor="middle" fill="#059669" font-size="10" font-family="sans-serif">挑战 ≈ 技能（略高）</text>
+  
+  <!-- 小人在心流区 -->
+  <circle cx="400" cy="220" r="8" fill="#16a34a" filter="url(#gl)"/>
+  <defs><filter id="gl"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  
+  <!-- 标签 -->
+  <rect x="430" y="240" width="160" height="50" rx="8" fill="#d1fae5" stroke="#16a34a" stroke-width="1"/>
+  <text x="510" y="260" text-anchor="middle" fill="#059669" font-size="10" font-family="sans-serif">⏱ 时间感消失</text>
+  <text x="510" y="278" text-anchor="middle" fill="#059669" font-size="10" font-family="sans-serif">🎯 完全沉浸</text>
+  
+  <!-- 底部提示 -->
+  <rect x="130" y="390" width="540" height="32" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="400" y="412" text-anchor="middle" fill="#b45309" font-size="11" font-family="sans-serif">把任务调到"觉得有挑战但预感自己能拿下" → 舒适区边缘</text>
+</svg>

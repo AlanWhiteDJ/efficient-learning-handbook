@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="paperShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="550" fill="#ffffff"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="48" fill="#f8fafc" opacity="0.85"/>
+  <text x="400" y="18" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="12" letter-spacing="4">第9讲  ·  白纸倾泻法</text>
+
+  <!-- === PAGE TITLE above paper === -->
+  <rect x="230" y="58" width="340" height="35" rx="8" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+  <text x="400" y="82" text-anchor="middle" fill="#b45309" font-family="sans-serif" font-size="18" font-weight="bold">先输出，再补漏</text>
+
+  <!-- === Main B5 paper area === -->
+  <g filter="url(#paperShadow)">
+    <rect x="40" y="100" width="720" height="390" rx="8" fill="#92400e" stroke="#d97706" stroke-width="2"/>
+
+    <!-- Paper lines -->
+    <g opacity="0.1">
+      <line x1="40" y1="140" x2="760" y2="140" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="170" x2="760" y2="170" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="200" x2="760" y2="200" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="230" x2="760" y2="230" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="260" x2="760" y2="260" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="290" x2="760" y2="290" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="320" x2="760" y2="320" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="350" x2="760" y2="350" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="380" x2="760" y2="380" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="410" x2="760" y2="410" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="440" x2="760" y2="440" stroke="#fef3c7" stroke-width="0.8"/>
+      <line x1="40" y1="470" x2="760" y2="470" stroke="#fef3c7" stroke-width="0.8"/>
+    </g>
+
+    <!-- Center dividing fold line (subtle) -->
+    <line x1="400" y1="100" x2="400" y2="490" stroke="#b45309" stroke-width="1" stroke-dasharray="4,8" opacity="0.4"/>
+
+    <!-- === LEFT SIDE: Messy knowledge dump (before opening book) === -->
+    <text x="180" y="128" text-anchor="middle" fill="#fef3c7" font-family="sans-serif" font-size="12" font-weight="bold">📝 不看书 · 先倾泻</text>
+
+    <!-- Random keywords scattered -->
+    <text x="80" y="155" fill="#fef3c7" font-family="sans-serif" font-size="13" font-weight="bold">氧化还原</text>
+    <text x="290" y="150" fill="#fef3c7" font-family="sans-serif" font-size="11">得失电子</text>
+
+    <!-- Formula area with messy scribble -->
+    <text x="110" y="180" fill="#fef3c7" font-family="sans-serif" font-size="15">MnO₄⁻ + Fe²⁺ → Mn²⁺ + Fe³⁺(??)</text>
+
+    <!-- Arrow showing doubt -->
+    <path d="M310,175 Q350,175 360,185 Q340,190 320,180" fill="none" stroke="#dc2626" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Reaction arrows -->
+    <path d="M115,195 L115,210" fill="none" stroke="#fef3c7" stroke-width="1.5"/>
+    <text x="125" y="208" fill="#fef3c7" font-family="sans-serif" font-size="9">还原?</text>
+
+    <!-- Scattered keywords -->
+    <text x="70" y="230" fill="#fef3c7" font-family="sans-serif" font-size="11">化合价变化</text>
+    <text x="200" y="235" fill="#fef3c7" font-family="sans-serif" font-size="9">电子转移</text>
+
+    <!-- Circle -->
+    <ellipse cx="150" cy="255" rx="55" ry="18" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.6"/>
+    <text x="150" y="260" text-anchor="middle" fill="#fef3c7" font-family="sans-serif" font-size="10">氧化数升→氧化反应</text>
+
+    <!-- More scribbles -->
+    <text x="260" y="280" fill="#fef3c7" font-family="sans-serif" font-size="10">配平(??)</text>
+    <text x="80" y="285" fill="#fef3c7" font-family="sans-serif" font-size="13" font-weight="bold">半反应法</text>
+    <text x="200" y="300" fill="#fef3c7" font-family="sans-serif" font-size="9">酸性/碱性介质</text>
+
+    <!-- Zigzag arrow -->
+    <path d="M190,310 L210,300 L195,290 L220,280 L200,270" fill="none" stroke="#d97706" stroke-width="1.2"/>
+
+    <text x="130" y="325" fill="#fef3c7" font-family="sans-serif" font-size="12" font-weight="bold">电化学 ??</text>
+
+    <!-- Messy formula -->
+    <text x="250" y="320" fill="#fef3c7" font-family="sans-serif" font-size="10">E = E⁰ - RT/nF·lnQ (???)</text>
+
+    <text x="80" y="355" fill="#fef3c7" font-family="sans-serif" font-size="11">原电池 vs 电解池</text>
+
+    <!-- Another messy circle area -->
+    <ellipse cx="280" cy="360" rx="60" ry="15" fill="none" stroke="#d97706" stroke-width="1" opacity="0.4"/>
+    <text x="280" y="364" text-anchor="middle" fill="#fef3c7" font-family="sans-serif" font-size="9">阳极→氧化 (混淆中...)</text>
+
+    <text x="120" y="400" fill="#fef3c7" font-family="sans-serif" font-size="12">金属活动性顺序</text>
+    <text x="310" y="395" fill="#fef3c7" font-family="sans-serif" font-size="9">K Ca Na Mg Al ...</text>
+
+    <!-- Question marks -->
+    <text x="160" y="430" fill="#dc2626" font-family="sans-serif" font-size="18" font-weight="bold">?</text>
+    <text x="300" y="440" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">??</text>
+    <text x="75" y="455" fill="#dc2626" font-family="sans-serif" font-size="14" font-weight="bold">?</text>
+
+    <!-- Vertical "full bucket" indicator -->
+    <text x="180" y="480" text-anchor="middle" fill="#fef3c7" font-family="sans-serif" font-size="10">满当当的「知识提取」</text>
+
+    <!-- === RIGHT SIDE: Red pen corrections (after opening book) === -->
+    <text x="600" y="128" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="12" font-weight="bold">🔍 翻书后 · 补漏洞（红笔）</text>
+
+    <!-- Red correction 1 -->
+    <text x="430" y="155" fill="#b91c1c" font-family="sans-serif" font-size="12" font-weight="bold">→ 酸性条件需加 H⁺ 配平</text>
+    <line x1="340" y1="175" x2="340" y2="185" stroke="#dc2626" stroke-width="2"/>
+    <text x="360" y="185" fill="#b91c1c" font-family="sans-serif" font-size="9">✗ 漏了H₂O产物</text>
+
+    <!-- Red correction 2 -->
+    <line x1="160" y1="230" x2="160" y2="250" stroke="#dc2626" stroke-width="2"/>
+    <text x="430" y="250" fill="#b91c1c" font-family="sans-serif" font-size="11">
+      <tspan x="430" dy="0">⚠ 化合价升高→氧化反应</tspan>
+      <tspan x="430" dy="15">(我记反了!)</tspan>
+    </text>
+
+    <!-- Red correction 3 -->
+    <line x1="340" y1="320" x2="340" y2="340" stroke="#dc2626" stroke-width="2"/>
+    <text x="430" y="340" fill="#b91c1c" font-family="sans-serif" font-size="11">
+      <tspan x="430" dy="0">⚠ 能斯特方程：</tspan>
+      <tspan x="430" dy="15" fill="#dc2626" font-weight="bold">E = E⁰ - (0.0592/n)lgQ</tspan>
+      <tspan x="430" dy="15">(25℃简化公式!)</tspan>
+    </text>
+
+    <!-- Red correction 4 -->
+    <line x1="340" y1="360" x2="340" y2="370" stroke="#dc2626" stroke-width="2"/>
+    <text x="430" y="395" fill="#b91c1c" font-family="sans-serif" font-size="11">
+      <tspan x="430" dy="0">✓ 阳极=氧化，阴极=还原</tspan>
+      <tspan x="430" dy="15">(原电池：负极氧化)</tspan>
+    </text>
+
+    <!-- Red star highlight -->
+    <text x="500" y="445" fill="#dc2626" font-family="sans-serif" font-size="14" font-weight="bold">★ 重点：氧化数与配平方法</text>
+
+    <!-- Red circled missing hole -->
+    <ellipse cx="480" cy="470" rx="70" ry="12" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="480" y="474" text-anchor="middle" fill="#b91c1c" font-family="sans-serif" font-size="9">这里全是空白→需要重点复习</text>
+
+    <text x="600" y="498" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="10">翻书才知道哪里不会</text>
+  </g>
+
+  <!-- === Bottom note === -->
+  <rect x="150" y="500" width="500" height="36" rx="8" fill="#f8fafc" stroke="#f59e0b" stroke-width="1" opacity="0.9"/>
+  <text x="400" y="523" text-anchor="middle" fill="#a16207" font-family="sans-serif" font-size="15" font-weight="bold">💡 先倾泻所有记忆，再翻书填补漏洞——这才是高效复习</text>
+</svg>

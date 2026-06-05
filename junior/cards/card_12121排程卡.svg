@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+    </style>
+  </defs>
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#ffffff" rx="8"/>
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#e2e8f0" stroke-width="2" rx="6"/>
+  
+  <!-- 出处标注 -->
+  <text x="780" y="28" font-size="10" fill="#94a3b8" text-anchor="end">📖 高效学习手册 · 12121复习法</text>
+  
+  <!-- 标题 -->
+  <text x="400" y="62" font-size="22" font-weight="bold" fill="#1e3a5f" text-anchor="middle">🔄 12121 复习排程卡</text>
+  <text x="400" y="85" font-size="12" fill="#64748b" text-anchor="middle">学完新知识的当天即启动首次复习，遗忘曲线说"现在不做就忘光"</text>
+  
+  <!-- 知识点填空 -->
+  <rect x="50" y="108" width="700" height="36" fill="#f8fafc" rx="4" stroke="#e2e8f0"/>
+  <text x="66" y="131" font-size="13" fill="#64748b">📝 知识点：_______________</text>
+  <text x="500" y="131" font-size="13" fill="#64748b">📅 开始日期：_______________</text>
+  
+  <!-- 表头 -->
+  <g transform="translate(50,160)">
+    <rect x="0" y="0" width="140" height="36" fill="#1e3a5f" rx="4"/>
+    <text x="70" y="23" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">知识点</text>
+    
+    <rect x="145" y="0" width="108" height="36" fill="#3b82f6" rx="4"/>
+    <text x="199" y="23" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">第1天 ✓</text>
+    
+    <rect x="258" y="0" width="108" height="36" fill="#3b82f6" rx="4"/>
+    <text x="312" y="23" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">第2天 ✓</text>
+    
+    <rect x="371" y="0" width="108" height="36" fill="#3b82f6" rx="4"/>
+    <text x="425" y="23" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">第1周 ✓</text>
+    
+    <rect x="484" y="0" width="108" height="36" fill="#3b82f6" rx="4"/>
+    <text x="538" y="23" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">第2周 ✓</text>
+    
+    <rect x="597" y="0" width="103" height="36" fill="#3b82f6" rx="4"/>
+    <text x="648.5" y="23" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">第1月 ✓</text>
+  </g>
+  
+  <!-- 4行数据 -->
+  <g transform="translate(50,196)">
+    <rect x="0" y="0" width="700" height="72" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+    <line x1="140" y1="0" x2="140" y2="72" stroke="#e2e8f0"/>
+    <line x1="248" y1="0" x2="248" y2="72" stroke="#e2e8f0"/>
+    <line x1="356" y1="0" x2="356" y2="72" stroke="#e2e8f0"/>
+    <line x1="464" y1="0" x2="464" y2="72" stroke="#e2e8f0"/>
+    <line x1="572" y1="0" x2="572" y2="72" stroke="#e2e8f0"/>
+    
+    <text x="70" y="40" font-size="13" fill="#94a3b8" text-anchor="middle">____________</text>
+    
+    <!-- Row 2 -->
+    <rect x="0" y="78" width="700" height="72" fill="#ffffff" stroke="#e2e8f0" rx="4"/>
+    <line x1="140" y1="78" x2="140" y2="150" stroke="#e2e8f0"/>
+    <line x1="248" y1="78" x2="248" y2="150" stroke="#e2e8f0"/>
+    <line x1="356" y1="78" x2="356" y2="150" stroke="#e2e8f0"/>
+    <line x1="464" y1="78" x2="464" y2="150" stroke="#e2e8f0"/>
+    <line x1="572" y1="78" x2="572" y2="150" stroke="#e2e8f0"/>
+    <text x="70" y="118" font-size="13" fill="#94a3b8" text-anchor="middle">____________</text>
+    
+    <!-- Row 3 -->
+    <rect x="0" y="156" width="700" height="72" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+    <line x1="140" y1="156" x2="140" y2="228" stroke="#e2e8f0"/>
+    <line x1="248" y1="156" x2="248" y2="228" stroke="#e2e8f0"/>
+    <line x1="356" y1="156" x2="356" y2="228" stroke="#e2e8f0"/>
+    <line x1="464" y1="156" x2="464" y2="228" stroke="#e2e8f0"/>
+    <line x1="572" y1="156" x2="572" y2="228" stroke="#e2e8f0"/>
+    <text x="70" y="196" font-size="13" fill="#94a3b8" text-anchor="middle">____________</text>
+    
+    <!-- Row 4 -->
+    <rect x="0" y="234" width="700" height="72" fill="#ffffff" stroke="#e2e8f0" rx="4"/>
+    <line x1="140" y1="234" x2="140" y2="306" stroke="#e2e8f0"/>
+    <line x1="248" y1="234" x2="248" y2="306" stroke="#e2e8f0"/>
+    <line x1="356" y1="234" x2="356" y2="306" stroke="#e2e8f0"/>
+    <line x1="464" y1="234" x2="464" y2="306" stroke="#e2e8f0"/>
+    <line x1="572" y1="234" x2="572" y2="306" stroke="#e2e8f0"/>
+    <text x="70" y="274" font-size="13" fill="#94a3b8" text-anchor="middle">____________</text>
+  </g>
+  
+  <!-- 提示语 -->
+  <rect x="50" y="520" width="700" height="52" fill="#f0f9ff" rx="6" stroke="#bae6fd"/>
+  <text x="400" y="542" font-size="12" fill="#0369a1" text-anchor="middle">💡 每次复习 ≤ 5分钟，合上书回忆，别偷看书！漏了的内容第二天优先补上。</text>
+  <text x="400" y="562" font-size="11" fill="#64748b" text-anchor="middle">提示：在复习格内打 ✓ 或记录回忆完整度（如 80%），跟踪进步曲线。</text>
+</svg>

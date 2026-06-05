@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="12"/>
+  <rect x="16" y="16" width="768" height="568" fill="none" stroke="#e2e8f0" stroke-width="2" rx="8" filter="url(#shadow)"/>
+  <!-- Header -->
+  <rect x="16" y="16" width="768" height="48" fill="#1e3a5f" rx="8"/>
+  <rect x="16" y="40" width="768" height="24" fill="#1e3a5f"/>
+  <text x="400" y="47" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">card22 ｜ 未来自我对话引导卡</text>
+  <text x="400" y="84" text-anchor="middle" fill="#64748b" font-size="13">方法：时间投射法 · Future-Self Dialogue</text>
+  <!-- Left figure: 现在的我 -->
+  <g transform="translate(100, 110)">
+    <!-- Human silhouette - head -->
+    <circle cx="50" cy="20" r="16" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5"/>
+    <!-- Body -->
+    <rect x="28" y="40" width="44" height="50" rx="10" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5"/>
+    <!-- Left arm -->
+    <line x1="28" y1="52" x2="8" y2="70" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <!-- Right arm pointing right -->
+    <line x1="72" y1="52" x2="105" y2="42" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="42" y1="90" x2="38" y2="115" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="58" y1="90" x2="62" y2="115" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <!-- Label -->
+    <text x="50" y="138" text-anchor="middle" fill="#475569" font-size="13" font-weight="600">现在的我 👤</text>
+  </g>
+  <!-- Arrow between -->
+  <line x1="210" y1="188" x2="510" y2="188" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8,4"/>
+  <polygon points="510,183 525,188 510,193" fill="#94a3b8"/>
+  <text x="360" y="180" text-anchor="middle" fill="#94a3b8" font-size="10">时间线</text>
+  <!-- Right figure: future self -->
+  <g transform="translate(520, 110)">
+    <circle cx="50" cy="20" r="16" fill="#dbeafe" stroke="#60a5fa" stroke-width="1.5"/>
+    <rect x="28" y="40" width="44" height="50" rx="10" fill="#dbeafe" stroke="#60a5fa" stroke-width="1.5"/>
+    <line x1="28" y1="52" x2="8" y2="70" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+    <line x1="72" y1="52" x2="92" y2="75" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+    <line x1="42" y1="90" x2="38" y2="115" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+    <line x1="58" y1="90" x2="62" y2="115" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+    <text x="50" y="138" text-anchor="middle" fill="#2563eb" font-size="13" font-weight="600">未来的我 ✨</text>
+    <!-- Star on future self -->
+    <text x="72" y="12" font-size="14">⭐</text>
+  </g>
+  <!-- Speech bubble 1: Now to Future -->
+  <rect x="40" y="270" width="720" height="80" fill="#f8fafc" rx="12" stroke="#cbd5e1" stroke-width="1.5"/>
+  <polygon points="180,270 170,258 200,270" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <polygon points="181,270 171,260 199,270" fill="#f8fafc"/>
+  <text x="60" y="295" fill="#1e3a5f" font-size="14" font-weight="700">💬 现在的我问未来：</text>
+  <text x="60" y="318" fill="#475569" font-size="13">"你现在回头看当初学的</text>
+  <rect x="300" y="305" width="200" height="18" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="4,4" rx="3"/>
+  <text x="508" y="318" fill="#475569" font-size="13">，是浪费了吗？"</text>
+  <g stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="60" y1="338" x2="740" y2="338"/>
+  </g>
+  <!-- Speech bubble 2: Future to Now -->
+  <rect x="40" y="360" width="720" height="80" fill="#eff6ff" rx="12" stroke="#93c5fd" stroke-width="1.5"/>
+  <polygon points="620,360 610,348 640,360" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <polygon points="621,360 611,350 639,360" fill="#eff6ff"/>
+  <text x="60" y="385" fill="#1e40af" font-size="14" font-weight="700">💬 未来的我回答：</text>
+  <text x="60" y="408" fill="#475569" font-size="13">"不，你是在帮我攒</text>
+  <rect x="260" y="395" width="300" height="18" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="4,4" rx="3"/>
+  <text x="568" y="408" fill="#475569" font-size="13">"</text>
+  <g stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="60" y1="428" x2="740" y2="428"/>
+  </g>
+  <!-- Write your dialogue -->
+  <rect x="40" y="456" width="720" height="50" fill="#f1f5f9" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="478" text-anchor="middle" fill="#64748b" font-size="13">✍️ 写下你自己的对话（现在 → 未来）：</text>
+  <g stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="60" y1="496" x2="740" y2="496"/>
+  </g>
+  <!-- Bottom -->
+  <rect x="40" y="520" width="720" height="28" fill="#fef3c7" rx="4" stroke="#fbbf24" stroke-width="1"/>
+  <text x="400" y="539" text-anchor="middle" fill="#92400e" font-size="12" font-weight="600">💡 给未来的自己写一段话，学习就有了"时间意义"</text>
+  <text x="400" y="578" text-anchor="middle" fill="#94a3b8" font-size="10">高效学习手册 · 方法工具卡</text>
+</svg>

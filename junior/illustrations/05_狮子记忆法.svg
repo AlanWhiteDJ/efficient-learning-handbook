@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <text x="400" y="30" text-anchor="middle" fill="#1e3a5f" font-size="18" font-weight="bold" font-family="sans-serif">狮子记忆法——三种生理状态激活海马体</text>
+  <text x="400" y="50" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="sans-serif">用身体状态"欺骗"大脑进入生存模式</text>
+  
+  <!-- 三栏 -->
+  <!-- 栏1：饭前 -->
+  <rect x="25" y="75" width="240" height="390" rx="12" fill="#f8fafc" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="145" cy="115" r="30" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="145" y="121" text-anchor="middle" fill="#b45309" font-size="24" font-family="sans-serif">🍽️</text>
+  <text x="145" y="165" text-anchor="middle" fill="#b45309" font-size="15" font-weight="bold" font-family="sans-serif">饭前记忆</text>
+  
+  <text x="145" y="192" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">饥饿激素 → 刺激海马体</text>
+  
+  <line x1="60" y1="205" x2="230" y2="205" stroke="#94a3b8" stroke-width="0.5"/>
+  
+  <text x="50" y="228" fill="#1e3a5f" font-size="11" font-family="sans-serif">❶ 最难记的内容</text>
+  <text x="55" y="248" fill="#94a3b8" font-size="10" font-family="sans-serif">安排在饭前15-20分钟</text>
+  <text x="50" y="272" fill="#1e3a5f" font-size="11" font-family="sans-serif">❷ 空腹状态开始记</text>
+  <text x="50" y="292" fill="#94a3b8" font-size="10" font-family="sans-serif">不在饭后，不在饭中</text>
+  <text x="50" y="316" fill="#1e3a5f" font-size="11" font-family="sans-serif">❸ 记完去吃饭</text>
+  <text x="50" y="336" fill="#94a3b8" font-size="10" font-family="sans-serif">进餐=大脑的奖励</text>
+  
+  <text x="50" y="370" fill="#f59e0b" font-size="10" font-weight="bold" font-family="sans-serif">💡 饭后血液聚集肠胃消化，</text>
+  <text x="50" y="386" fill="#f59e0b" font-size="10" font-weight="bold" font-family="sans-serif">   大脑活跃度下降，不宜记忆</text>
+  
+  <!-- 栏2：边走边记 -->
+  <rect x="280" y="75" width="240" height="390" rx="12" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5"/>
+  <circle cx="400" cy="115" r="30" fill="#1e3a5f" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="121" text-anchor="middle" fill="#2563eb" font-size="24" font-family="sans-serif">🚶</text>
+  <text x="400" y="165" text-anchor="middle" fill="#2563eb" font-size="15" font-weight="bold" font-family="sans-serif">边走边记</text>
+  
+  <text x="400" y="192" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">轻度运动 → 激活前庭系统</text>
+  
+  <line x1="315" y1="205" x2="485" y2="205" stroke="#94a3b8" stroke-width="0.5"/>
+  
+  <text x="305" y="228" fill="#1e3a5f" font-size="11" font-family="sans-serif">❶ 找一个可走动的空间</text>
+  <text x="305" y="248" fill="#94a3b8" font-size="10" font-family="sans-serif">房间、走廊、操场边缘</text>
+  <text x="305" y="272" fill="#1e3a5f" font-size="11" font-family="sans-serif">❷ 来回走+脑中回忆</text>
+  <text x="305" y="292" fill="#94a3b8" font-size="10" font-family="sans-serif">不出声，小声念叨也行</text>
+  <text x="305" y="316" fill="#1e3a5f" font-size="11" font-family="sans-serif">❸ 无法走？微动也行</text>
+  <text x="305" y="336" fill="#94a3b8" font-size="10" font-family="sans-serif">身体晃动/站起来/换姿势</text>
+  
+  <text x="305" y="370" fill="#2563eb" font-size="10" font-weight="bold" font-family="sans-serif">⚠ 不是剧烈运动</text>
+  <text x="305" y="386" fill="#2563eb" font-size="10" font-weight="bold" font-family="sans-serif">   大脑供血被四肢抢占</text>
+  
+  <!-- 栏3：保持微凉 -->
+  <rect x="535" y="75" width="240" height="390" rx="12" fill="#f8fafc" stroke="#0e7490" stroke-width="1.5"/>
+  <circle cx="655" cy="115" r="30" fill="#e0f2fe" stroke="#0891b2" stroke-width="2"/>
+  <text x="655" y="121" text-anchor="middle" fill="#0891b2" font-size="24" font-family="sans-serif">❄️</text>
+  <text x="655" y="165" text-anchor="middle" fill="#0891b2" font-size="15" font-weight="bold" font-family="sans-serif">保持微凉</text>
+  
+  <text x="655" y="192" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="sans-serif">轻微寒冷 → 唤醒生存危机感</text>
+  
+  <line x1="570" y1="205" x2="740" y2="205" stroke="#94a3b8" stroke-width="0.5"/>
+  
+  <text x="560" y="228" fill="#1e3a5f" font-size="11" font-family="sans-serif">❶ 室温调到微凉程度</text>
+  <text x="560" y="248" fill="#94a3b8" font-size="10" font-family="sans-serif">不冷到难受，不暖到想睡</text>
+  <text x="560" y="272" fill="#1e3a5f" font-size="11" font-family="sans-serif">❷ 脱外套/拉开窗帘</text>
+  <text x="560" y="292" fill="#94a3b8" font-size="10" font-family="sans-serif">凉水洗脸→轻微不适</text>
+  <text x="560" y="316" fill="#1e3a5f" font-size="11" font-family="sans-serif">❸ 感觉太暖立刻降温</text>
+  <text x="560" y="336" fill="#94a3b8" font-size="10" font-family="sans-serif">不要和困意硬抗</text>
+  
+  <text x="560" y="370" fill="#0891b2" font-size="10" font-weight="bold" font-family="sans-serif">❄ 微凉尺度：你清醒了</text>
+  <text x="560" y="386" fill="#0891b2" font-size="10" font-weight="bold" font-family="sans-serif">   但不难受，不发抖</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+    </style>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="8"/>
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#e2e8f0" stroke-width="2" rx="6"/>
+  
+  <text x="780" y="28" font-size="10" fill="#94a3b8" text-anchor="end">📖 高效学习手册 · 审题三件套</text>
+  
+  <text x="400" y="58" font-size="22" font-weight="bold" fill="#1e3a5f" text-anchor="middle">🔎 审题三件套清单</text>
+  <text x="400" y="78" font-size="11" fill="#64748b" text-anchor="middle">做题前花1分钟审题，比做错后花10分钟改错更高效</text>
+  
+  <!-- 顶部3栏 -->
+  <g transform="translate(50,96)">
+    <rect x="0" y="0" width="225" height="56" fill="#fef3c7" stroke="#fcd34d" rx="6"/>
+    <text x="112" y="24" font-size="14" font-weight="bold" fill="#92400e" text-anchor="middle">🔑 关键词</text>
+    <text x="112" y="44" font-size="11" fill="#a16207" text-anchor="middle">（圈出来）</text>
+    
+    <rect x="238" y="0" width="225" height="56" fill="#dbeafe" stroke="#93c5fd" rx="6"/>
+    <text x="350" y="24" font-size="14" font-weight="bold" fill="#1e40af" text-anchor="middle">📐 已知条件</text>
+    <text x="350" y="44" font-size="11" fill="#3b82f6" text-anchor="middle">（画出来）</text>
+    
+    <rect x="475" y="0" width="225" height="56" fill="#fce7f3" stroke="#f9a8d4" rx="6"/>
+    <text x="587" y="24" font-size="14" font-weight="bold" fill="#9d174d" text-anchor="middle">⚠️ 陷阱位</text>
+    <text x="587" y="44" font-size="11" fill="#db2777" text-anchor="middle">（标⚠警告）</text>
+  </g>
+  
+  <!-- 题干区 -->
+  <rect x="50" y="168" width="700" height="200" fill="#f8fafc" stroke="#e2e8f0" stroke-dasharray="8,4" rx="6"/>
+  <text x="400" y="200" font-size="14" fill="#94a3b8" text-anchor="middle">📋 题干区</text>
+  <text x="400" y="222" font-size="12" fill="#cbd5e1" text-anchor="middle">（可贴题、抄题，或直接在题干上圈画）</text>
+  <rect x="120" y="240" width="560" height="100" fill="none" stroke="#e2e8f0" stroke-dasharray="4,3" rx="4"/>
+  
+  <!-- 底部3个打勾行 -->
+  <g transform="translate(50,386)">
+    <rect x="0" y="0" width="700" height="40" fill="#fef9c3" stroke="#fde68a" rx="4"/>
+    <rect x="16" y="10" width="20" height="20" fill="none" stroke="#a16207" stroke-width="2" rx="3"/>
+    <text x="48" y="25" font-size="14" fill="#92400e">关键词都圈了吗？（数字 / 单位 / 否定词 / "至少""最多"）</text>
+    
+    <rect x="0" y="46" width="700" height="40" fill="#dbeafe" stroke="#93c5fd" rx="4"/>
+    <rect x="16" y="56" width="20" height="20" fill="none" stroke="#1e40af" stroke-width="2" rx="3"/>
+    <text x="48" y="71" font-size="14" fill="#1e40af">已知条件都画了吗？有没有漏掉的隐含条件？</text>
+    
+    <rect x="0" y="92" width="700" height="52" fill="#fce7f3" stroke="#f9a8d4" rx="4"/>
+    <rect x="16" y="102" width="20" height="20" fill="none" stroke="#9d174d" stroke-width="2" rx="3"/>
+    <text x="48" y="117" font-size="14" fill="#9d174d">问的是什么？（把问题用自己的话写一遍）：</text>
+    <text x="370" y="117" font-size="14" fill="#9d174d">_____________________________</text>
+    <text x="48" y="137" font-size="11" fill="#be185d">💡 不能用自己的话讲清楚题目问什么 = 还没读懂题</text>
+  </g>
+  
+  <rect x="50" y="545" width="700" height="36" fill="#f0fdf4" rx="4" stroke="#86efac"/>
+  <text x="400" y="568" font-size="12" fill="#166534" text-anchor="middle">✅ 审题三件套完成 → 现在可以开始解题了！</text>
+</svg>

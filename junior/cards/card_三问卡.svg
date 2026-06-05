@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="12"/>
+  <rect x="16" y="16" width="768" height="568" fill="none" stroke="#e2e8f0" stroke-width="2" rx="8" filter="url(#shadow)"/>
+  <!-- Header -->
+  <rect x="16" y="16" width="768" height="48" fill="#1e3a5f" rx="8"/>
+  <rect x="16" y="40" width="768" height="24" fill="#1e3a5f"/>
+  <text x="400" y="47" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">card15 ｜ 自我提问三明治卡</text>
+  <text x="400" y="84" text-anchor="middle" fill="#64748b" font-size="13">方法：元认知提问 · Metacognitive Self-Questioning</text>
+  <!-- Section 1 - Before Learning -->
+  <rect x="40" y="98" width="720" height="148" fill="#fefce8" rx="6" stroke="#fde047" stroke-width="1.5"/>
+  <text x="60" y="122" fill="#854d0e" font-size="16" font-weight="700">🥪 学习前 · Before</text>
+  <g font-size="13" fill="#475569">
+    <text x="76" y="150">📌 目标是什么？</text>
+    <rect x="220" y="136" width="520" height="20" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="76" y="180">⚠️ 可能的卡点在哪？</text>
+    <rect x="260" y="166" width="480" height="20" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+  </g>
+  <g stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="56" y1="202" x2="744" y2="202"/>
+    <line x1="56" y1="222" x2="744" y2="222"/>
+    <line x1="56" y1="242" x2="744" y2="242"/>
+  </g>
+  <!-- Section 2 - During Learning -->
+  <rect x="40" y="256" width="720" height="148" fill="#f0fdf4" rx="6" stroke="#86efac" stroke-width="1.5"/>
+  <text x="60" y="280" fill="#166534" font-size="16" font-weight="700">🥪 学习中 · During</text>
+  <g font-size="13" fill="#475569">
+    <text x="76" y="308">💡 核心意思是什么？（一句话概括）</text>
+    <rect x="350" y="294" width="390" height="20" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="76" y="338">🎯 我的注意力还在吗？（1-10打分）</text>
+    <rect x="350" y="324" width="80" height="20" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="440" y="338" fill="#94a3b8" font-size="11">/10</text>
+  </g>
+  <g stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="56" y1="360" x2="744" y2="360"/>
+    <line x1="56" y1="380" x2="744" y2="380"/>
+    <line x1="56" y1="400" x2="744" y2="400"/>
+  </g>
+  <!-- Section 3 - After Learning -->
+  <rect x="40" y="414" width="720" height="95" fill="#eff6ff" rx="6" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="60" y="438" fill="#1e3a5f" font-size="16" font-weight="700">🥪 学习后 · After</text>
+  <g font-size="13" fill="#475569">
+    <text x="76" y="466">✅ 目标达成了吗？</text>
+    <rect x="230" y="452" width="120" height="20" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="400" y="466">❓ 哪里还模糊？</text>
+    <rect x="520" y="452" width="220" height="20" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+  </g>
+  <g stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="56" y1="484" x2="744" y2="484"/>
+    <line x1="56" y1="500" x2="744" y2="500"/>
+  </g>
+  <!-- Footer tip -->
+  <rect x="40" y="522" width="720" height="28" fill="#f1f5f9" rx="4"/>
+  <text x="400" y="541" text-anchor="middle" fill="#64748b" font-size="12" font-style="italic">💭 学习不是听完就完了 —— 和自己对话，才是真学会</text>
+  <text x="400" y="578" text-anchor="middle" fill="#94a3b8" font-size="10">高效学习手册 · 方法工具卡</text>
+</svg>

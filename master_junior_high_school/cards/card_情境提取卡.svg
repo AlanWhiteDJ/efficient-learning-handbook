@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="12"/>
+  <rect x="16" y="16" width="768" height="568" fill="none" stroke="#e2e8f0" stroke-width="2" rx="8" filter="url(#shadow)"/>
+  <!-- Header -->
+  <rect x="16" y="16" width="768" height="48" fill="#1e3a5f" rx="8"/>
+  <rect x="16" y="40" width="768" height="24" fill="#1e3a5f"/>
+  <text x="400" y="47" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">card21 ｜ 情境提取记录卡</text>
+  <text x="400" y="84" text-anchor="middle" fill="#64748b" font-size="13">方法：多情境提取 · Multi-Context Retrieval Practice</text>
+  <!-- Knowledge point -->
+  <rect x="40" y="98" width="720" height="34" fill="#f8fafc" rx="4" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="56" y="120" fill="#1e3a5f" font-size="14" font-weight="700">📖 知识点：</text>
+  <rect x="200" y="107" width="540" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+  <!-- Context counter -->
+  <text x="56" y="160" fill="#1e3a5f" font-size="14" font-weight="700">在</text>
+  <rect x="80" y="150" width="36" height="20" fill="none" stroke="#1e3a5f" stroke-width="1.5" stroke-dasharray="3,3" rx="2"/>
+  <text x="125" y="160" fill="#1e3a5f" font-size="14" font-weight="700">个不同情境中遇到了它：</text>
+  <!-- Context 1 -->
+  <rect x="40" y="180" width="720" height="102" fill="#fef2f2" rx="6" stroke="#fecaca" stroke-width="1.5"/>
+  <rect x="40" y="180" width="40" height="102" fill="#fee2e2" rx="6"/>
+  <rect x="60" y="180" width="20" height="102" fill="#fee2e2"/>
+  <text x="60" y="238" text-anchor="middle" fill="#dc2626" font-size="20" font-weight="700">1</text>
+  <g font-size="13" fill="#475569">
+    <text x="100" y="206">情境</text>
+    <rect x="160" y="193" width="200" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="400" y="206">提取时间：</text>
+    <rect x="490" y="193" width="100" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <rect x="640" y="193" width="50" height="18" fill="none" stroke="#dc2626" stroke-width="1.5" rx="2"/>
+    <text x="665" y="206" text-anchor="middle" fill="#dc2626" font-weight="600">✓</text>
+    <rect x="700" y="193" width="44" height="18" fill="none" stroke="#94a3b8" stroke-width="1" rx="2"/>
+    <text x="722" y="206" text-anchor="middle" fill="#94a3b8">✗</text>
+  </g>
+  <g stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="100" y1="230" x2="740" y2="230"/>
+    <line x1="100" y1="250" x2="740" y2="250"/>
+  </g>
+  <text x="100" y="272" fill="#94a3b8" font-size="11">备注：</text>
+  <!-- Context 2 -->
+  <rect x="40" y="290" width="720" height="95" fill="#eff6ff" rx="6" stroke="#bfdbfe" stroke-width="1.5"/>
+  <rect x="40" y="290" width="40" height="95" fill="#dbeafe" rx="6"/>
+  <rect x="60" y="290" width="20" height="95" fill="#dbeafe"/>
+  <text x="60" y="345" text-anchor="middle" fill="#2563eb" font-size="20" font-weight="700">2</text>
+  <g font-size="13" fill="#475569">
+    <text x="100" y="316">情境</text>
+    <rect x="160" y="303" width="200" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="400" y="316">提取时间：</text>
+    <rect x="490" y="303" width="100" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <rect x="640" y="303" width="50" height="18" fill="none" stroke="#2563eb" stroke-width="1.5" rx="2"/>
+    <text x="665" y="316" text-anchor="middle" fill="#2563eb" font-weight="600">✓</text>
+    <rect x="700" y="303" width="44" height="18" fill="none" stroke="#94a3b8" stroke-width="1" rx="2"/>
+    <text x="722" y="316" text-anchor="middle" fill="#94a3b8">✗</text>
+  </g>
+  <text x="100" y="376" fill="#94a3b8" font-size="11">备注：</text>
+  <g stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="100" y1="340" x2="740" y2="340"/>
+    <line x1="100" y1="360" x2="740" y2="360"/>
+  </g>
+  <!-- Context 3 -->
+  <rect x="40" y="393" width="720" height="95" fill="#f0fdf4" rx="6" stroke="#bbf7d0" stroke-width="1.5"/>
+  <rect x="40" y="393" width="40" height="95" fill="#dcfce7" rx="6"/>
+  <rect x="60" y="393" width="20" height="95" fill="#dcfce7"/>
+  <text x="60" y="448" text-anchor="middle" fill="#16a34a" font-size="20" font-weight="700">3</text>
+  <g font-size="13" fill="#475569">
+    <text x="100" y="419">情境</text>
+    <rect x="160" y="406" width="200" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="400" y="419">提取时间：</text>
+    <rect x="490" y="406" width="100" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <rect x="640" y="406" width="50" height="18" fill="none" stroke="#16a34a" stroke-width="1.5" rx="2"/>
+    <text x="665" y="419" text-anchor="middle" fill="#16a34a" font-weight="600">✓</text>
+    <rect x="700" y="406" width="44" height="18" fill="none" stroke="#94a3b8" stroke-width="1" rx="2"/>
+    <text x="722" y="419" text-anchor="middle" fill="#94a3b8">✗</text>
+  </g>
+  <text x="100" y="480" fill="#94a3b8" font-size="11">备注：</text>
+  <g stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="100" y1="443" x2="740" y2="443"/>
+    <line x1="100" y1="463" x2="740" y2="463"/>
+  </g>
+  <!-- Bottom tip -->
+  <rect x="40" y="500" width="720" height="36" fill="#1e3a5f" rx="6"/>
+  <text x="400" y="525" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">🧠 同一个知识在 3 个不同情境中被提取出来，一辈子忘不掉。</text>
+  <text x="400" y="578" text-anchor="middle" fill="#94a3b8" font-size="10">高效学习手册 · 方法工具卡</text>
+</svg>

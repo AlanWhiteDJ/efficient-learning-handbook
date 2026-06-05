@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="400" y="34" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f59e0b">波利亚四步法</text>
+  <text x="400" y="52" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#64748b">Polya's Problem-Solving Method</text>
+  
+  <!-- ============ STEP 1: 理解题目 (Top Left) ============ -->
+  <rect x="30" y="70" rx="8" ry="8" width="355" height="150" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="30" y="70" rx="8" ry="8" width="355" height="28" fill="#3b82f6"/>
+  <text x="207" y="89" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">① 理解题目 Understand</text>
+  
+  <!-- Magnifying glass -->
+  <g transform="translate(80,145)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+    <line x1="15" y1="15" x2="30" y2="30" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Small icons near magnifying glass: problem statement -->
+  <rect x="130" y="118" rx="3" ry="3" width="40" height="20" fill="#3b82f6" opacity="0.3"/>
+  <text x="150" y="133" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2563eb">题目</text>
+  
+  <rect x="175" y="118" rx="3" ry="3" width="40" height="20" fill="#3b82f6" opacity="0.3"/>
+  <text x="195" y="133" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2563eb">已知</text>
+  
+  <rect x="220" y="118" rx="3" ry="3" width="40" height="20" fill="#3b82f6" opacity="0.3"/>
+  <text x="240" y="133" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2563eb">未知</text>
+  
+  <!-- Thought bubble -->
+  <ellipse cx="230" cy="175" rx="90" ry="18" fill="none" stroke="#2563eb" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="230" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2563eb" font-style="italic">"它在问什么？"</text>
+  
+  <!-- Arrow step 1→2 -->
+  <path d="M385,145 L415,145" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowGold)"/>
+  <text x="400" y="138" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#f59e0b">→</text>
+  
+  <!-- Arrow markers def -->
+  <defs>
+    <marker id="arrowGold" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#f59e0b"/>
+    </marker>
+  </defs>
+  
+  <!-- ============ STEP 2: 制定方案 (Top Right) ============ -->
+  <rect x="415" y="70" rx="8" ry="8" width="355" height="150" fill="#f8fafc" stroke="#a855f7" stroke-width="1.5"/>
+  <rect x="415" y="70" rx="8" ry="8" width="355" height="28" fill="#a855f7"/>
+  <text x="592" y="89" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">② 制定方案 Plan</text>
+  
+  <!-- Gears connecting known and unknown -->
+  <g transform="translate(480,135)">
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+    <line x1="-12" y1="0" x2="12" y2="0" stroke="#7c3aed" stroke-width="1.5"/>
+    <line x1="0" y1="-12" x2="0" y2="12" stroke="#7c3aed" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(514,135)">
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#7c3aed" stroke-width="2"/>
+    <line x1="-9" y1="0" x2="9" y2="0" stroke="#7c3aed" stroke-width="1.5"/>
+    <line x1="0" y1="-9" x2="0" y2="9" stroke="#7c3aed" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Labels -->
+  <text x="480" y="170" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#a855f7">已知</text>
+  <text x="530" y="170" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#a855f7">未知</text>
+  <text x="575" y="170" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7c3aed">⚙ 建立联系</text>
+  
+  <!-- Thought bubble -->
+  <ellipse cx="590" cy="175" rx="105" ry="18" fill="none" stroke="#7c3aed" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="590" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#7c3aed" font-style="italic">"让我想到哪道题？"</text>
+  
+  <!-- Arrow step 2→3 (curved down) -->
+  <path d="M592,220 L592,260" stroke="#f59e0b" stroke-width="2"/>
+  <text x="600" y="245" font-family="sans-serif" font-size="11" fill="#f59e0b">↓</text>
+  
+  <!-- Arrow step 1→3 -->
+  <path d="M207,220 L207,260" stroke="#f59e0b" stroke-width="2"/>
+  <text x="215" y="245" font-family="sans-serif" font-size="11" fill="#f59e0b">↓</text>
+  
+  <!-- ============ STEP 3: 执行方案 (Bottom Left) ============ -->
+  <rect x="30" y="260" rx="8" ry="8" width="355" height="130" fill="#f8fafc" stroke="#16a34a" stroke-width="2"/>
+  <rect x="30" y="260" rx="8" ry="8" width="355" height="28" fill="#16a34a"/>
+  <text x="207" y="279" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">③ 执行方案 Execute</text>
+  
+  <!-- Pen on paper -->
+  <g transform="translate(100,305)">
+    <!-- Paper -->
+    <rect x="0" y="0" rx="3" ry="3" width="60" height="50" fill="#1e3a5f" opacity="0.15" stroke="#94a3b8" stroke-width="0.5"/>
+    <!-- Writing lines -->
+    <line x1="8" y1="14" x2="50" y2="14" stroke="#34d399" stroke-width="1.5" opacity="0.7"/>
+    <line x1="8" y1="22" x2="45" y2="22" stroke="#34d399" stroke-width="1.5" opacity="0.7"/>
+    <line x1="8" y1="30" x2="40" y2="30" stroke="#34d399" stroke-width="1.5" opacity="0.5"/>
+    <line x1="8" y1="38" x2="48" y2="38" stroke="#34d399" stroke-width="1.5" opacity="0.7"/>
+    <!-- Pen -->
+    <line x1="35" y1="55" x2="25" y2="15" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="25" cy="15" r="2.5" fill="#f59e0b"/>
+  </g>
+  
+  <text x="160" y="330" font-family="sans-serif" font-size="10" fill="#34d399">一步步写，</text>
+  <text x="160" y="345" font-family="sans-serif" font-size="10" fill="#34d399">算式清晰完整</text>
+  
+  <text x="207" y="378" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#64748b">把计划变成算式 ✓</text>
+  
+  <!-- Arrow 3→4 -->
+  <path d="M385,325 L415,325" stroke="#f59e0b" stroke-width="2"/>
+  <text x="400" y="318" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#f59e0b">→</text>
+  
+  <!-- ============ STEP 4: 回顾反思 (Bottom Right) ============ -->
+  <rect x="415" y="260" rx="8" ry="8" width="355" height="130" fill="#f8fafc" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="415" y="260" rx="8" ry="8" width="355" height="28" fill="#f59e0b"/>
+  <text x="592" y="279" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">④ 回顾反思 Look Back</text>
+  
+  <!-- Looking back figure -->
+  <g transform="translate(480,305)">
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#b45309" stroke-width="2"/>
+    <!-- Arrows circling back -->
+    <path d="M-16,-4 Q-22,-16 -12,-20 Q0,-26 12,-20 Q22,-16 16,-4" fill="none" stroke="#b45309" stroke-width="1.5" stroke-dasharray="3,2"/>
+  </g>
+  
+  <!-- Questions -->
+  <g transform="translate(520,295)">
+    <text x="0" y="0" font-family="sans-serif" font-size="10" fill="#b45309">答案合理吗？</text>
+    <text x="0" y="18" font-family="sans-serif" font-size="10" fill="#b45309">还能怎么解？</text>
+    <text x="0" y="36" font-family="sans-serif" font-size="10" fill="#b45309">学到了什么？</text>
+  </g>
+  
+  <!-- Thought bubble -->
+  <ellipse cx="590" cy="350" rx="90" ry="16" fill="none" stroke="#b45309" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="590" y="355" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#b45309" font-style="italic">"答案合理吗？"</text>
+  
+  <!-- Bottom highlight -->
+  <rect x="160" y="402" rx="6" ry="6" width="480" height="36" fill="#f8fafc" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="400" y="420" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#f59e0b">⚠</text>
+  <text x="420" y="420" font-family="sans-serif" font-size="11" fill="#f59e0b">多数人只做了第③步 — 跳过理解和反思，等于浪费了80%的收获</text>
+  
+  <!-- Bottom quote -->
+  <text x="400" y="462" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#94a3b8" font-style="italic">"多数人只做了第③步"</text>
+  
+  <line x1="60" y1="476" x2="740" y2="476" stroke="#cbd5e1" stroke-width="0.5"/>
+  <text x="400" y="492" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#94a3b8">G. Polya · How to Solve It · 数学解题 · 学习方法论</text>
+</svg>

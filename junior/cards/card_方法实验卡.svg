@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="12"/>
+  <rect x="16" y="16" width="768" height="568" fill="none" stroke="#e2e8f0" stroke-width="2" rx="8" filter="url(#shadow)"/>
+  <!-- Header -->
+  <rect x="16" y="16" width="768" height="48" fill="#1e3a5f" rx="8"/>
+  <rect x="16" y="40" width="768" height="24" fill="#1e3a5f"/>
+  <text x="400" y="47" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">card16 ｜ 方法实验记录卡</text>
+  <text x="400" y="84" text-anchor="middle" fill="#64748b" font-size="13">方法：双周实验法 · Two-Week Method Experiment</text>
+  <!-- Week 1 -->
+  <rect x="40" y="98" width="720" height="210" fill="#f8fafc" rx="6" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="40" y="98" width="720" height="36" fill="#1e3a5f" rx="6"/>
+  <rect x="40" y="116" width="720" height="18" fill="#1e3a5f"/>
+  <text x="400" y="122" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">🔬 第 1 周 · 尝试</text>
+  <g font-size="13" fill="#475569">
+    <text x="60" y="162">方法名：</text>
+    <rect x="160" y="148" width="280" height="20" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="500" y="162">起止日期：</text>
+    <rect x="590" y="148" width="150" height="20" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+  </g>
+  <text x="60" y="198" fill="#475569" font-size="13">每天用了？</text>
+  <g font-size="13" fill="#64748b">
+    <text x="170" y="198">D1</text><rect x="192" y="184" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="230" y="198">D2</text><rect x="252" y="184" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="290" y="198">D3</text><rect x="312" y="184" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="350" y="198">D4</text><rect x="372" y="184" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="410" y="198">D5</text><rect x="432" y="184" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="470" y="198">D6</text><rect x="492" y="184" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="530" y="198">D7</text><rect x="552" y="184" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+  </g>
+  <text x="60" y="240" fill="#475569" font-size="13">第 7 天感受：</text>
+  <g stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="60" y1="256" x2="740" y2="256"/>
+    <line x1="60" y1="274" x2="740" y2="274"/>
+    <line x1="60" y1="292" x2="740" y2="292"/>
+  </g>
+  <!-- Week 2 -->
+  <rect x="40" y="318" width="720" height="180" fill="#f8fafc" rx="6" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="40" y="318" width="720" height="36" fill="#2563eb" rx="6"/>
+  <rect x="40" y="336" width="720" height="18" fill="#2563eb"/>
+  <text x="400" y="342" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">🔧 第 2 周 · 调整优化</text>
+  <g font-size="13" fill="#475569">
+    <text x="60" y="382">调整了什么？</text>
+    <rect x="180" y="368" width="560" height="20" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+  </g>
+  <text x="60" y="418" fill="#475569" font-size="13">每天用了？</text>
+  <g font-size="13" fill="#64748b">
+    <text x="170" y="418">D8</text><rect x="192" y="404" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="230" y="418">D9</text><rect x="252" y="404" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="290" y="418">D10</text><rect x="317" y="404" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="355" y="418">D11</text><rect x="382" y="404" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="420" y="418">D12</text><rect x="447" y="404" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="485" y="418">D13</text><rect x="512" y="404" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+    <text x="550" y="418">D14</text><rect x="577" y="404" width="22" height="18" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+  </g>
+  <g font-size="13" fill="#475569">
+    <text x="60" y="460">第14天结论：</text>
+    <rect x="180" y="448" width="28" height="18" fill="none" stroke="#1e3a5f" stroke-width="1.5" rx="2"/>
+    <text x="215" y="460" font-weight="600" fill="#1e3a5f">继续</text>
+    <rect x="280" y="448" width="28" height="18" fill="none" stroke="#1e3a5f" stroke-width="1.5" rx="2"/>
+    <text x="315" y="460" font-weight="600" fill="#1e3a5f">换方法</text>
+    <text x="420" y="460">备注：______</text>
+  </g>
+  <!-- Bottom insight -->
+  <rect x="40" y="510" width="720" height="32" fill="#eff6ff" rx="4" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="56" y="532" fill="#1e40af" font-size="13">💡 结论：这个方法最适合我的 </text>
+  <rect x="360" y="522" width="200" height="16" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" rx="2"/>
+  <text x="570" y="532" fill="#1e40af" font-size="13">场景</text>
+  <text x="400" y="578" text-anchor="middle" fill="#94a3b8" font-size="10">高效学习手册 · 方法工具卡</text>
+</svg>

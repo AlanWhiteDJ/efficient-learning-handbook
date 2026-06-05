@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="#ffffff" rx="12"/>
+  <rect x="16" y="16" width="768" height="568" fill="none" stroke="#e2e8f0" stroke-width="2" rx="8" filter="url(#shadow)"/>
+  <!-- Header -->
+  <rect x="16" y="16" width="768" height="48" fill="#1e3a5f" rx="8"/>
+  <rect x="16" y="40" width="768" height="24" fill="#1e3a5f"/>
+  <text x="400" y="47" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">card18 ｜ AI 提示词模板卡</text>
+  <text x="400" y="84" text-anchor="middle" fill="#64748b" font-size="13">方法：AI 辅助学习 · AI-Assisted Learning Prompts</text>
+  <!-- Prompt 1: Feynman Coach -->
+  <rect x="24" y="98" width="754" height="130" fill="#fefce8" rx="6" stroke="#fde047" stroke-width="1.5"/>
+  <rect x="24" y="98" width="180" height="30" fill="#ca8a04" rx="6"/>
+  <rect x="24" y="116" width="180" height="12" fill="#ca8a04"/>
+  <text x="114" y="120" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">🤖 AI 费曼教练</text>
+  <text x="224" y="114" fill="#854d0e" font-size="11" font-style="italic">适合：学完后检验理解</text>
+  <rect x="40" y="140" width="722" height="76" fill="#ffffff" rx="4" stroke="#d4d4d8" stroke-width="1"/>
+  <text x="56" y="162" fill="#475569" font-size="12" font-family="monospace">请扮演一个完全不懂 <tspan fill="#2563eb" font-weight="600">[概念]</tspan> 的学生。听我解释后，只指出我哪里没说清楚或跳步了，不要替我讲。</text>
+  <text x="56" y="182" fill="#94a3b8" font-size="11" font-style="italic">💡 写好概念名，把答案贴给它，看它卡在哪里</text>
+  <text x="56" y="202" fill="#cbd5e1" font-size="10">完成 □ 笔记：______</text>
+  <!-- Prompt 2: Socratic -->
+  <rect x="24" y="236" width="754" height="130" fill="#f0fdf4" rx="6" stroke="#86efac" stroke-width="1.5"/>
+  <rect x="24" y="236" width="180" height="30" fill="#16a34a" rx="6"/>
+  <rect x="24" y="254" width="180" height="12" fill="#16a34a"/>
+  <text x="114" y="258" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">🗣️ 苏格拉底对话</text>
+  <text x="224" y="252" fill="#166534" font-size="11" font-style="italic">适合：深入理解一个问题</text>
+  <rect x="40" y="278" width="722" height="76" fill="#ffffff" rx="4" stroke="#d4d4d8" stroke-width="1"/>
+  <text x="56" y="300" fill="#475569" font-size="12" font-family="monospace">请用苏格拉底式提问法引导我理解 <tspan fill="#2563eb" font-weight="600">[问题]</tspan>。每次只问一个问题，不要给我答案，直到我说出正确理解。</text>
+  <text x="56" y="320" fill="#94a3b8" font-size="11" font-style="italic">💡 不要急着看答案，让自己被"问"出来</text>
+  <text x="56" y="340" fill="#cbd5e1" font-size="10">完成 □ 笔记：______</text>
+  <!-- Prompt 3: Custom Exercises -->
+  <rect x="24" y="374" width="754" height="130" fill="#eff6ff" rx="6" stroke="#93c5fd" stroke-width="1.5"/>
+  <rect x="24" y="374" width="180" height="30" fill="#2563eb" rx="6"/>
+  <rect x="24" y="392" width="180" height="12" fill="#2563eb"/>
+  <text x="114" y="396" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">📝 定制练习题</text>
+  <text x="224" y="390" fill="#1e3a5f" font-size="11" font-style="italic">适合：攻克错题类型</text>
+  <rect x="40" y="416" width="722" height="76" fill="#ffffff" rx="4" stroke="#d4d4d8" stroke-width="1"/>
+  <text x="56" y="438" fill="#475569" font-size="12" font-family="monospace">请根据我以下错题的错误模式，生成3道同类型但不同数据的练习题：</text>
+  <text x="56" y="456" fill="#2563eb" font-size="12" font-weight="600">[粘贴错题]</text>
+  <text x="56" y="476" fill="#94a3b8" font-size="11" font-style="italic">💡 把错题截图或手打文字贴上去</text>
+  <text x="56" y="494" fill="#cbd5e1" font-size="10">完成 □ 笔记：______</text>
+  <!-- Bottom rule -->
+  <rect x="24" y="516" width="754" height="36" fill="#1e3a5f" rx="6"/>
+  <text x="401" y="540" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">⚠️ 黄金法则：AI 用完，合上电脑，白纸重写 —— 写出来的才是你的</text>
+  <text x="400" y="578" text-anchor="middle" fill="#94a3b8" font-size="10">高效学习手册 · 方法工具卡</text>
+</svg>
