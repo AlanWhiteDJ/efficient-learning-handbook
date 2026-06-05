@@ -139,7 +139,6 @@ body { margin: 0; padding: 0; }
     scrollbar-color: #3a4f6a #1a2332;
     transition: width 0.25s ease, transform 0.25s ease;
 }
-/* ---- 侧边栏折叠按钮 ---- */
 #sidebar-toggle {
     position: absolute;
     right: 8px; top: 8px;
@@ -216,7 +215,6 @@ body { margin: 0; padding: 0; }
     white-space: nowrap;
     overflow: hidden;
 }
-/* ---- 折叠状态 ---- */
 body.sidebar-collapsed #sidebar {
     width: 44px;
 }
@@ -241,11 +239,9 @@ body.sidebar-collapsed #sidebar:hover .nav-part {
     opacity: 1;
     pointer-events: auto;
 }
-/* 移动端：点击外部关闭 */
 body.sidebar-collapsed #sidebar:not(:hover) #sidebar-header {
     border-bottom-color: transparent;
 }
-/* ---- 主内容区 ---- */
 #main-content {
     margin-left: 260px;
     padding: 16px 24px;
@@ -259,7 +255,6 @@ body.sidebar-collapsed #main-content {
     #sidebar { display: none; }
     #main-content { margin-left: 0; }
 }
-/* 移动端响应式 */
 @media (max-width: 768px) {
     #sidebar {
         width: 280px;
@@ -287,7 +282,6 @@ body.sidebar-collapsed #main-content {
     body.sidebar-collapsed #main-content {
         margin-left: 0;
     }
-    /* 移动端遮罩 */
     #sidebar-overlay {
         display: none;
         position: fixed;
@@ -439,6 +433,7 @@ body.sidebar-collapsed #main-content {
 <a class="nav-sub" href="#附录家长自测清单">附录：家长自测清单</a>
 </nav>
 
+
 <div id="sidebar-overlay"></div>
 
 <div id="main-content">
@@ -496,7 +491,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2>Claude</h2>
+<h2 id="Claude">Claude</h2>
 
 <p>这是一本用"机制"对抗"自责"的书。</p>
 
@@ -514,7 +509,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2>ChatGPT</h2>
+<h2 id="ChatGPT">ChatGPT</h2>
 
 <p>🎓 <strong>序言第一句话让我停了三秒。</strong> "你翻开这本书，大概是因为一个字：累。"这不是一本教你"学霸作息"的书。这是一本在说"你累不是因为你懒，是你的大脑在跟你对着干"的书。</p>
 
@@ -530,7 +525,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2>DeepSeek</h2>
+<h2 id="DeepSeek">DeepSeek</h2>
 
 <p>从认知架构的角度看，这本书做了一件我很少在方法类书籍中看到的事：<strong>它把"原理层"和"操作层"真正打通了。</strong></p>
 
@@ -544,7 +539,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2>Kimi（月之暗面）</h2>
+<h2 id="Kimi（月之暗面）">Kimi（月之暗面）</h2>
 
 <p>这本书最打动我的地方，是它在一件事上保持了罕见的诚实：<strong>作者没有假装存在一个"学神配方"。</strong></p>
 
@@ -558,7 +553,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2>豆包（字节跳动）</h2>
+<h2 id="豆包（字节跳动）">豆包（字节跳动）</h2>
 
 <p>这本书特别实在。打开第一页你就知道它不是来炫技的——它是来给你搭工具箱的。</p>
 
@@ -572,7 +567,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2>Grok（xAI）</h2>
+<h2 id="Grok（xAI）">Grok（xAI）</h2>
 
 <p>这本书做了一件特别反直觉的事。</p>
 
@@ -794,7 +789,7 @@ body.sidebar-collapsed #main-content {
 <img src="illustrations/01_海马体守门人.svg" alt="海马体守门人">
 
 
-<h2>海马体的夜班工作：睡眠与记忆巩固</h2>
+<h2 id="海马体的夜班工作睡眠与记忆巩固">海马体的夜班工作：睡眠与记忆巩固</h2>
 
 <p>原理：</p>
 
@@ -2530,7 +2525,7 @@ body.sidebar-collapsed #main-content {
 </tr>
 </table>
 
-<h2>如果方法用了两周还是没效果</h2>
+<h2 id="如果方法用了两周还是没效果">如果方法用了两周还是没效果</h2>
 
 <p>原理：</p>
 
@@ -3409,7 +3404,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2>延伸阅读</h2>
+<h2 id="延伸阅读">延伸阅读</h2>
 
 <ul>
 <li>本章的"费曼教练"方法与[第五章]的"讲课式复习"一脉相承。第五章教你怎么讲给自己听，本章教你怎么用AI做讲台下的那个"学生"。</li>
@@ -3438,7 +3433,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2>方法速查表</h2>
+<h2 id="方法速查表">方法速查表</h2>
 
 <table>
 <tr>
@@ -3500,7 +3495,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2>附录：参考书目与理论来源</h2>
+<h2 id="附录参考书目与理论来源">附录：参考书目与理论来源</h2>
 
 <p>本书在写作过程中参考了大量认知科学、教育心理学、学习科学领域的经典著作与前沿研究。以下列出主要参考书目，以及各书对本书核心观点的贡献：</p>
 
@@ -3595,7 +3590,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2>目录</h2>
+<h2 id="目录">目录</h2>
 
 <ul>
 <li><a href="#记忆篇你孩子的脑子不是硬盘">记忆篇：你孩子的脑子不是硬盘</a></li>
@@ -3855,7 +3850,7 @@ body.sidebar-collapsed #main-content {
 
 <hr>
 
-<h2 id="ai专题当孩子用ai写作业">AI专题：当孩子用AI写作业</h2>
+<h2 id="AI专题当孩子用AI写作业">AI专题：当孩子用AI写作业</h2>
 
 <blockquote><strong>对应主书</strong>：第 21 章（AI 学习伙伴）</blockquote>
 
@@ -3974,20 +3969,17 @@ body.sidebar-collapsed #main-content {
         }
     }
 
-    // 点击按钮切换
     toggle.addEventListener('click', function(e) {
         e.stopPropagation();
         toggleSidebar();
     });
 
-    // 移动端点击遮罩关闭
     if (overlay) {
         overlay.addEventListener('click', function() {
             expand();
         });
     }
 
-    // 移动端：点击正文区域关闭侧边栏
     var mainContent = document.getElementById('main-content');
     if (mainContent) {
         mainContent.addEventListener('click', function() {
@@ -3997,7 +3989,6 @@ body.sidebar-collapsed #main-content {
         });
     }
 
-    // 键盘快捷键：Ctrl+B 切换
     document.addEventListener('keydown', function(e) {
         if ((e.ctrlKey || e.metaKey) && e.key === 'b') {
             e.preventDefault();
@@ -4005,7 +3996,6 @@ body.sidebar-collapsed #main-content {
         }
     });
 
-    // 初始状态：默认展开
     var saved = null;
     try { saved = localStorage.getItem(STORAGE_KEY); } catch(e) {}
     if (saved === '1') {
